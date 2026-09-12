@@ -1,0 +1,25 @@
+check,dv,term,coef,se,p_boot,N
+I1 alt income measure,norm_credit_accts_per_adult,ln NSDP pc (production),0.03519605444392973,0.04724932853861986,0.3912,165
+I1 alt income measure,norm_credit_accts_per_adult,ln MPCE (consumption),0.018842847214954772,0.04040464911688202,0.6251,165
+I1 skills under MPCE,norm_credit_accts_per_adult,UPI x skills,-0.0540189701759265,0.031903679762805094,0.0761,165
+I1 alt income measure,norm_deposits_per_capita,ln NSDP pc (production),0.044833120467877116,0.01853619836724074,0.0133,165
+I1 alt income measure,norm_deposits_per_capita,ln MPCE (consumption),0.056442170753738856,0.04713233253579275,0.4226,165
+I1 skills under MPCE,norm_deposits_per_capita,UPI x skills,0.04367030353133353,0.032175656403575545,0.3314,165
+I1 alt income measure,norm_credit_per_capita,ln NSDP pc (production),0.05287959972147253,0.011822279261863656,0.0002,165
+I1 alt income measure,norm_credit_per_capita,ln MPCE (consumption),0.00039248395866708945,0.026714873407594108,0.998,165
+I1 skills under MPCE,norm_credit_per_capita,UPI x skills,0.0010400023849678405,0.011037678015458059,0.9164,165
+I2 resources placebo,stacked,ln NSDP per capita [TREATMENT (H5b)],0.013333195337997344,0.18781668172277505,0.9357,495
+I2 resources placebo,stacked,ln MPCE [ALT resources],0.03923753455429496,0.17650809454320787,0.8045,495
+I2 resources placebo,stacked,bank account 2015-16 [PLACEBO baseline inclusion],0.246490823648722,0.304677065549291,0.5425,495
+I2 resources placebo,stacked,women 10+ yrs schooling [PLACEBO],-0.001495993802357709,0.27237919342880723,0.9957,495
+I2 resources placebo,stacked,Census 2011 literacy [PLACEBO],-0.11346386143084242,0.32558329740388864,0.8274,495
+I2 resources placebo,stacked,derived urban share [PLACEBO],0.007161424933171734,0.14442605492593152,0.9635,495
+I3 income terciles,norm_credit_accts_per_adult,UPI effect in T1 (poorest),0.3263291857542269,0.21425105807253733,0.1267,165
+I3 income terciles,norm_credit_accts_per_adult,extra in T2 (middle),0.14224152322057795,0.12725859651484822,0.2563,165
+I3 income terciles,norm_credit_accts_per_adult,extra in T3 (richest),0.0799207024125036,0.11466250051105596,0.474,165
+I3 income terciles,norm_deposits_per_capita,UPI effect in T1 (poorest),0.15972214474299626,0.07890417776162842,0.0462,165
+I3 income terciles,norm_deposits_per_capita,extra in T2 (middle),0.022750183604317548,0.04115345749103466,0.5615,165
+I3 income terciles,norm_deposits_per_capita,extra in T3 (richest),0.043260488751751765,0.04468258673545834,0.3071,165
+I3 income terciles,norm_credit_per_capita,UPI effect in T1 (poorest),0.03239720148181477,0.03909605564007463,0.3857,165
+I3 income terciles,norm_credit_per_capita,extra in T2 (middle),0.06831666707350842,0.021860723377582877,0.0049,165
+I3 income terciles,norm_credit_per_capita,extra in T3 (richest),0.08247346141291213,0.02262071951894999,0.001,165

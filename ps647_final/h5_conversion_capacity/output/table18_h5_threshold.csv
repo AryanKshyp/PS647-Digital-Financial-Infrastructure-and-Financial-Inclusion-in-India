@@ -1,0 +1,16 @@
+spec,dependent,term,label,coef,se,p_clustered,p_wild_bootstrap,N
+unstacked,norm_credit_accts_per_adult,c_upi,b1  UPI effect in T1 (lowest literacy),0.35477460781791376,0.09368688637085774,0.00023900391612796668,0.0016,165
+unstacked,norm_credit_accts_per_adult,upi_x_T2_mid,"d2  extra UPI effect, T2 (middle)",0.1344465263268049,0.12701849550102942,0.29194519879997594,0.3222,165
+unstacked,norm_credit_accts_per_adult,upi_x_T3_high,"d3  extra UPI effect, T3 (highest)",-0.09991461431598372,0.08081202788599721,0.2187108279178842,0.226,165
+unstacked,norm_credit_accts_per_adult,upi_x_income_s,b4  UPI x resources (held in),0.02778989634487821,0.0403606224886076,0.4924309222169212,0.4404,165
+unstacked,norm_deposits_per_capita,c_upi,b1  UPI effect in T1 (lowest literacy),0.05540528817844385,0.04538355994513303,0.2245267201776775,0.2112,165
+unstacked,norm_deposits_per_capita,upi_x_T2_mid,"d2  extra UPI effect, T2 (middle)",0.023079310503449874,0.028542286149186805,0.4203319067875497,0.3849,165
+unstacked,norm_deposits_per_capita,upi_x_T3_high,"d3  extra UPI effect, T3 (highest)",0.09045253698428361,0.029206686520750546,0.002430356059109906,0.0172,165
+unstacked,norm_deposits_per_capita,upi_x_income_s,b4  UPI x resources (held in),0.06955610394121195,0.02235886330840466,0.002326849545413179,0.0057,165
+unstacked,norm_credit_per_capita,c_upi,b1  UPI effect in T1 (lowest literacy),0.07228498825887111,0.027463323598676374,0.009592725633404298,0.0201,165
+unstacked,norm_credit_per_capita,upi_x_T2_mid,"d2  extra UPI effect, T2 (middle)",0.013934212585168498,0.017596183308773067,0.42997547846467765,0.3823,165
+unstacked,norm_credit_per_capita,upi_x_T3_high,"d3  extra UPI effect, T3 (highest)",-0.035345672668675554,0.021860123082693965,0.10850365315203314,0.1234,165
+unstacked,norm_credit_per_capita,upi_x_income_s,b4  UPI x resources (held in),0.038908152637540466,0.010920755368002561,0.0005259400786719048,0.0014,165
+stacked_tercile,stacked,upi_x_int,gap (intensive - extensive) in T1,-1.0601477164708157,0.3532059768873814,0.005174849187246089,0.0116,495
+stacked_tercile,stacked,upi_x_T2_mid_x_int,extra gap in T2,-0.40875565195714575,0.4676957245010196,0.38864243787758723,0.4482,495
+stacked_tercile,stacked,upi_x_T3_high_x_int,extra gap in T3,0.8003067591552273,0.2712567739651209,0.005893852443758396,0.0211,495

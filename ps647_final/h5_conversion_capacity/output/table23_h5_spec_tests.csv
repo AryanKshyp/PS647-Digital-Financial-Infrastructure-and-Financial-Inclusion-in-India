@@ -1,0 +1,11 @@
+test,statistic,df1,df2,p,note
+S1 FE scheme F-test,89.20632726673495,72.0,375.0,0.0,"A nested in B; classical F, not cluster-robust"
+S2 pre-window moderator,0.4520628093317155,,495.0,0.0008,internet use (headline) (2019-21)
+S2 pre-window moderator,0.3092714472598412,,495.0,0.1951,mobile phone (2019-21)
+S2 pre-window moderator,0.5502878191362349,,495.0,0.0493,mobile phone (2015-16)
+S2 pre-window moderator,-0.12356126587812855,,495.0,0.2731,change in mobile phone (2016->2021)
+S2 pre-window moderator,0.24794541769584205,,495.0,0.3209,10+ yrs schooling [PLACEBO] (2015-16)
+S2 pre-window moderator,0.3258605590519901,,495.0,0.4398,own bank account [PLACEBO] (2015-16)
+S3 Hausman,22.01598737571485,6.0,,0.001202822419919758,norm_credit_accts_per_adult -> FE
+S3 Hausman,75.33005280271858,6.0,,3.2862601528904634e-14,norm_deposits_per_capita -> FE
+S3 Hausman,-2.075838295821997,6.0,,,norm_credit_per_capita -> inconclusive (non-PD difference)

@@ -1,0 +1,16 @@
+check,pair,b5,se_b5,p_b5,b6,p_b6,N,note
+S1 pairwise,POOLED (table17 baseline),0.4520628093317155,0.1646541636496841,0.0008,0.013333195337997344,0.9357,495,<- headline
+S1 pairwise,credit accts  vs  deposits Rs / capita,0.7492642874201121,0.2163631719401948,0.0019,-0.06463252326930224,0.7656,330,
+S1 pairwise,credit accts  vs  credit Rs / capita,0.154861331243338,0.18474950817262317,0.324,0.09129891394528952,0.5295,330,
+S1 pairwise,deposit accts vs  deposits Rs / capita,-0.2955464742918881,0.348434508723906,0.4458,0.4199959383049524,0.0138,330,"(entangled, D17)"
+S1 pairwise,deposit accts vs  credit Rs / capita,-0.889949430468661,0.43452933821597456,0.0885,0.5759273755195476,0.0399,330,"(entangled, D17)"
+S2 channel intensity,ln1p_txns_pc,-0.019778179316316646,0.15101016808302897,0.8895,,,165,NFHS-5 women internet [TREATMENT]
+S2 channel intensity,ln1p_txns_pc,0.164466134687369,0.1537772109868378,0.3234,,,165,NFHS-5 women 10+ yrs school [PLACEBO]
+S2 channel intensity,ln1p_txns_pc,0.23586504306415046,0.1389487617135545,0.1662,,,165,NFHS-5 ever attended school [PLACEBO]
+S2 channel intensity,ln1p_txns_pc,0.21147892247246722,0.1514124510003372,0.2119,,,165,Census 2011 literacy [PLACEBO]
+S2 channel intensity,ln1p_txns_pc,-0.15992346836625082,0.13325378592490478,0.4047,,,165,derived urban share [PLACEBO]
+S2 channel intensity,ln1p_value_pc,-0.40858777076048325,0.25750216262054837,0.0891,,,165,NFHS-5 women internet [TREATMENT]
+S2 channel intensity,ln1p_value_pc,0.06867464165273014,0.23992565298769725,0.7792,,,165,NFHS-5 women 10+ yrs school [PLACEBO]
+S2 channel intensity,ln1p_value_pc,0.2045685855287891,0.2711151549729405,0.5108,,,165,NFHS-5 ever attended school [PLACEBO]
+S2 channel intensity,ln1p_value_pc,0.16113626185547172,0.3167467030301471,0.7346,,,165,Census 2011 literacy [PLACEBO]
+S2 channel intensity,ln1p_value_pc,-0.3122648776292119,0.2124636575331906,0.3055,,,165,derived urban share [PLACEBO]

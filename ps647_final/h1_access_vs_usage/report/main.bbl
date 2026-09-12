@@ -1,0 +1,187 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Allen et~al.(2016)Allen, Demirg{\"u}{\c{c}}-Kunt, Klapper, and
+  Martinez~Peria]{allen2016}
+Franklin Allen, Asli Demirg{\"u}{\c{c}}-Kunt, Leora Klapper, and Maria~Soledad
+  Martinez~Peria.
+\newblock The foundations of financial inclusion: Understanding ownership and
+  use of formal accounts.
+\newblock \emph{Journal of Financial Intermediation}, 27:\penalty0 1--30, 2016.
+
+\bibitem[{Anthropic}(2026)]{claude}
+{Anthropic}.
+\newblock {Claude} ({Claude Code}): {L}arge {L}anguage {M}odel {A}ssistant.
+\newblock AI assistant, accessed via the Claude Code command-line interface,
+  2026.
+\newblock Used for assistance with analysis code, formalising the hypothesis
+  and pre-committed decision rule, and drafting this report, as described in
+  the Acknowledgement of AI Assistance. \url{https://claude.com/claude-code}.
+
+\bibitem[Beck et~al.(2007)Beck, Demirg{\"u}{\c{c}}-Kunt, and Levine]{beck2007}
+Thorsten Beck, Asli Demirg{\"u}{\c{c}}-Kunt, and Ross Levine.
+\newblock Finance, inequality and the poor.
+\newblock \emph{Journal of Economic Growth}, 12\penalty0 (1):\penalty0 27--49,
+  2007.
+
+\bibitem[Buliskeria and Baxa(2022)]{buliskeria2022}
+Nino Buliskeria and Jaroslav Baxa.
+\newblock Do rural banks matter that much? {B}urgess and {P}ande (2005)
+  reconsidered.
+\newblock \emph{Journal of Applied Econometrics}, 37\penalty0 (5):\penalty0
+  1076--1085, 2022.
+\newblock \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/jae.2922}.
+
+\bibitem[Burgess and Pande(2005)]{burgess2005}
+Robin Burgess and Rohini Pande.
+\newblock Do rural banks matter? {E}vidence from the {I}ndian social banking
+  experiment.
+\newblock \emph{American Economic Review}, 95\penalty0 (3):\penalty0 780--795,
+  2005.
+\newblock \url{https://www.aeaweb.org/articles?id=10.1257/0002828054201242}.
+
+\bibitem[Cameron and Miller(2015)]{cameron2015}
+A.~Colin Cameron and Douglas~L. Miller.
+\newblock A practitioner's guide to cluster-robust inference.
+\newblock \emph{Journal of Human Resources}, 50\penalty0 (2):\penalty0
+  317--372, 2015.
+
+\bibitem[{Committee on Financial Inclusion}(2008)]{rangarajan2008}
+{Committee on Financial Inclusion}.
+\newblock Report of the {C}ommittee on {F}inancial {I}nclusion.
+\newblock Technical report, Government of India (Chairman: C. Rangarajan),
+  2008.
+
+\bibitem[Crouzet et~al.(2023)Crouzet, Gupta, and Mezzanotti]{crouzet2023}
+Nicolas Crouzet, Apoorv Gupta, and Filippo Mezzanotti.
+\newblock Shocks and technology adoption: Evidence from electronic payment
+  systems.
+\newblock \emph{Journal of Political Economy}, 131\penalty0 (11):\penalty0
+  3003--3065, 2023.
+
+\bibitem[Demirg{\"u}{\c{c}}-Kunt et~al.(2022)Demirg{\"u}{\c{c}}-Kunt, Klapper,
+  Singer, and Ansar]{findex2021}
+Asli Demirg{\"u}{\c{c}}-Kunt, Leora Klapper, Dorothe Singer, and Saniya Ansar.
+\newblock The {G}lobal {F}index {D}atabase 2021: Financial inclusion, digital
+  payments, and resilience in the age of {COVID-19}.
+\newblock Technical report, World Bank, 2022.
+\newblock \url{https://www.worldbank.org/en/publication/globalfindex}.
+
+\bibitem[D'Silva et~al.(2019)D'Silva, Filkov{\'a}, Packer, and
+  Tiwari]{dsilva2019}
+Derryl D'Silva, Zuzana Filkov{\'a}, Frank Packer, and Siddharth Tiwari.
+\newblock The design of digital financial infrastructure: Lessons from {I}ndia.
+\newblock BIS Papers 106, Bank for International Settlements, 2019.
+\newblock \url{https://www.bis.org/publ/bppdf/bispap106.pdf}.
+
+\bibitem[Dupas et~al.(2018)Dupas, Karlan, Robinson, and Ubfal]{dupas2018}
+Pascaline Dupas, Dean Karlan, Jonathan Robinson, and Diego Ubfal.
+\newblock Banking the unbanked? {E}vidence from three countries.
+\newblock \emph{American Economic Journal: Applied Economics}, 10\penalty0
+  (2):\penalty0 257--297, 2018.
+\newblock \url{https://www.aeaweb.org/articles?id=10.1257/app.20160597}.
+
+\bibitem[Hausman(1978)]{hausman1978}
+Jerry~A. Hausman.
+\newblock Specification tests in econometrics.
+\newblock \emph{Econometrica}, 46\penalty0 (6):\penalty0 1251--1271, 1978.
+
+\bibitem[{India Data Portal}(2024)]{idp}
+{India Data Portal}.
+\newblock Banking data: Redistribution of {RBI} basic statistical returns.
+\newblock Bharti Institute of Public Policy, Indian School of Business, 2024.
+\newblock \url{https://indiadataportal.com}.
+
+\bibitem[Karlan et~al.(2014)Karlan, Ratan, and Zinman]{karlan2014}
+Dean Karlan, Aishwarya~Lakshmi Ratan, and Jonathan Zinman.
+\newblock Savings by and for the poor: A research review and agenda.
+\newblock \emph{Review of Income and Wealth}, 60\penalty0 (1):\penalty0 36--78,
+  2014.
+
+\bibitem[{National Payments Corporation of India}(2025)]{npci2025}
+{National Payments Corporation of India}.
+\newblock {UPI} product statistics.
+\newblock Monthly transaction statistics, 2025.
+\newblock \url{https://www.npci.org.in/what-we-do/upi/product-statistics}.
+
+\bibitem[{PhonePe}(2026)]{phonepepulse}
+{PhonePe}.
+\newblock {PhonePe} {P}ulse: The beat of progress --- open transaction data.
+\newblock Public data repository, 2026.
+\newblock \url{https://github.com/PhonePe/pulse}.
+
+\bibitem[{Press Information Bureau, Government of India}(2025)]{pmjdy2025}
+{Press Information Bureau, Government of India}.
+\newblock Pradhan mantri jan dhan yojana completes 11 years of transformative
+  impact.
+\newblock Press release, Ministry of Finance, 2025.
+\newblock \url{https://www.pib.gov.in/PressReleasePage.aspx?PRID=2161401}.
+
+\bibitem[{Reserve Bank of India}(2024{\natexlab{a}})]{rbi_atm}
+{Reserve Bank of India}.
+\newblock State-wise and region-wise deployment of {ATM}s.
+\newblock Quarterly data release, 2024{\natexlab{a}}.
+\newblock End-March releases, 2018--2024.
+  \url{https://www.rbi.org.in/Scripts/StateRegionATMView.aspx}.
+
+\bibitem[{Reserve Bank of India}(2024{\natexlab{b}})]{rbi_bsr}
+{Reserve Bank of India}.
+\newblock Basic statistical returns of scheduled commercial banks in {I}ndia
+  ({BSR-1} and {BSR-2}).
+\newblock Database on Indian Economy / Centralised Information Management
+  System, 2024{\natexlab{b}}.
+\newblock Report 853 (Annual BSR-2, Table 2.3) and Report 943 (Quarterly BSR-1,
+  Table 1.3). \url{https://data.rbi.org.in}.
+
+\bibitem[{Reserve Bank of India}(2025{\natexlab{a}})]{rbi_fiindex2025}
+{Reserve Bank of India}.
+\newblock Financial inclusion index for {M}arch 2025.
+\newblock Press release, 22 July 2025, 2025{\natexlab{a}}.
+\newblock FI-Index 67.0, up from 64.2 in March 2024; parameters Access 35 per
+  cent, Usage 45 per cent, Quality 20 per cent.
+  \url{https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=154980&ModuleId=3}.
+
+\bibitem[{Reserve Bank of India}(2025{\natexlab{b}})]{rbi_handbook}
+{Reserve Bank of India}.
+\newblock Handbook of statistics on {I}ndian states, 2024--25.
+\newblock Annual publication, 2025{\natexlab{b}}.
+\newblock Tables 19, 152, 155, 156.
+  \url{https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States}.
+
+\bibitem[Sarma(2008)]{sarma2008}
+Mandira Sarma.
+\newblock Index of financial inclusion.
+\newblock \emph{Indian Council for Research on International Economic
+  Relations, Working Paper No.~215}, 2008.
+
+\bibitem[Sarma and Pais(2012)]{sarma2012}
+Mandira Sarma and Jesim Pais.
+\newblock Financial inclusion and development.
+\newblock \emph{Journal of International Development}, 23\penalty0
+  (5):\penalty0 613--628, 2012.
+
+\bibitem[Suri and Jack(2016)]{suri2016}
+Tavneet Suri and William Jack.
+\newblock The long-run poverty and gender impacts of mobile money.
+\newblock \emph{Science}, 354\penalty0 (6317):\penalty0 1288--1292, 2016.
+
+\bibitem[{Technical Group on Population Projections}(2020)]{popproj2020}
+{Technical Group on Population Projections}.
+\newblock Population projections for {I}ndia and {S}tates 2011--2036.
+\newblock Technical report, National Commission on Population, Ministry of
+  Health and Family Welfare, Government of India, 2020.
+\newblock
+  \url{https://nhm.gov.in/New_Updates_2018/Report_Population_Projection_2019.pdf}.
+
+\bibitem[{World Bank}(2025)]{findex2025}
+{World Bank}.
+\newblock The {G}lobal {F}index {D}atabase 2025: Connectivity and financial
+  inclusion in the digital economy.
+\newblock Technical report, World Bank, 2025.
+\newblock \url{https://www.worldbank.org/en/publication/globalfindex}.
+
+\end{thebibliography}

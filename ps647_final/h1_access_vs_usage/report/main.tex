@@ -1,0 +1,191 @@
+%=====================================================================
+%  PS 647 — Group Project
+%  Digital Financial Infrastructure and Financial Inclusion in India
+%
+%  COMPILER: pdfLaTeX  (Overleaf default — do not switch to XeLaTeX)
+%  BIBLIOGRAPHY: BibTeX + natbib  (NOT biber/biblatex)
+%
+%  On Overleaf: upload this folder as a .zip, set main.tex as the main
+%  document, Compiler = pdfLaTeX. Nothing else needs configuring.
+%
+%  TO HIDE ALL "TO BE COMPLETED" MARKERS BEFORE SUBMISSION:
+%      change   \usepackage[...]{todonotes}
+%      to       \usepackage[disable]{todonotes}
+%  (one line, marked below)
+%=====================================================================
+\documentclass[11pt,a4paper,oneside]{report}
+
+%--------------------------------------------------- encoding & fonts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+%--------------------------------------------------- page geometry
+\usepackage[a4paper,left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\singlespacing
+
+%--------------------------------------------------- maths
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%--------------------------------------------------- tables
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{pdflscape}
+
+%--------------------------------------------------- figures
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small,labelfont=bf}
+
+%--------------------------------------------------- lists, colour, boxes
+\usepackage{enumitem}
+\usepackage{xcolor}
+\definecolor{shadecolour}{RGB}{243,243,240}
+\definecolor{rulecolour}{RGB}{120,120,120}
+\definecolor{linkcolour}{RGB}{20,60,120}
+
+%--------------------------------------------------- quotes
+\usepackage{csquotes}
+
+%--------------------------------------------------- bibliography
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear,round}
+
+%--------------------------------------------------- TODO / stub markers
+% >>> CHANGE THE OPTION TO [disable] TO HIDE EVERY STUB MARKER <<<
+\usepackage[colorinlistoftodos,textsize=footnotesize,textwidth=2.4cm]{todonotes}
+
+%--------------------------------------------------- hyperlinks (load late)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=linkcolour,
+  citecolor=linkcolour,
+  urlcolor=linkcolour,
+  pdftitle={Digital Financial Infrastructure and Financial Inclusion in India},
+  pdfsubject={PS 647 Group Project},
+}
+\usepackage{url}
+\urlstyle{same}
+
+%=====================================================================
+%  PROJECT-SPECIFIC MACROS
+%=====================================================================
+
+% The rupee glyph U+20B9 does NOT exist in the T1 font encoding and will
+% break a pdfLaTeX build. Always use \rs — never paste the symbol.
+\newcommand{\rs}{Rs.\,}
+
+% Marks a section that is deliberately incomplete.
+\newcommand{\stub}[1]{%
+  \todo[inline,color=yellow!30,caption={TO BE COMPLETED}]{\textbf{To be completed:} #1}}
+
+% Inline emphasis for a pre-committed / pre-registered choice.
+\newcommand{\prereg}[1]{\textcolor{linkcolour}{\textbf{#1}}}
+
+% A framed box for material that must not be paraphrased away
+% (the pre-committed decision rule, the honest headline).
+\newenvironment{keybox}[1]%
+  {\begin{center}\begin{minipage}{0.93\textwidth}%
+   \vspace{2pt}\color{rulecolour}\hrule\vspace{6pt}%
+   \color{black}\textbf{#1}\par\vspace{4pt}\small}%
+  {\vspace{6pt}\color{rulecolour}\hrule\vspace{2pt}%
+   \end{minipage}\end{center}\vspace{6pt}}
+
+% Shorthand for the two panels, used constantly in Chapter 3.
+\newcommand{\panelA}{FY2018--FY2023}
+\newcommand{\panelB}{FY2012--FY2023}
+
+% Consistent notation for the three dependent constructs.
+\newcommand{\Access}{\textit{Access}}
+\newcommand{\Usage}{\textit{Usage}}
+\newcommand{\AUG}{\textit{AUG}}
+
+%=====================================================================
+\begin{document}
+
+%---------------------------------------------------------- TITLE PAGE
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\Large\scshape PS 647 --- Group Project\par}
+\vspace{1.2cm}
+
+{\color{rulecolour}\rule{\textwidth}{0.4pt}}
+\vspace{0.8cm}
+
+{\Huge\bfseries Digital Financial Infrastructure\\[0.25cm]
+and Financial Inclusion in India\par}
+\vspace{0.6cm}
+
+{\large\itshape A state-level panel study of the access--usage gap\par}
+\vspace{0.8cm}
+
+{\color{rulecolour}\rule{\textwidth}{0.4pt}}
+\vspace{1.8cm}
+
+% ---------------------------------------------------------------
+% EDIT THIS BLOCK: author names, roll numbers, institution, course.
+% ---------------------------------------------------------------
+{\large
+\begin{tabular}{c}
+\textbf{Author One} \\ \textit{Roll No. XXXXXXX} \\[0.8em]
+\textbf{Author Two} \\ \textit{Roll No. XXXXXXX} \\[0.8em]
+\textbf{Author Three} \\ \textit{Roll No. XXXXXXX} \\
+\end{tabular}\par}
+\vspace{1.8cm}
+
+{\large Department of [Department Name]\par}
+{\large [Institution Name]\par}
+\vspace{0.6cm}
+{\large Course instructor: [Instructor Name]\par}
+
+\vfill
+{\large \today\par}
+\end{titlepage}
+
+%---------------------------------------------------------- FRONT MATTER
+\pagenumbering{roman}
+
+\input{chapters/00_abstract}
+
+\tableofcontents
+\listoftables
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+%---------------------------------------------------------- BODY
+\input{chapters/01_introduction}
+\input{chapters/02_data}
+\input{chapters/03_hypothesis1}
+\input{chapters/04_hypothesis2}
+\input{chapters/05_hypothesis3}
+\input{chapters/06_conclusion}
+
+%---------------------------------------------------------- BACK MATTER
+\appendix
+\input{appendices/a_decision_log}
+% A further appendix -- regression output at source precision -- is written and
+% kept in appendices/ but is NOT included, to hold the report to length.
+% Uncomment to restore it; it compiles as-is.
+% \input{appendices/b_full_tables}
+
+\cleardoublepage
+\input{chapters/99_ai_acknowledgement}
+
+\bibliography{references}
+
+\end{document}

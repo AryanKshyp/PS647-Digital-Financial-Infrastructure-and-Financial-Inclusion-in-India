@@ -1,0 +1,632 @@
+\chapter{Hypothesis 1: Infrastructure and the Access--Usage Gap}
+\label{ch:h1}
+
+The hypothesis is tested on three panels, built in the order they appear here. Tracks~1 and~2
+measure infrastructure physically, as branches and ATMs; both fail, and
+Section~\ref{sec:h1-gate} shows they were always going to. Track~3 substitutes the infrastructure
+that actually moved over the sample window --- digital payments --- and recovers the pattern the
+hypothesis predicts. The distinction between what was pre-committed and what came afterwards is
+load-bearing throughout, and Section~\ref{sec:h1-exploratory} states it plainly rather than
+leaving it to a footnote.
+
+\begin{table}[H]
+\centering
+\caption{The three tracks}
+\label{tab:tracks}
+\small
+\begin{tabular}{@{}llccl@{}}
+\toprule
+Track & Window & $N$ & Infrastructure measured & Outcome \\
+\midrule
+1 & \panelA{} & 198 & Branches, ATMs & Fails; cannot be tested \\
+2 & \panelB{} & 384 & Branches only & Fails; fragility removed \\
+3 & FY2019--FY2023 & 165 & Branches, ATMs, \textbf{UPI} & Predicted pattern recovered \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Hypothesis and pre-commitment}
+\label{sec:h1-hypothesis}
+
+\begin{keybox}{Hypothesis 1}
+Greater financial infrastructure raises financial inclusion, but its effect on \textbf{access} is
+stronger than its effect on \textbf{usage}.
+
+\medskip
+\emph{Rationale.} Opening an account is a supply-side decision that banks can be pushed to make.
+Using an account is a demand-side decision shaped by income, trust, and informality.
+Infrastructure removes the first constraint, not the second.
+
+\medskip
+\emph{Expected:} $\beta_{\text{access}} > \beta_{\text{usage}} > 0$, with the difference
+statistically significant.
+\end{keybox}
+
+\noindent
+The hypothesis is directional twice over: both effects should be \emph{positive}, and the access
+effect should be \emph{larger}. Positive and equal effects would reject it while remaining a
+substantive result --- genuine deepening rather than formal expansion. Both effects at zero would
+be uninformative until the identifying variation had been examined. These readings were tabulated
+in advance, and Section~\ref{sec:h1-verdict} returns to that table.
+
+Before any coefficient was estimated, a rule was fixed in writing for what would count as support.
+
+\begin{keybox}{Decision rule, fixed before any result was seen (D10)}
+Hypothesis~1 is \textbf{fully supported only if
+$\beta_{\text{access}} > \beta_{\text{usage}} > 0$ holds for branches \emph{and} for ATMs}. If it
+holds for only one, that is reported as \textbf{partial support}, naming which. This is
+pre-committed; it is not to be revised after the coefficients are seen.
+\end{keybox}
+
+\noindent
+Two features of that rule matter for everything below. It names branches and ATMs specifically ---
+UPI is not in it, because UPI was not in the design when it was written. And it was not revised:
+the physical verdict reported in Section~\ref{sec:h1-verdict} is the verdict the rule returns.
+
+A second pre-commitment was recorded after the pre-estimation diagnostic failed and before
+estimation proceeded: a null result does \textbf{not} license the conclusion ``infrastructure does
+not raise access'', being indistinguishable from ``the regressors moved too little to detect an
+effect''; any null must be reported with the within-state variation figures attached (D11).
+
+\section{Variables and specification}
+\label{sec:h1-variables}
+
+\subsection{Independent variables}
+
+Infrastructure enters in natural units, with no composite index:
+\[
+\text{Branch}_{it} = \frac{\text{branches}_{it}}{\text{adults}_{it}}\times 10^5,
+\qquad
+\text{ATM}_{it} = \frac{\text{ATMs}_{it}}{\text{adults}_{it}}\times 10^5,
+\qquad
+\text{UPI}_{it} = \frac{\text{registered users}_{it}}{\text{adults}_{it}}.
+\]
+
+An earlier design combined branches, ATMs and PMJDY accounts into one normalised index. It was
+abandoned for three reasons (D3, D10). \textbf{PMJDY had to go, and its removal proved
+load-bearing:} PMJDY accounts are an \emph{account count}, so placing them among the regressors
+while deposit and credit account counts sit among the outcomes would put an account count on both
+sides of the equation, manufacturing exactly the mechanical correlation the design warns against.
+\textbf{Separating branches from ATMs is statistically safe:} their raw correlation is 0.904, but
+that is almost entirely cross-sectional, and after state and year demeaning --- the variation the
+model actually uses --- it falls to 0.305, with a variance inflation factor of 1.10.
+\textbf{Separating them makes a prediction an index cannot:} a branch is where an account is
+\emph{opened}, an ATM where it is \emph{used}. Abandoning the index also removed two arbitrary
+choices, the 0--1 rescaling of the regressors and the branches-versus-ATMs weighting, and left
+coefficients in interpretable units.
+
+For Track~3, the digital measure is \textbf{registered UPI users per adult}, in levels. Three
+candidates existed. Transactions per capita and value per capita were rejected as regressors
+because they are themselves \emph{usage} of the digital channel, and using a flow to explain a flow
+of the same kind would be close to circular. Registered users is an adoption stock --- whether the
+channel is available and taken up at all --- which is the role branches and ATMs play on the
+physical side. Levels rather than logs keeps all three infrastructure regressors in the same kind
+of unit (D16).
+
+\subsection{Dependent variables}
+
+Four indicators form two constructs, with denominators the design distinguishes deliberately:
+\textbf{access is measured per adult, usage per capita}.
+
+\begin{table}[H]
+\centering
+\caption{Construction of the dependent variables}
+\label{tab:dvconstruction}
+\small
+\begin{tabular}{@{}lllc@{}}
+\toprule
+Construct & Indicator & Denominator & Entangled with UPI? \\
+\midrule
+\multirow{2}{*}{\Access{}}
+ & Deposit accounts per adult & Population 18+ & \textbf{Yes} (see \S\ref{sec:h1-decomp}) \\
+ & Credit accounts per adult  & Population 18+ & No \\
+\addlinespace
+\multirow{2}{*}{\Usage{}}
+ & Deposits per capita (\rs) & Total population & No \\
+ & Credit per capita (\rs)   & Total population & No \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+Each indicator is rescaled by pooled min--max normalisation,
+$\tilde{x}_{it} = (x_{it} - \min x)/(\max x - \min x)$, with the extremes taken over all
+state-years rather than within each year, so that genuine growth over time --- which is what the
+fixed-effects model estimates from --- is preserved rather than erased. The constructs are the
+simple average of their two components, and the gap is their difference:
+$\Access{} = \frac{1}{2}(\tilde{d} + \tilde{c})$,
+$\Usage{} = \frac{1}{2}(\tilde{D} + \tilde{C})$,
+$\AUG{} = \Access{} - \Usage{}$. The normalisation for Track~3 is held at the Track~1 scaling, so
+the dependent variables are identical across tracks and the results stay comparable (D15).
+
+\subsection{Specification}
+\label{sec:h1-spec}
+
+Three equations are estimated by two-way fixed effects with standard errors clustered by state.
+Writing $\mathbf{X}_{it}$ for the infrastructure regressors --- branches and ATMs in Tracks~1
+and~3, branches alone in Track~2, with UPI added in Track~3:
+
+\begin{align}
+\Access{}_{it} &= \alpha_i + \lambda_t + \boldsymbol{\beta}'\mathbf{X}_{it}
+                  + \gamma \ln\mathrm{NSDP}_{it} + \varepsilon_{it} \label{eq:access}\\[1pt]
+\Usage{}_{it}  &= \alpha_i + \lambda_t + \boldsymbol{\delta}'\mathbf{X}_{it}
+                  + \gamma \ln\mathrm{NSDP}_{it} + \varepsilon_{it} \label{eq:usage}\\[1pt]
+\AUG{}_{it}    &= \alpha_i + \lambda_t + \boldsymbol{\theta}'\mathbf{X}_{it}
+                  + \gamma \ln\mathrm{NSDP}_{it} + \varepsilon_{it} \label{eq:aug}
+\end{align}
+
+State effects $\alpha_i$ absorb everything fixed within a state --- geography, banking legacy,
+2011 baselines --- and year effects $\lambda_t$ absorb national shocks common to all states, which
+over this window include COVID-19, PMJDY account opening, and the national growth of UPI. Estimates
+are therefore identified from \textbf{within-state variation over time, relative to the national
+trend in that year}; all cross-sectional variation is discarded. That is the right specification
+for the causal question and, as Section~\ref{sec:h1-gate} shows, the source of the study's central
+difficulty. With 33 clusters, cluster-robust standard errors sit at the lower end of the range in
+which the asymptotic approximation is reliable \citep{cameron2015}.
+
+\paragraph{Equation~\eqref{eq:aug} is not a third finding.} Since $\AUG{}$ is defined as
+$\Access{} - \Usage{}$ and all three equations share a right-hand side, linearity gives
+$\theta_k = \beta_k - \delta_k$ exactly. It contains no information beyond the first two equations;
+its purpose is to supply the \textbf{standard error on the difference}, which is the formal test of
+the hypothesis. The claim is not merely that $\beta > \delta$ in point estimates, but that the gap
+is distinguishable from zero. The identity is asserted numerically at every estimation.
+
+\section{The diagnostic that governs everything}
+\label{sec:h1-gate}
+
+The design specifies this diagnostic first, and specifies it as a \emph{gate} rather than as
+description: if infrastructure barely moves within states, fixed effects have nothing to estimate
+from. Thresholds were fixed \textbf{before the numbers were computed} --- a within-state share of
+variation below 10 per cent is a FAIL, below 25 per cent WEAK, at or above 25 per cent a PASS.
+
+\begin{table}[H]
+\centering
+\caption{Variance decomposition. Thresholds fixed before computation:
+FAIL $<10\%$, WEAK $<25\%$, PASS $\geq 25\%$}
+\label{tab:within}
+\footnotesize
+\begin{tabular}{@{}lrrrrl@{}}
+\toprule
+Variable & Overall SD & Between SD & Within SD & Within share & Verdict \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Physical regressors, \panelA{}}}\\
+\textbf{Branches per lakh adults} & 11.455 & 11.574 & 0.805 & \textbf{7.0\%} & \textbf{FAIL} \\
+\textbf{ATMs per lakh adults}     & 18.925 & 19.097 & 1.651 & \textbf{8.7\%} & \textbf{FAIL} \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Outcomes and control, same panel}}\\
+\Access{}              & 0.172 & 0.167 & 0.049 & 28.4\% & --- \\
+\Usage{}               & 0.200 & 0.201 & 0.029 & 14.4\% & --- \\
+\AUG{}                 & 0.128 & 0.127 & 0.029 & 22.9\% & --- \\
+$\ln$(NSDP per capita) & 0.541 & 0.528 & 0.147 & 27.1\% & --- \\
+\addlinespace
+\multicolumn{6}{@{}l}{\textit{Digital regressors, FY2019--FY2023 (Track 3)}}\\
+UPI users per adult          & --- & --- & --- & \textbf{67.1\%} & \textbf{PASS} \\
+UPI transactions per capita  & --- & --- & --- & \textbf{79.9\%} & \textbf{PASS} \\
+UPI value per capita         & --- & --- & --- & \textbf{78.8\%} & \textbf{PASS} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{keybox}{The gate failed for physical infrastructure --- and only for physical infrastructure}
+Roughly \textbf{93 per cent} of the variation in branches and ATMs is \emph{between} states, which
+is exactly what two-way fixed effects discard. The digital series clear the PASS threshold by a
+factor of three to eight.
+\end{keybox}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig1_variables_over_time.png}
+\caption{The identification problem. Each grey line traces one state across \panelA{}; the red line
+is the cross-state median. \textbf{Top row, the regressors:} state lines run flat, with median
+within-state swings of 5.6 per cent (branches) and 11.8 per cent (ATMs). \textbf{Bottom row, the
+outcomes:} the same states climb steadily, swinging 47.9 and 61.9 per cent. Fixed effects use only
+the vertical movement of individual lines, and there is very little of it in the top row.}
+\label{fig:overtime}
+\end{figure}
+
+\subsection{Why the physical variation is so thin}
+
+Three mechanisms compound, diagnosed before any coefficient was examined. \textbf{Infrastructure
+stocks are slow-moving:} raw branch counts swing a median of only 10.7 per cent within a state
+across six years --- 3.6 per cent in Chandigarh, 3.7 in Punjab. \textbf{The denominator cancels
+much of what remains:} adult population grows a median 10.2 per cent within states over the window,
+in the \emph{same direction} as branches, so branches per lakh adults swing only 5.6 per cent;
+because the adult series is interpolated (Section~\ref{sec:data-defects}) it is almost perfectly
+smooth and contributes no independent variation, merely deflating a trend. \textbf{The outcomes
+move five to ten times more than the regressors:} credit accounts have a 30.0 per cent within share
+against 7.0 for branches. Wide standard errors are guaranteed by construction, whether or not an
+effect exists.
+
+The problem is confined to the regressors --- the outcomes and the control have ample within-state
+variation. The panel is not too short in general; it is too short \emph{for physical
+infrastructure}. Lengthening the window helps but does not cure: the within share for branches
+rises from 7.0 per cent over six years to 13.4 over ten, 20.1 over twelve, and 23.2 over thirteen,
+still short of the PASS line. ATMs cannot follow at all, since the state-wise release begins in
+2018. This is what motivates Track~2, and ultimately what motivates Track~3.
+
+\section{Tracks 1 and 2: physical infrastructure}
+\label{sec:h1-physical}
+
+\begin{table}[H]
+\centering
+\caption{Two-way fixed-effects estimates, physical infrastructure. State and year effects
+throughout; standard errors clustered by state. Track~2 drops ATMs, which cannot be extended
+before 2018.}
+\label{tab:physical}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+& & \multicolumn{3}{c}{Track 1 --- \panelA{}, $N=198$}
+  & \multicolumn{3}{c}{Track 2 --- \panelB{}, $N=384$} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Equation & Regressor & Coef. & SE & $p$ & Coef. & SE & $p$ \\
+\midrule
+\multirow{2}{*}{(1) \Access{}}
+ & Branches & $-0.00897$ & 0.00699 & 0.201 & $-0.00483$ & 0.00645 & 0.455 \\
+ & ATMs     & $-0.00164$ & 0.00377 & 0.664 & \multicolumn{3}{c}{---} \\
+\addlinespace
+\multirow{2}{*}{(2) \Usage{}}
+ & Branches & $\mathbf{-0.01264}$ & 0.00363 & $\mathbf{0.001}$
+            & $\mathbf{-0.01032}$ & 0.00570 & $\mathbf{0.071}$ \\
+ & ATMs     & $-0.00109$ & 0.00263 & 0.678 & \multicolumn{3}{c}{---} \\
+\addlinespace
+\multirow{2}{*}{(3) \AUG{}}
+ & Branches & $+0.00367$ & 0.00558 & 0.512 & $+0.00549$ & 0.00385 & 0.155 \\
+ & ATMs     & $-0.00055$ & 0.00159 & 0.731 & \multicolumn{3}{c}{---} \\
+\midrule
+\multicolumn{8}{@{}l}{Within-$R^2$ --- Track 1: 0.069, 0.042, 0.111.
+ Track 2: $-0.172$, $-0.478$, 0.215.} \\
+\multicolumn{8}{@{}l}{Joint test (Track 1, Branch $=$ ATM $=$ 0): \Access{} $p = 0.374$;
+ \Usage{} $p = 0.0005$; \AUG{} $p = 0.710$.} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\scriptsize
+\item The identity $\theta = \beta - \delta$ holds exactly throughout: for Track~1 branches,
+$-0.00897 - (-0.01264) = +0.00367$. Track~2's negative within-$R^2$ values are reported rather than
+suppressed; with two-way fixed effects the measure can go negative, and here it indicates the
+regressors add nothing over the fixed effects alone.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\noindent
+Read before interpretation: \textbf{nothing is significant in the \Access{} equation} on either
+track, and every coefficient there is \emph{negative}. \textbf{Exactly one coefficient is
+significant --- branches on \Usage{}, and it is negative.} \textbf{\AUG{} is not significant} for
+any regressor on either track, so the formal test of the hypothesis returns nothing.
+\textbf{ATMs are insignificant everywhere.} Explanatory power is very low throughout, exactly as
+the gate forecast.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig2_coefficients.png}
+\caption{\textbf{Left:} every physical-infrastructure coefficient across both tracks, with 95 per
+cent confidence intervals. Exactly one --- branches on \Usage{} in Track~1 --- is significant at
+the 5 per cent level, and it is negative. \textbf{Right:} the coefficient on branches in the
+\AUG{} equation across all four physical specifications. It is positive in every one, in the
+direction the hypothesis predicts, but never attains conventional significance: $p$ runs $0.512$,
+$0.098$, $0.155$, $0.084$. Reporting this as a finding would mean loosening the pre-committed rule
+after seeing the coefficients, so it is recorded as a suggestive pattern only.}
+\label{fig:coefs}
+\end{figure}
+
+\subsection{Random effects is not an escape}
+
+Random effects would use both within- and between-state variation, and so appears to solve the
+problem. The Hausman test asks whether doing so is consistent, under the null that state effects
+are uncorrelated with the regressors \citep{hausman1978}. On Track~1 the null is rejected
+decisively in all three equations ($\chi^2 = 108.3$, $73.2$ and $12.4$; $p < 0.0001$, $<0.0001$ and
+$0.006$). State effects \emph{are} correlated with branches and ATMs --- the ``wealthier states
+attract more infrastructure'' channel, confirmed rather than assumed. On Track~2 the evidence is
+weaker: \Access{} now favours random effects ($p = 0.164$), while \Usage{} and \AUG{} still favour
+fixed effects.
+
+\begin{keybox}{The bind}
+The Hausman test says fixed effects are \textbf{required}. The variance decomposition says fixed
+effects have almost \textbf{nothing to work with}. Dropping the state fixed effects to recover
+precision is not available --- the data itself rejects that specification. The design cannot be
+rescued by changing estimator.
+\end{keybox}
+
+\subsection{Two observations decide the ATM result}
+\label{sec:h1-robustness}
+
+All equations were re-estimated dropping the two known-defective observations identified in
+Section~\ref{sec:data-defects} --- Delhi 2023 and Chandigarh 2023, two cells out of 198.
+
+\begin{table}[H]
+\centering
+\caption{Track~1 estimates against estimates excluding Delhi 2023 and Chandigarh 2023}
+\label{tab:robustness}
+\footnotesize
+\begin{tabular}{@{}llrrrrl@{}}
+\toprule
+& & \multicolumn{2}{c}{Main ($N=198$)} & \multicolumn{2}{c}{Trimmed ($N=196$)} & \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Equation & Regressor & Coef. & $p$ & Coef. & $p$ & Change \\
+\midrule
+\Access{} & Branches & $-0.00897$ & 0.201 & $-0.00570$ & 0.078 & \\
+\Access{} & \textbf{ATMs} & $\mathbf{-0.00164}$ & 0.664 & $\mathbf{+0.00331}$ & $\mathbf{0.004}$
+  & \textbf{sign flip; becomes significant} \\
+\addlinespace
+\Usage{}  & Branches & $-0.01264$ & \textbf{0.001} & $-0.01185$ & \textbf{0.000} & stable \\
+\Usage{}  & \textbf{ATMs} & $-0.00109$ & 0.678 & $+0.00011$ & 0.957 & \textbf{sign flip} \\
+\addlinespace
+\AUG{}    & Branches & $+0.00367$ & 0.512 & $+0.00615$ & 0.098 & \\
+\AUG{}    & \textbf{ATMs} & $-0.00055$ & 0.731 & $+0.00319$ & 0.148 & \textbf{sign flip} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{keybox}{Two observations out of 198 reverse the sign of every ATM coefficient}
+They also move the estimated effect of ATMs on \Access{} from null ($p = 0.664$) to significant and
+positive ($p = 0.004$). A result that depends on two state-years is not a result: \textbf{nothing
+about ATMs can be concluded in either direction.}
+\end{keybox}
+
+\noindent
+This is what the gate predicted. When a regressor carries only 7 to 9 per cent within-state
+variation, individual observations acquire enormous leverage. The two dropped cells are moreover
+\emph{known defects in RBI's published source}, not outliers chosen for being inconvenient --- so
+the headline ATM result had been riding on data already established as wrong. On Track~2, with the
+window doubled and within-state variation at 15.3 per cent, the same trim produces \textbf{no sign
+flips anywhere}: the fragility disappears with more data, though the verdict does not change.
+
+\section{Track 3: substituting the infrastructure that moved}
+\label{sec:h1-digital}
+
+\subsection{Why}
+
+Over \panelA{}, physical banking infrastructure in India was flat while retail payments moved onto
+phones. If financial infrastructure was doing anything over this window, it was not doing it
+through branches. Figure~\ref{fig:premise} states that premise in numbers.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig4_digital_vs_physical.png}
+\caption{\textbf{Left:} unweighted state means indexed to FY2019, on a log scale. UPI value and
+transactions per capita rise roughly twenty-five-fold in five years; branches and ATMs per lakh
+adults are flat. \textbf{Right:} the same in levels --- UPI users per adult rise from 0.135 to
+0.464 while branches per lakh adults sit between 21.4 and 22.0 throughout.}
+\label{fig:premise}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{fig5_within_variation.png}
+\caption{Within-state share of total variation, against thresholds fixed before the numbers were
+computed. The reason Tracks~1 and~2 could not test the hypothesis does not apply to Track~3.}
+\label{fig:variation}
+\end{figure}
+
+\noindent
+The consequence for estimation is immediate. Within-state variation in UPI users per adult is
+\textbf{67.1 per cent}, against 6.5 for branches and 8.2 for ATMs on the same sample. Explanatory
+power rises correspondingly: within-$R^2$ goes from 0.069 to \textbf{0.609} for \Access{} and from
+0.042 to \textbf{0.863} for \Usage{}. Fixed effects plus branches and ATMs explained essentially
+nothing; one digital variable explains most of it.
+
+\subsection{The test that mattered}
+\label{sec:h1-decomp}
+
+One objection has to be dealt with before any digital coefficient can be read. PhonePe registration
+requires a KYC-linked bank account, so UPI adoption and \emph{deposit-account counts} are entangled
+by accounting rather than by economics --- the same trap that dropping PMJDY was meant to avoid,
+and deposit accounts are half of the \Access{} construct. Credit accounts are not entangled the
+same way: a bank loan account is neither required for nor created by PhonePe registration.
+
+The outcome was therefore decomposed into its four underlying indicators, with the reading fixed
+before the regressions were run (D17): if UPI $\to$ credit accounts is large and significant, the
+\Access{} result is not merely definitional; if credit is null while deposits are large, the
+\Access{} coefficient \emph{is} the accounting relationship and \Access{} must be reported
+credit-only thereafter; if both are large, only the credit result gets a substantive reading.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{fig3_digital.png}
+\caption{\textbf{Left:} the coefficient on UPI users per adult for each of the four outcome
+components. The entangled channel is the null one, and collapses further when the two defective
+cells are dropped. \textbf{Right:} the hypothesis pattern on the credit-only specification.}
+\label{fig:digital}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Component decomposition: coefficient on UPI users per adult, $N=165$, and the same
+estimate excluding Delhi 2023 and Chandigarh 2023}
+\label{tab:components}
+\footnotesize
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Component & Status & Coef. & $p$ & Coef. (trimmed) & $p$ \\
+\midrule
+Deposit accounts per adult & \textbf{entangled} & $+0.193$ & 0.206 & $+0.018$ & 0.509 \\
+Credit accounts per adult  & clean & $\mathbf{+0.439}$ & $\mathbf{0.0001}$ & $+0.445$ & 0.0003 \\
+Deposits \rs per capita    & clean & $+0.222$ & $<0.001$ & --- & --- \\
+Credit \rs per capita      & clean & $+0.145$ & $<0.001$ & --- & --- \\
+\addlinespace
+\Access{} (composite)      & mixed & $+0.316$ & 0.0004 & $+0.231$ & 0.0005 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{keybox}{The concern was not merely unfounded --- it pointed the wrong way}
+The \textbf{entangled} channel is the null one: UPI $\to$ deposit accounts is $+0.193$
+($p = 0.206$), collapsing to $+0.018$ ($p = 0.509$) when the two known-defective cells are dropped,
+with the standard error falling from 0.151 to 0.027. The \textbf{clean} channel carries everything:
+UPI $\to$ credit accounts is $+0.439$ ($p = 0.0001$) and is completely unmoved by the same trim.
+
+\medskip
+The entangled component was \emph{diluting} a real credit effect, not manufacturing one. The
+composite \Access{} number averages a genuine effect with a defect-driven artefact, so
+\textbf{\Access{} is reported credit-only from here}.
+\end{keybox}
+
+\subsection{The hypothesis pattern, on the credit-only specification}
+
+\begin{table}[H]
+\centering
+\caption{Track~3, credit-only \Access{}. Two-way fixed effects, $N = 165$, standard errors
+clustered by state}
+\label{tab:digital}
+\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Regressor & \Access{} (credit accounts) & \Usage{} & Gap (\AUG{}) \\
+\midrule
+\textbf{UPI users per adult} & $\mathbf{+0.439}$ ($p<0.001$) & $\mathbf{+0.183}$ ($p<0.001$)
+  & $\mathbf{+0.256}$ ($\mathbf{p=0.020}$) \\
+Branches per lakh adults & $+0.0091$ ($p=0.085$) & $-0.0062$ ($p=0.020$) & $+0.0153$ ($p=0.018$) \\
+ATMs per lakh adults & $-0.0007$ ($p=0.773$) & $-0.0002$ ($p=0.868$) & $-0.0005$ ($p=0.884$) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+Four things follow. \textbf{For UPI, $\beta_{\text{access}} > \beta_{\text{usage}} > 0$ and the gap
+is significant at 5 per cent} --- the pattern the hypothesis predicts, and the first time in this
+study that the access--usage gap is distinguishable from zero. \textbf{Branches turn positive on
+access for the first time}, once \Access{} is credit-only and digital adoption is controlled for,
+though only at $p = 0.085$. \textbf{ATMs are null on everything}, and the ATM coefficient that
+looked significant under trimming in Track~1 is revealed as a composite-outcome artefact.
+\textbf{Physical infrastructure still fails the pre-committed rule}, and that verdict never
+changed.
+
+\subsection{Robustness}
+
+The headline coefficient was refit 33 times, dropping each state in turn.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{fig6_leave_one_out.png}
+\caption{Leave-one-state-out estimates of the coefficient on UPI users per adult in the credit
+accounts equation. The estimate stays between $+0.356$ and $+0.477$, and no refit loses
+significance at the 5 per cent level. Maharashtra is the most influential single state, and the
+result is \emph{stronger} without it.}
+\label{fig:loo}
+\end{figure}
+
+\noindent
+The contrast with Track~1 is the point: there, two cells out of 198 flipped every ATM sign; here,
+removing an entire state moves the coefficient by at most 19 per cent and never changes the
+conclusion. The result is also unmoved by the D7 data defects, which affect savings accounts and
+therefore cannot touch a credit-only outcome.
+
+\subsection{A mechanism that fits}
+
+Digital payment history feeding credit underwriting --- cash-flow-based lending, and the account
+aggregator framework --- is a documented development in India over exactly this window, and the
+wider literature finds digital payment adoption spreading through network effects rather than
+infrastructure stock \citep{crouzet2023,dsilva2019}. It predicts precisely what is observed: UPI
+moving loan accounts while leaving deposit accounts alone. That the data is consistent with a
+mechanism is suggestive of it, not proof.
+
+\section{Verdict}
+\label{sec:h1-verdict}
+
+\subsection{Against the pre-committed rule}
+
+The rule requires $\beta_{\text{access}} > \beta_{\text{usage}} > 0$ for branches \emph{and} ATMs.
+For branches on Track~1, the ordering holds ($-0.00897 > -0.01264$) but both coefficients are
+negative, so the positivity condition fails; the difference is insignificant ($p = 0.512$). For
+ATMs the ordering does not hold, nothing is significant, and every sign reverses on a two-cell
+trim. Track~2 reproduces the branch result with twice the power and none of the fragility.
+
+\begin{keybox}{Verdict on the pre-committed hypothesis}
+\textbf{Hypothesis 1 is not supported for physical infrastructure.} This is not partial support:
+the positivity condition fails for branches, and the ordering condition fails for ATMs. The same
+conclusion is reached on all three tracks, and it never changed.
+\end{keybox}
+
+\noindent
+Mapping onto the outcomes tabulated in advance, the row that applies is \emph{both effects
+$\approx 0$ --- check within-state variation before concluding anything}. The diagnostic was run
+first, as instructed, and returned 7.0 and 8.7 per cent. The correct conclusion is therefore
+\textbf{not} that infrastructure fails to raise financial inclusion, but that \textbf{Tracks~1
+and~2 cannot test the question}: the regressors barely move, the estimator the Hausman test
+requires discards the variation that does exist, and the estimates are unstable to two
+observations. The null is uninformative, exactly as fixed in advance that it would be.
+
+\subsection{What the digital result is, and what it is not}
+\label{sec:h1-exploratory}
+
+\begin{keybox}{The digital result is exploratory by construction}
+The pre-committed rule named \textbf{branches and ATMs}, and it failed. \textbf{UPI was added after
+seeing that null.} The digital finding therefore cannot be reported as a hypothesis that was tested
+and passed --- it is a hypothesis \textbf{generated} by this data, for a future design to test.
+Stating it any other way is exactly the retro-fitting that pre-committing was meant to prevent.
+\end{keybox}
+
+\noindent
+This is the first thing a careful reader will test, so it is stated here rather than buried. What
+can be said is bounded but not trivial: on a measure of financial infrastructure that genuinely
+moved within states, the access--usage gap widens significantly, the effect runs entirely through
+the channel that is not definitionally entangled with the regressor, and the result survives the
+removal of any single state. The identification problem that defeated Tracks~1 and~2 is solved. The
+causal problem is not --- fixed effects remove fixed state differences and the common national
+trend, but not state-specific time-varying confounders, and smartphone penetration, fintech entry
+and youth share all rose alongside both UPI adoption and credit accounts over these five years.
+
+\subsection{The persistent puzzle}
+
+One physical coefficient is significant and robust across specifications: \textbf{branches on
+\Usage{}, negative} ($p = 0.001$ on Track~1, $0.071$ on Track~2, $0.020$ on Track~3). Within a
+state, years with more branches per lakh adults show lower \Usage{}. It is the opposite sign to
+anything the hypothesis anticipated, and it is treated as a puzzle rather than a result: the
+variation problem applies to it as much as to the nulls, \Usage{} is severely compressed by the
+pooled normalisation, and a negative within-state relationship is at least as consistent with
+branches being \emph{placed} where deposit growth is weak as with branches causing it. Nothing here
+identifies direction.
+
+\section{Limitations}
+\label{sec:h1-limitations}
+
+Ordered by how much damage each does to the conclusions.
+
+\paragraph{1. Identification --- the binding limitation.} On the physical tracks the regressors
+barely move: 7.0 and 8.7 per cent within-state variation, below the FAIL threshold fixed before
+looking. The null on branches and ATMs \textbf{cannot be distinguished from ``not enough variation
+to detect anything''}, and any such null must be reported with these numbers attached. On the
+digital track variation is ample and that objection does not apply --- but fixed effects do not
+remove state-specific time-varying confounders, so the digital result is a within-state correlation
+between two co-trending series and \textbf{no causal claim is available}. Reverse causality is live
+rather than hypothetical: the Hausman test rejecting random effects is direct evidence that state
+effects are correlated with the regressors.
+
+\paragraph{2. The digital result is exploratory by construction.} UPI was added after seeing the
+physical null (Section~\ref{sec:h1-exploratory}).
+
+\paragraph{3. Known data defects.} The deposit-account breaks in RBI's source (Delhi 2023,
+Chandigarh 2023 inside the window) were enough to move the deposit-account coefficient from
+$+0.193$ to $+0.018$. Adult population is interpolated rather than published for 243 of 266
+state-years, and being near-linear it \emph{suppresses} within-state variation in the per-adult
+regressors, making the first limitation worse than it looks. Two units are dropped for want of
+income data, and boundary changes forced merges, so nothing state-specific can be said about
+either half of a merged unit.
+
+\paragraph{4. Measurement.} \textbf{Attribution differs three ways:} bank deposits and credit are
+recorded at branch location, loan accounts by place of sanction, and PhonePe by the user's
+registered state --- three different definitions of ``where'', merged into one panel. The first
+inflates Maharashtra and Delhi, where lending is booked. \textbf{PhonePe is one firm}, roughly
+45--50 per cent of UPI, with market share varying by state, so cross-state levels are noisier than
+within-state growth; NPCI's total UPI series would fix this. \textbf{\Usage{} is severely
+right-skewed after normalisation} --- 85 per cent of observations below 0.20 --- so
+$\beta_{\text{access}}$ and $\beta_{\text{usage}}$ were never on fully equivalent scales, a direct
+threat to the comparison itself, left unfixed deliberately in order to test the specification as
+written. And the study is \textbf{state-level, not person-level}: nothing here can show that
+\emph{individuals} hold unused accounts, which is the mechanism the hypothesis describes.
+
+\paragraph{5. Scope.} The physical panel stops at FY2023, FY2024 having been traded away for a
+consistent bank universe; the digital panel is five years, since PhonePe data begin in 2018; ATMs
+cannot extend before 2018; and dropping PMJDY, though necessary, left the physical measure with
+nothing digital in it until PhonePe was added.
+
+\begin{keybox}{What survives all of this}
+The \textbf{physical null}, reported as uninformative rather than as evidence of no effect.
+\textbf{Branches $\to$ \Usage{} negative} ($p \leq 0.020$ across three specifications and two
+samples), robust but with no causal reading available. \textbf{UPI $\to$ credit accounts positive}
+($+0.439$), robust to dropping any single state and to the known data defects --- but
+correlational. And \textbf{UPI $\to$ deposit accounts $\approx 0$}, which is the asymmetry the whole
+digital finding rests on.
+\end{keybox}

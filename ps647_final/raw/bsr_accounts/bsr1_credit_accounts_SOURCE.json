@@ -1,0 +1,39 @@
+{
+ "target": "State-wise NUMBER OF CREDIT ACCOUNTS of scheduled commercial banks, end-March 2018..2024",
+ "source_publication": "RBI Quarterly Basic Statistical Return (BSR)-1 on Credit by Scheduled Commercial Banks (EXCLUDING Regional Rural Banks), Table No 1.3 'Outstanding credit of scheduled commercial banks according to state'",
+ "basis": "place of utilisation of credit; amounts in rupees (not crore); accounts = number of borrowal accounts",
+ "coverage_of_source": "31-Mar-2014 .. 30-Jun-2026, quarterly",
+ "portal": "https://data.rbi.org.in  (DBIE; the legacy dbie.rbi.org.in redirects here)",
+ "dbie_report_id": 943,
+ "sap_cuid": "AXv_x9VyU2RPgSKw_n0gDwc",
+ "sap_si_id": 664696,
+ "sap_folder": "Public Folders/RBI_CIMS/DSIM/Basic Statistical Return/Quarterly/BSR1 Quarterly (Credit)/Quarterly BSR-1: Outstanding Credit of Scheduled Commercial Banks",
+ "endpoints_used": [
+  "POST https://data.rbi.org.in/CIMS_Gateway_DBIE/GATEWAY/SERVICES/security_generateSessionToken  (channelkey: key2)",
+  "POST https://data.rbi.org.in/CIMS_Gateway_LOGIN/GATEWAY/SERVICES/login_getSapToken",
+  "POST https://data.rbi.org.in/CIMS_Gateway_DBIE/GATEWAY/SERVICES/dbie_getReportLink",
+  "POST https://data.rbi.org.in/BOE/OpenDocument/2409211437/biprwsproxy/biprws/v1/cmsquery",
+  "PUT  https://data.rbi.org.in/BOE/OpenDocument/2409211437/biprwsproxy/biprws/raylight/v1/documents/664696/parameters",
+  "GET  https://data.rbi.org.in/BOE/OpenDocument/2409211437/biprwsproxy/biprws/raylight/v1/documents/664696/dataproviders/DP0/flows/0"
+ ],
+ "no_static_file_exists": "Verified: the annual BSR-1 press releases (rbi.org.in Pr_DataRelease.aspx?SectionID=376) are text-only PDFs that point to DBIE; the Handbook of Statistics on Indian States has no account counts; Economic Survey statistical appendix Table 3.3 (indiabudget.gov.in/economicsurvey/doc/stat/tab33.xlsx) has amounts only.",
+ "cross_check": "All-India amount outstanding matches Economic Survey Table 3.3 (BSR, incl. RRBs) to within the RRB share (2.8-3.0%) in every year 2018-2024.",
+ "scripts": [
+  "scripts/fetch_bsr_dbie.py",
+  "scripts/build_bsr_credit_accounts_panel.py"
+ ],
+ "files": {
+  "all_quarters_csv": "raw/bsr_accounts/bsr1_state_credit_accounts_all_quarters_2014_2026.csv",
+  "panel_csv": "raw/bsr_accounts/bsr1_state_credit_accounts_FY2018_FY2024_long.csv",
+  "per_year_xlsx": [
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2018.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2019.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2020.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2021.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2022.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2023.xlsx",
+   "raw/bsr_accounts/bsr1_state_credit_accounts_mar2024.xlsx"
+  ],
+  "raw_api_json": "raw/bsr_accounts/bsr1_quarterly_state_credit_excl_rrb_raw.json"
+ }
+}

@@ -1,0 +1,179 @@
+\chapter{Introduction, Background and Literature}
+\label{ch:intro}
+
+\section{The puzzle}
+\label{sec:puzzle}
+
+Between 2011 and 2017 the share of Indian adults holding a bank account rose from 35 to 80 per
+cent \citep{findex2021}, reaching roughly 89 per cent by the 2025 Global Findex round
+\citep{findex2025}. Much of that movement came from a single programme: the Pradhan Mantri Jan Dhan
+Yojana (PMJDY), launched in August 2014, under which more than 56 crore accounts had been opened by
+August 2025 \citep{pmjdy2025}. Measured by the indicator that dominates international league
+tables, India solved financial exclusion inside a decade.
+
+The same surveys record a second fact that sits uncomfortably beside the first. India has the
+largest share of \emph{inactive} accounts of any country measured: roughly 35 per cent of Indian
+adults who own an account report that it is dormant, some seven times the 5 per cent average across
+other developing economies \citep{findex2021}. Official figures point the same way --- about 26 per
+cent of PMJDY accounts, some 15 crore, are reported inoperative, with an average balance of roughly
+\rs 4,808 \citep{pmjdy2025}. Among adults holding a dormant account, 49 per cent cite distance to
+the institution and 46 per cent say they did not need an account \citep{findex2021}.
+
+An account that exists but is never used counts as inclusion in every headline statistic while
+delivering none of the consumption-smoothing, risk-pooling, or credit benefits that justify the
+policy effort. The gap between \emph{having} an account and \emph{using} one is the central
+empirical object of this report, and we refer to it throughout as the \textbf{access--usage gap}.
+
+The gap could arise from low incomes, informality, distrust, poor financial literacy, or the simple
+fact that many accounts were opened to receive a one-off transfer. This report examines a candidate
+that policy can actually move: the infrastructure through which banking is delivered. The reasoning
+is asymmetric in an important way. Opening an account is largely a \emph{supply-side} decision ---
+banks can be given targets and audited against them, and Indian branch licensing has been used this
+way since the 1970s. Using an account is a \emph{demand-side} decision shaped by income,
+informality, and trust. Infrastructure relaxes the first constraint directly; whether it relaxes
+the second is an empirical question. If the asymmetry is real, expanding infrastructure should raise
+measured access more than measured usage, and the gap should \emph{widen} as infrastructure
+expands. Expansion would be, in a phrase used throughout, \textbf{formal rather than functional}.
+
+\section{Background}
+\label{sec:background}
+
+Three policy waves have shaped Indian financial inclusion, and this study's sample period sits
+inside the third. Following bank nationalisation in 1969, the RBI operated a licensing rule under
+which a bank could open a branch in an already-banked location only if it also opened four in
+unbanked ones \citep{burgess2005}; the resulting 1977--1990 expansion remains the most studied
+episode in the Indian financial-development literature. From the mid-2000s financial inclusion
+became an explicit objective, bringing the no-frills account, the business correspondent model, and
+the Rangarajan Committee report \citep{rangarajan2008}, together with measurement frameworks
+\citep{sarma2008,sarma2012}. From 2014, PMJDY drove ownership toward saturation while the
+technology stack sometimes called ``India Stack'' --- biometric identity, interoperable real-time
+payments, and consented data sharing --- rewired how retail payments are made \citep{dsilva2019}.
+The Unified Payments Interface processed roughly 83.7 billion transactions in calendar 2023, 131.1
+billion in 2024, and 228.3 billion in 2025 \citep{npci2025}. This report's sample window sits almost
+exactly on top of that transition, a point taken up in Section~\ref{sec:h1-digital}.
+
+India also measures inclusion officially. The RBI's composite Financial Inclusion Index rose from
+64.2 in March 2024 to 67.0 in March 2025 \citep{rbi_fiindex2025}, and is built from three parameters
+with fixed weights: \textbf{Access 35 per cent, Usage 45 per cent, Quality 20 per cent}. Two
+observations follow. First, the RBI's own scheme weights usage \emph{above} access --- an implicit
+acknowledgement that account counts overstate inclusion. Second, those weights exist to collapse
+three dimensions into one number, whereas this report does the opposite: it holds Access and Usage
+apart precisely so their \emph{difference} can be estimated and tested. The weights are therefore
+not applicable here, and Section~\ref{sec:h1-variables} records why applying them would have been
+an error rather than a refinement.
+
+\section{Literature}
+\label{sec:literature}
+
+\paragraph{Access as a supply-side lever.} The foundational result is \citet{burgess2005}, who
+exploit the 1977--1990 licensing rule as policy-driven variation in rural branch openings and find
+that branch expansion reduced rural poverty. The paper established both a substantive claim ---
+that physical banking infrastructure has real welfare consequences --- and a methodological
+template: administrative state panels, with infrastructure variation that is not simply a response
+to local prosperity. The broader literature is consistent: \citet{beck2007} find financial
+development disproportionately raises the incomes of the poor, and \citet{allen2016} document that
+cost and proximity are among the strongest correlates of both ownership and use. One caution
+prefigures our own conclusion. \citet{buliskeria2022} revisit \citet{burgess2005} and find the
+poverty effect does not survive once additional policy breaks are accounted for. The lesson is not
+that branches do not matter, but that in this literature the identifying variation is often thinner
+and more fragile than it appears, and claims should be stress-tested against perturbations of the
+sample. Chapter~\ref{ch:h1} does exactly that, and the stress test produces its most informative
+result.
+
+\paragraph{Access is not usage.} A large experimental literature establishes that removing the
+barriers to \emph{opening} an account does not reliably produce \emph{use} of it. The clearest
+statement is \citet{dupas2018}, who randomly offered free basic accounts in Uganda, Malawi, and
+Chile: over two years only 17, 10, and 3 per cent of treated individuals respectively made five or
+more deposits, and intention-to-treat effects on savings were indistinguishable from zero. Their
+conclusion is the proposition this report takes to Indian administrative data --- ``policies merely
+focused on expanding access to basic accounts are unlikely to improve welfare noticeably on
+average.'' \citet{karlan2014} reach a compatible position, finding the binding constraints
+frequently behavioural and transactional rather than a matter of account availability. This
+report's contribution to the strand is one of scale and setting: the experimental evidence is
+individual-level and drawn from three countries, and we ask whether the same wedge is visible in
+the administrative aggregates of a country of 1.4 billion people, and whether it responds to the
+infrastructure variable Indian policy actually controls.
+
+\paragraph{Measuring inclusion.} How inclusion is measured determines what can be found.
+\citet{sarma2008,sarma2012} construct a multidimensional index combining penetration, availability,
+and usage; the RBI's FI-Index follows the same logic. Composite indices suit ranking and
+monitoring, but they are poorly suited to the question asked here: if access and usage are averaged
+into one index, the wedge between them becomes unobservable by construction --- and the wedge is
+the object of interest. This report therefore departs from the index tradition deliberately.
+
+\paragraph{Digital payments and the substitution of channels.} The final strand asks whether
+physical infrastructure is still the relevant infrastructure. \citet{suri2016} show that expanded
+mobile-money access in Kenya produced long-run poverty reductions operating through risk-sharing
+and occupational change rather than account ownership as such. \citet{crouzet2023} show how India's
+2016 demonetisation triggered durable adoption of electronic payments, shaped by network effects
+rather than infrastructure stock. \citet{dsilva2019} argue that the design of India's digital public
+infrastructure, rather than the density of physical bank premises, is what changed the cost of a
+transaction. These matter for interpretation: if the marginal channel for financial activity
+shifted from the branch to the phone during our window, a null result for branches and ATMs may be
+a substantive statement about channel substitution rather than a measurement failure.
+
+\paragraph{Where this report sits.} The experimental literature establishes the access--usage wedge
+at the individual level but cannot speak to national infrastructure policy; the Indian panel
+literature establishes that infrastructure has real effects but treats inclusion as a single
+dimension. We combine the two --- an administrative state panel, with access and usage held apart
+as separate outcomes --- so that the \emph{differential} effect of infrastructure can be estimated
+directly.
+
+\section{Hypotheses}
+\label{sec:hypotheses}
+
+The report tests three hypotheses. The first is developed and estimated in full in
+Chapter~\ref{ch:h1}; the remaining two are reported in Chapters~\ref{ch:h2} and~\ref{ch:h3}.
+
+\begin{keybox}{Hypothesis 1 (Chapter~\ref{ch:h1})}
+Greater financial infrastructure raises financial inclusion, but its effect on \textbf{access} is
+stronger than its effect on \textbf{usage}.
+
+\medskip
+\emph{Rationale.} Opening an account is a supply-side decision that banks can be pushed to make.
+Using an account is a demand-side decision shaped by income, trust, and informality.
+Infrastructure removes the first constraint, not the second.
+
+\medskip
+\emph{Expected:} $\beta_{\text{access}} > \beta_{\text{usage}} > 0$, with the difference
+statistically significant.
+\end{keybox}
+
+\stub{State Hypotheses 2 and 3 in the same format --- claim, rationale, expected sign pattern ---
+then develop them in Chapters~\ref{ch:h2} and~\ref{ch:h3}.}
+
+\begin{keybox}{Hypothesis 2 (Chapter~\ref{ch:h2})}
+\textit{[Statement to be supplied.]}
+\end{keybox}
+
+\begin{keybox}{Hypothesis 3 (Chapter~\ref{ch:h3})}
+\textit{[Statement to be supplied.]}
+\end{keybox}
+
+\section{Contribution and roadmap}
+\label{sec:contribution}
+
+This report makes four contributions. \textbf{First}, a verified state-year panel assembled from
+nine sources --- eight official series using three different year conventions, three different
+state-boundary vintages and two different bank universes, plus state-level digital payment data ---
+whose all-India aggregates reproduce published figures to within 0.001 per cent, with no imputation
+and no missing cells. \textbf{Second}, a direct test of the access--usage wedge on administrative
+data, in which the wedge is estimated as its own equation and therefore carries its own standard
+error rather than being inferred by eye from two coefficients. \textbf{Third}, a decision rule
+written down with its consequences before any coefficient was computed and never revised, which
+proved load-bearing twice over: it delivers the verdict on physical infrastructure, and it is what
+forces the honest statement that the digital result --- added after that verdict was known --- is
+exploratory rather than a test that was passed. \textbf{Fourth}, a negative result that turns into
+a positive one by diagnosis rather than by search. Physical infrastructure stocks move too slowly
+within states for a short fixed-effects panel to identify their effect; the same diagnostic that
+establishes this identifies digital payment adoption as a measure that does move, and on it the
+predicted pattern appears --- running entirely through credit accounts rather than deposit
+accounts, which is the reverse of what a mechanical artefact would produce.
+
+\medskip
+\noindent
+Chapter~\ref{ch:data} documents the panels. Chapter~\ref{ch:h1} develops and tests Hypothesis~1 in
+full, on three tracks: two measuring infrastructure physically, and one substituting digital
+payment adoption. Chapters~\ref{ch:h2} and~\ref{ch:h3} present the second and third hypotheses, and
+Chapter~\ref{ch:conclusion} synthesises across the three and concludes.
+Appendix~\ref{app:decisions} reproduces the full decision log.

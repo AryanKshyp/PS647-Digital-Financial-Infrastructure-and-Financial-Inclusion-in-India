@@ -1,0 +1,182 @@
+march_year,state_name,state_code,no_of_deposit_accounts_thousand,deposit_amount_rs_crore,source,no_of_offices
+2018,Andhra Pradesh,28,91175.427,274565.8859,IDP bank-group wise deposits (RBI BSR-2),
+2018,Andman and Nocobar Islands,35,601.404,4683.3509,IDP bank-group wise deposits (RBI BSR-2),
+2018,Arunachal Pradesh,12,1546.379,13448.9272,IDP bank-group wise deposits (RBI BSR-2),
+2018,Assam,18,42720.628,134287.0908,IDP bank-group wise deposits (RBI BSR-2),
+2018,Bihar,10,114165.114,314811.2411,IDP bank-group wise deposits (RBI BSR-2),
+2018,Chandigarh,4,4254.424,61928.3963,IDP bank-group wise deposits (RBI BSR-2),
+2018,Chhattisgarh,22,36974.712,132428.8082,IDP bank-group wise deposits (RBI BSR-2),
+2018,Dadra and Nagar Haveli,26,774.1610000000001,3876.755,IDP bank-group wise deposits (RBI BSR-2),
+2018,Daman and Diu,25,587.8589999999999,4596.3026,IDP bank-group wise deposits (RBI BSR-2),
+2018,Delhi,7,49891.675,1144641.5234,IDP bank-group wise deposits (RBI BSR-2),
+2018,Goa,30,5757.458,65275.433099999995,IDP bank-group wise deposits (RBI BSR-2),
+2018,Gujarat,24,94293.48,640357.9003,IDP bank-group wise deposits (RBI BSR-2),
+2018,Haryana,6,50062.029,366392.9075,IDP bank-group wise deposits (RBI BSR-2),
+2018,Himachal Pradesh,2,13232.267,84896.1811,IDP bank-group wise deposits (RBI BSR-2),
+2018,Jammu and Kashmir,1,20068.062,100353.5857,IDP bank-group wise deposits (RBI BSR-2),
+2018,Jharkhand,20,44821.51,195691.0753,IDP bank-group wise deposits (RBI BSR-2),
+2018,Karnataka,29,117549.212,835662.1836,IDP bank-group wise deposits (RBI BSR-2),
+2018,Kerala,32,69198.441,441923.4521,IDP bank-group wise deposits (RBI BSR-2),
+2018,Ladakh,37,509.986,3637.5634,IDP bank-group wise deposits (RBI BSR-2),
+2018,Lakshadweep,31,86.38399999999999,997.3094,IDP bank-group wise deposits (RBI BSR-2),
+2018,Madhya Pradesh,23,100452.566,341432.6776,IDP bank-group wise deposits (RBI BSR-2),
+2018,Maharashtra,27,197698.212,2292825.4457,IDP bank-group wise deposits (RBI BSR-2),
+2018,Manipur,14,2785.256,9018.7422,IDP bank-group wise deposits (RBI BSR-2),
+2018,Meghalaya,17,2745.651,21502.6243,IDP bank-group wise deposits (RBI BSR-2),
+2018,Mizoram,15,1373.9289999999999,8467.9457,IDP bank-group wise deposits (RBI BSR-2),
+2018,Nagaland,13,1433.284,10014.0852,IDP bank-group wise deposits (RBI BSR-2),
+2018,Odisha,21,60007.175,268905.4205,IDP bank-group wise deposits (RBI BSR-2),
+2018,Puducherry,34,2742.377,16241.5102,IDP bank-group wise deposits (RBI BSR-2),
+2018,Punjab,3,60450.968,347797.4044,IDP bank-group wise deposits (RBI BSR-2),
+2018,Rajasthan,8,87727.566,334008.1655,IDP bank-group wise deposits (RBI BSR-2),
+2018,Sikkim,11,1004.4639999999999,8532.8445,IDP bank-group wise deposits (RBI BSR-2),
+2018,Tamil Nadu,33,136223.243,716716.4979,IDP bank-group wise deposits (RBI BSR-2),
+2018,Telangana,36,67677.13799999999,417817.3143,IDP bank-group wise deposits (RBI BSR-2),
+2018,Tripura,16,6244.5689999999995,22020.233799999998,IDP bank-group wise deposits (RBI BSR-2),
+2018,Uttar Pradesh,9,258710.682,953577.9099,IDP bank-group wise deposits (RBI BSR-2),
+2018,Uttrakhand,5,19150.429,122535.9172,IDP bank-group wise deposits (RBI BSR-2),
+2018,West Bengal,19,146805.494,718580.3238,IDP bank-group wise deposits (RBI BSR-2),
+2019,Andaman and Nicobar Islands,35,580.0,5036.0,IDP population-group wise deposits (RBI BSR-2),66.0
+2019,Andhra Pradesh,28,91669.0,300452.0,IDP population-group wise deposits (RBI BSR-2),7087.0
+2019,Arunachal Pradesh,12,1159.0,14352.0,IDP population-group wise deposits (RBI BSR-2),126.0
+2019,Assam,18,41004.0,147093.0,IDP population-group wise deposits (RBI BSR-2),2404.0
+2019,Bihar,10,125865.0,353172.0,IDP population-group wise deposits (RBI BSR-2),6917.0
+2019,Chandigarh,4,4186.0,68300.0,IDP population-group wise deposits (RBI BSR-2),442.0
+2019,Chhattisgarh,22,39592.0,142541.0,IDP population-group wise deposits (RBI BSR-2),2631.0
+2019,Delhi,7,50626.0,1209048.0,IDP population-group wise deposits (RBI BSR-2),3702.0
+2019,Goa,30,5783.0,71135.0,IDP population-group wise deposits (RBI BSR-2),697.0
+2019,Gujarat,24,98771.0,674922.0,IDP population-group wise deposits (RBI BSR-2),8150.0
+2019,Haryana,6,51270.0,409974.0,IDP population-group wise deposits (RBI BSR-2),5008.0
+2019,Himachal Pradesh,2,13464.0,95531.0,IDP population-group wise deposits (RBI BSR-2),1635.0
+2019,Jammu and Kashmir,1,21645.0,118089.0,IDP population-group wise deposits (RBI BSR-2),1829.0
+2019,Jharkhand,20,45659.0,218585.0,IDP population-group wise deposits (RBI BSR-2),3051.0
+2019,Karnataka,29,125119.0,934363.0,IDP population-group wise deposits (RBI BSR-2),10285.0
+2019,Kerala,32,73482.0,495744.0,IDP population-group wise deposits (RBI BSR-2),6621.0
+2019,Ladakh,37,0.0,0.0,IDP population-group wise deposits (RBI BSR-2),0.0
+2019,Lakshadweep,31,100.0,1096.0,IDP population-group wise deposits (RBI BSR-2),13.0
+2019,Madhya Pradesh,23,105534.0,368950.0,IDP population-group wise deposits (RBI BSR-2),6747.0
+2019,Maharashtra,27,197887.0,2607846.0,IDP population-group wise deposits (RBI BSR-2),12943.0
+2019,Manipur,14,2559.0,9653.0,IDP population-group wise deposits (RBI BSR-2),173.0
+2019,Meghalaya,17,2791.0,23813.0,IDP population-group wise deposits (RBI BSR-2),340.0
+2019,Mizoram,15,1377.0,9189.0,IDP population-group wise deposits (RBI BSR-2),189.0
+2019,Nagaland,13,1180.0,10451.0,IDP population-group wise deposits (RBI BSR-2),146.0
+2019,Odisha,21,62128.0,309553.0,IDP population-group wise deposits (RBI BSR-2),4914.0
+2019,Puducherry,34,2830.0,17818.0,IDP population-group wise deposits (RBI BSR-2),253.0
+2019,Punjab,3,59585.0,379577.0,IDP population-group wise deposits (RBI BSR-2),6614.0
+2019,Rajasthan,8,91435.0,379010.0,IDP population-group wise deposits (RBI BSR-2),7391.0
+2019,Sikkim,11,1030.0,9633.0,IDP population-group wise deposits (RBI BSR-2),143.0
+2019,Tamil Nadu,33,141077.0,798738.0,IDP population-group wise deposits (RBI BSR-2),11206.0
+2019,Telangana,36,68038.0,458433.0,IDP population-group wise deposits (RBI BSR-2),5223.0
+2019,The Dadra and Nagar Haveli and Daman and Diu,38,1439.0,8842.0,IDP population-group wise deposits (RBI BSR-2),103.0
+2019,Tripura,16,5367.0,24847.0,IDP population-group wise deposits (RBI BSR-2),462.0
+2019,Uttar Pradesh,9,270245.0,1041507.0,IDP population-group wise deposits (RBI BSR-2),17462.0
+2019,Uttarakhand,5,19459.0,137042.0,IDP population-group wise deposits (RBI BSR-2),2126.0
+2019,West Bengal,19,147359.0,779133.0,IDP population-group wise deposits (RBI BSR-2),8169.0
+2020,Andaman and Nicobar Islands,35,589.0,5652.0,IDP population-group wise deposits (RBI BSR-2),68.0
+2020,Andhra Pradesh,28,92231.0,324873.0,IDP population-group wise deposits (RBI BSR-2),7252.0
+2020,Arunachal Pradesh,12,1255.0,14828.0,IDP population-group wise deposits (RBI BSR-2),134.0
+2020,Assam,18,44200.0,164301.0,IDP population-group wise deposits (RBI BSR-2),2957.0
+2020,Bihar,10,134964.0,375708.0,IDP population-group wise deposits (RBI BSR-2),7463.0
+2020,Chandigarh,4,4355.0,72552.0,IDP population-group wise deposits (RBI BSR-2),454.0
+2020,Chhattisgarh,22,40993.0,160538.0,IDP population-group wise deposits (RBI BSR-2),2823.0
+2020,Delhi,7,53032.0,1230161.0,IDP population-group wise deposits (RBI BSR-2),3811.0
+2020,Goa,30,5975.0,76532.0,IDP population-group wise deposits (RBI BSR-2),697.0
+2020,Gujarat,24,103154.0,738912.0,IDP population-group wise deposits (RBI BSR-2),8626.0
+2020,Haryana,6,54166.0,475353.0,IDP population-group wise deposits (RBI BSR-2),5224.0
+2020,Himachal Pradesh,2,14096.0,103542.0,IDP population-group wise deposits (RBI BSR-2),1652.0
+2020,Jammu and Kashmir,1,21606.0,127985.0,IDP population-group wise deposits (RBI BSR-2),1765.0
+2020,Jharkhand,20,47960.0,234105.0,IDP population-group wise deposits (RBI BSR-2),3169.0
+2020,Karnataka,29,132966.0,1061239.0,IDP population-group wise deposits (RBI BSR-2),10778.0
+2020,Kerala,32,76362.0,545005.0,IDP population-group wise deposits (RBI BSR-2),6800.0
+2020,Ladakh,37,541.0,4955.0,IDP population-group wise deposits (RBI BSR-2),68.0
+2020,Lakshadweep,31,102.0,1115.0,IDP population-group wise deposits (RBI BSR-2),13.0
+2020,Madhya Pradesh,23,110580.0,396781.0,IDP population-group wise deposits (RBI BSR-2),7234.0
+2020,Maharashtra,27,211187.0,2807754.0,IDP population-group wise deposits (RBI BSR-2),13578.0
+2020,Manipur,14,2690.0,10018.0,IDP population-group wise deposits (RBI BSR-2),182.0
+2020,Meghalaya,17,2932.0,23519.0,IDP population-group wise deposits (RBI BSR-2),358.0
+2020,Mizoram,15,1374.0,11004.0,IDP population-group wise deposits (RBI BSR-2),192.0
+2020,Nagaland,13,1233.0,11510.0,IDP population-group wise deposits (RBI BSR-2),158.0
+2020,Odisha,21,65761.0,341142.0,IDP population-group wise deposits (RBI BSR-2),5223.0
+2020,Puducherry,34,3035.0,20043.0,IDP population-group wise deposits (RBI BSR-2),267.0
+2020,Punjab,3,62076.0,410987.0,IDP population-group wise deposits (RBI BSR-2),6735.0
+2020,Rajasthan,8,96470.0,420145.0,IDP population-group wise deposits (RBI BSR-2),7775.0
+2020,Sikkim,11,1095.0,10130.0,IDP population-group wise deposits (RBI BSR-2),162.0
+2020,Tamil Nadu,33,150027.0,899039.0,IDP population-group wise deposits (RBI BSR-2),11828.0
+2020,Telangana,36,69522.0,498154.0,IDP population-group wise deposits (RBI BSR-2),5383.0
+2020,The Dadra and Nagar Haveli and Daman and Diu,38,1525.0,9752.0,IDP population-group wise deposits (RBI BSR-2),107.0
+2020,Tripura,16,5547.0,26449.0,IDP population-group wise deposits (RBI BSR-2),563.0
+2020,Uttar Pradesh,9,281159.0,1144901.0,IDP population-group wise deposits (RBI BSR-2),18041.0
+2020,Uttarakhand,5,20252.0,149548.0,IDP population-group wise deposits (RBI BSR-2),2194.0
+2020,West Bengal,19,152656.0,827830.0,IDP population-group wise deposits (RBI BSR-2),9251.0
+2021,Andaman and Nicobar Islands,35,554.0,5843.0,IDP population-group wise deposits (RBI BSR-2),69.0
+2021,Andhra Pradesh,28,95903.0,359686.0,IDP population-group wise deposits (RBI BSR-2),7429.0
+2021,Arunachal Pradesh,12,1412.0,18035.0,IDP population-group wise deposits (RBI BSR-2),153.0
+2021,Assam,18,47978.0,173016.0,IDP population-group wise deposits (RBI BSR-2),3020.0
+2021,Bihar,10,142164.0,397488.0,IDP population-group wise deposits (RBI BSR-2),7584.0
+2021,Chandigarh,4,4275.0,81320.0,IDP population-group wise deposits (RBI BSR-2),442.0
+2021,Chhattisgarh,22,42382.0,173217.0,IDP population-group wise deposits (RBI BSR-2),2844.0
+2021,Delhi,7,52468.0,1400202.0,IDP population-group wise deposits (RBI BSR-2),3737.0
+2021,Goa,30,5869.0,85772.0,IDP population-group wise deposits (RBI BSR-2),687.0
+2021,Gujarat,24,105126.0,830161.0,IDP population-group wise deposits (RBI BSR-2),8582.0
+2021,Haryana,6,54793.0,538565.0,IDP population-group wise deposits (RBI BSR-2),5225.0
+2021,Himachal Pradesh,2,13810.0,112346.0,IDP population-group wise deposits (RBI BSR-2),1683.0
+2021,Jammu and Kashmir,1,22069.0,142848.0,IDP population-group wise deposits (RBI BSR-2),1798.0
+2021,Jharkhand,20,50256.0,256069.0,IDP population-group wise deposits (RBI BSR-2),3190.0
+2021,Karnataka,29,131365.0,1256020.0,IDP population-group wise deposits (RBI BSR-2),10875.0
+2021,Kerala,32,76619.0,607628.0,IDP population-group wise deposits (RBI BSR-2),6868.0
+2021,Ladakh,37,562.0,6162.0,IDP population-group wise deposits (RBI BSR-2),75.0
+2021,Lakshadweep,31,88.0,1239.0,IDP population-group wise deposits (RBI BSR-2),21.0
+2021,Madhya Pradesh,23,112594.0,453372.0,IDP population-group wise deposits (RBI BSR-2),7248.0
+2021,Maharashtra,27,220075.0,3163107.0,IDP population-group wise deposits (RBI BSR-2),13648.0
+2021,Manipur,14,3035.0,12282.0,IDP population-group wise deposits (RBI BSR-2),202.0
+2021,Meghalaya,17,3132.0,25579.0,IDP population-group wise deposits (RBI BSR-2),363.0
+2021,Mizoram,15,1496.0,11798.0,IDP population-group wise deposits (RBI BSR-2),205.0
+2021,Nagaland,13,1394.0,11967.0,IDP population-group wise deposits (RBI BSR-2),170.0
+2021,Odisha,21,68641.0,363564.0,IDP population-group wise deposits (RBI BSR-2),5289.0
+2021,Puducherry,34,3075.0,22138.0,IDP population-group wise deposits (RBI BSR-2),268.0
+2021,Punjab,3,60971.0,459024.0,IDP population-group wise deposits (RBI BSR-2),6700.0
+2021,Rajasthan,8,99430.0,474437.0,IDP population-group wise deposits (RBI BSR-2),7871.0
+2021,Sikkim,11,1105.0,10604.0,IDP population-group wise deposits (RBI BSR-2),164.0
+2021,Tamil Nadu,33,151822.0,1008738.0,IDP population-group wise deposits (RBI BSR-2),12028.0
+2021,Telangana,36,71310.0,605231.0,IDP population-group wise deposits (RBI BSR-2),5575.0
+2021,The Dadra and Nagar Haveli and Daman and Diu,38,1549.0,11585.0,IDP population-group wise deposits (RBI BSR-2),104.0
+2021,Tripura,16,5775.0,28361.0,IDP population-group wise deposits (RBI BSR-2),577.0
+2021,Uttar Pradesh,9,283996.0,1277873.0,IDP population-group wise deposits (RBI BSR-2),18125.0
+2021,Uttarakhand,5,20082.0,165331.0,IDP population-group wise deposits (RBI BSR-2),2220.0
+2021,West Bengal,19,158614.0,889011.0,IDP population-group wise deposits (RBI BSR-2),9379.0
+2022,Andaman and Nicobar Islands,35,579.0,6587.0,IDP population-group wise deposits (RBI BSR-2),69.0
+2022,Andhra Pradesh,28,98495.0,385801.0,IDP population-group wise deposits (RBI BSR-2),7444.0
+2022,Arunachal Pradesh,12,1727.0,22052.0,IDP population-group wise deposits (RBI BSR-2),155.0
+2022,Assam,18,51977.0,189485.0,IDP population-group wise deposits (RBI BSR-2),3043.0
+2022,Bihar,10,153931.0,442420.0,IDP population-group wise deposits (RBI BSR-2),7640.0
+2022,Chandigarh,4,4527.0,89739.0,IDP population-group wise deposits (RBI BSR-2),438.0
+2022,Chhattisgarh,22,44754.0,197248.0,IDP population-group wise deposits (RBI BSR-2),2897.0
+2022,Delhi,7,57674.0,1489090.0,IDP population-group wise deposits (RBI BSR-2),3703.0
+2022,Goa,30,6014.0,92899.0,IDP population-group wise deposits (RBI BSR-2),663.0
+2022,Gujarat,24,108526.0,928471.0,IDP population-group wise deposits (RBI BSR-2),8599.0
+2022,Haryana,6,60377.0,614018.0,IDP population-group wise deposits (RBI BSR-2),5190.0
+2022,Himachal Pradesh,2,15320.0,123670.0,IDP population-group wise deposits (RBI BSR-2),1674.0
+2022,Jammu and Kashmir,1,23104.0,153169.0,IDP population-group wise deposits (RBI BSR-2),1813.0
+2022,Jharkhand,20,52989.0,282987.0,IDP population-group wise deposits (RBI BSR-2),3206.0
+2022,Karnataka,29,133941.0,1382550.0,IDP population-group wise deposits (RBI BSR-2),10780.0
+2022,Kerala,32,83162.0,670264.0,IDP population-group wise deposits (RBI BSR-2),6813.0
+2022,Ladakh,37,586.0,7455.0,IDP population-group wise deposits (RBI BSR-2),81.0
+2022,Lakshadweep,31,91.0,1230.0,IDP population-group wise deposits (RBI BSR-2),21.0
+2022,Madhya Pradesh,23,119620.0,510317.0,IDP population-group wise deposits (RBI BSR-2),7338.0
+2022,Maharashtra,27,233185.0,3491989.0,IDP population-group wise deposits (RBI BSR-2),13590.0
+2022,Manipur,14,3449.0,13741.0,IDP population-group wise deposits (RBI BSR-2),218.0
+2022,Meghalaya,17,3293.0,29196.0,IDP population-group wise deposits (RBI BSR-2),364.0
+2022,Mizoram,15,1522.0,12897.0,IDP population-group wise deposits (RBI BSR-2),215.0
+2022,Nagaland,13,1511.0,14110.0,IDP population-group wise deposits (RBI BSR-2),173.0
+2022,Odisha,21,73804.0,421411.0,IDP population-group wise deposits (RBI BSR-2),5367.0
+2022,Puducherry,34,3245.0,24552.0,IDP population-group wise deposits (RBI BSR-2),265.0
+2022,Punjab,3,67765.0,510125.0,IDP population-group wise deposits (RBI BSR-2),6549.0
+2022,Rajasthan,8,107917.0,530636.0,IDP population-group wise deposits (RBI BSR-2),7969.0
+2022,Sikkim,11,1152.0,12410.0,IDP population-group wise deposits (RBI BSR-2),165.0
+2022,Tamil Nadu,33,158084.0,1117409.0,IDP population-group wise deposits (RBI BSR-2),12094.0
+2022,Telangana,36,74567.0,638626.0,IDP population-group wise deposits (RBI BSR-2),5601.0
+2022,The Dadra and Nagar Haveli and Daman and Diu,38,1630.0,13210.0,IDP population-group wise deposits (RBI BSR-2),102.0
+2022,Tripura,16,6096.0,31293.0,IDP population-group wise deposits (RBI BSR-2),588.0
+2022,Uttar Pradesh,9,305324.0,1394173.0,IDP population-group wise deposits (RBI BSR-2),18073.0
+2022,Uttarakhand,5,21882.0,180783.0,IDP population-group wise deposits (RBI BSR-2),2176.0
+2022,West Bengal,19,172418.0,978183.0,IDP population-group wise deposits (RBI BSR-2),9616.0

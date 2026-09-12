@@ -1,0 +1,989 @@
+state,year,ref_date,pop_total_000,share_18plus,pop_18plus_000,share_source_unit,share_source,share_method
+INDIA,2011,1october 2011,1220116.0,0.63006,768747.0,INDIA,own,published
+INDIA,2012,1october 2012,1235992.0,0.63626,786407.3,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2013,1october 2013,1251868.0,0.64245,804264.4,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2014,1october 2014,1267744.0,0.64865,822318.2,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2015,1october 2015,1283620.0,0.65484,840568.7,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2016,1october 2016,1298531.0,0.66104,858378.0,INDIA,own,published
+INDIA,2017,1october 2017,1312753.0,0.66696,875549.2,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2018,1october 2018,1326974.0,0.67288,892888.2,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2019,1october 2019,1341196.0,0.67879,910396.2,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2020,1october 2020,1355417.0,0.68471,928071.8,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2021,1october 2021,1368587.0,0.69063,945189.9,INDIA,own,published
+INDIA,2022,1october 2022,1381005.0,0.69558,960605.5,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2023,1october 2023,1393424.0,0.70054,976144.8,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2024,1october 2024,1405842.0,0.70549,991806.4,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2025,1october 2025,1418260.0,0.71044,1007591.0,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2026,1october 2026,1429511.0,0.71539,1022663.7,INDIA,own,published
+INDIA,2027,1october 2027,1439928.0,0.71968,1036291.8,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2028,1october 2028,1450345.0,0.72397,1050009.3,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2029,1october 2029,1460762.0,0.72826,1063816.1,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2030,1october 2030,1471179.0,0.73255,1077712.3,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2031,1october 2031,1480509.0,0.73684,1090896.8,INDIA,own,published
+INDIA,2032,1october 2032,1489063.0,0.74097,1103355.9,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2033,1october 2033,1497617.0,0.74511,1115885.8,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2034,1october 2034,1506170.0,0.74924,1128485.6,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2035,1october 2035,1514724.0,0.75338,1141156.9,INDIA,own,linear interpolation of 18+ share between quinquennial anchors
+INDIA,2036,1october 2036,1523278.0,0.75751,1153899.0,INDIA,own,published
+JAMMU & KASHMIR (UT),2011,1october 2011,12340.0,0.59803,7379.7,JAMMU & KASHMIR (UT),own,published
+JAMMU & KASHMIR (UT),2012,1october 2012,12466.0,0.60803,7579.7,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2013,1october 2013,12592.0,0.61804,7782.4,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2014,1october 2014,12718.0,0.62805,7987.5,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2015,1october 2015,12844.0,0.63805,8195.1,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2016,1october 2016,12956.0,0.64806,8396.2,JAMMU & KASHMIR (UT),own,published
+JAMMU & KASHMIR (UT),2017,1october 2017,13058.0,0.65878,8602.4,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2018,1october 2018,13161.0,0.6695,8811.3,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2019,1october 2019,13263.0,0.68023,9021.8,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2020,1october 2020,13365.0,0.69095,9234.5,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2021,1october 2021,13465.0,0.70167,9448.0,JAMMU & KASHMIR (UT),own,published
+JAMMU & KASHMIR (UT),2022,1october 2022,13562.0,0.7121,9657.5,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2023,1october 2023,13660.0,0.72253,9869.7,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2024,1october 2024,13758.0,0.73296,10084.0,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2025,1october 2025,13855.0,0.74339,10299.6,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2026,1october 2026,13950.0,0.75381,10515.7,JAMMU & KASHMIR (UT),own,published
+JAMMU & KASHMIR (UT),2027,1october 2027,14043.0,0.7603,10676.8,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2028,1october 2028,14136.0,0.76678,10839.2,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2029,1october 2029,14229.0,0.77326,11002.7,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2030,1october 2030,14322.0,0.77974,11167.5,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2031,1october 2031,14406.0,0.78623,11326.4,JAMMU & KASHMIR (UT),own,published
+JAMMU & KASHMIR (UT),2032,1october 2032,14483.0,0.78697,11397.6,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2033,1october 2033,14560.0,0.78771,11469.0,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2034,1october 2034,14638.0,0.78844,11541.3,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2035,1october 2035,14715.0,0.78918,11612.8,JAMMU & KASHMIR (UT),own,linear interpolation of 18+ share between quinquennial anchors
+JAMMU & KASHMIR (UT),2036,1october 2036,14792.0,0.78992,11684.5,JAMMU & KASHMIR (UT),own,published
+HIMACHAL PRADESH,2011,1october 2011,6899.0,0.68478,4724.3,HIMACHAL PRADESH,own,published
+HIMACHAL PRADESH,2012,1october 2012,6958.0,0.69133,4810.2,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2013,1october 2013,7016.0,0.69787,4896.3,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2014,1october 2014,7075.0,0.70442,4983.8,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2015,1october 2015,7134.0,0.71097,5072.1,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2016,1october 2016,7186.0,0.71752,5156.1,HIMACHAL PRADESH,own,published
+HIMACHAL PRADESH,2017,1october 2017,7233.0,0.72341,5232.4,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2018,1october 2018,7280.0,0.72929,5309.3,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2019,1october 2019,7327.0,0.73518,5386.7,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2020,1october 2020,7374.0,0.74107,5464.6,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2021,1october 2021,7415.0,0.74696,5538.7,HIMACHAL PRADESH,own,published
+HIMACHAL PRADESH,2022,1october 2022,7453.0,0.75197,5604.4,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2023,1october 2023,7490.0,0.75697,5669.7,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2024,1october 2024,7527.0,0.76198,5735.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2025,1october 2025,7564.0,0.76699,5801.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2026,1october 2026,7595.0,0.772,5863.4,HIMACHAL PRADESH,own,published
+HIMACHAL PRADESH,2027,1october 2027,7621.0,0.776,5913.9,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2028,1october 2028,7648.0,0.78001,5965.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2029,1october 2029,7674.0,0.78401,6016.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2030,1october 2030,7701.0,0.78801,6068.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2031,1october 2031,7720.0,0.79201,6114.3,HIMACHAL PRADESH,own,published
+HIMACHAL PRADESH,2032,1october 2032,7735.0,0.79505,6149.7,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2033,1october 2033,7750.0,0.79808,6185.2,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2034,1october 2034,7764.0,0.80112,6219.9,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2035,1october 2035,7779.0,0.80416,6255.5,HIMACHAL PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+HIMACHAL PRADESH,2036,1october 2036,7794.0,0.80719,6291.3,HIMACHAL PRADESH,own,published
+PUNJAB,2011,1october 2011,27906.0,0.68489,19112.6,PUNJAB,own,published
+PUNJAB,2012,1october 2012,28186.0,0.69208,19507.0,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2013,1october 2013,28465.0,0.69927,19904.7,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2014,1october 2014,28744.0,0.70646,20306.4,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2015,1october 2015,29024.0,0.71364,20712.8,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2016,1october 2016,29280.0,0.72083,21105.9,PUNJAB,own,published
+PUNJAB,2017,1october 2017,29520.0,0.72656,21448.0,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2018,1october 2018,29759.0,0.73228,21792.0,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2019,1october 2019,29999.0,0.73801,22139.6,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2020,1october 2020,30239.0,0.74374,22489.9,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2021,1october 2021,30453.0,0.74946,22823.4,PUNJAB,own,published
+PUNJAB,2022,1october 2022,30649.0,0.75381,23103.5,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2023,1october 2023,30845.0,0.75815,23385.2,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2024,1october 2024,31041.0,0.7625,23668.7,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2025,1october 2025,31237.0,0.76684,23953.8,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2026,1october 2026,31408.0,0.77119,24221.4,PUNJAB,own,published
+PUNJAB,2027,1october 2027,31562.0,0.77469,24450.7,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2028,1october 2028,31715.0,0.77819,24680.3,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2029,1october 2029,31869.0,0.78169,24911.8,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2030,1october 2030,32023.0,0.7852,25144.4,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2031,1october 2031,32154.0,0.7887,25359.8,PUNJAB,own,published
+PUNJAB,2032,1october 2032,32268.0,0.79191,25553.2,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2033,1october 2033,32382.0,0.79511,25747.4,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2034,1october 2034,32496.0,0.79832,25942.2,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2035,1october 2035,32611.0,0.80153,26138.6,PUNJAB,own,linear interpolation of 18+ share between quinquennial anchors
+PUNJAB,2036,1october 2036,32725.0,0.80473,26334.9,PUNJAB,own,published
+HARYANA,2011,1october 2011,25597.0,0.63954,16370.3,HARYANA,own,published
+HARYANA,2012,1october 2012,26018.0,0.64592,16805.5,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2013,1october 2013,26438.0,0.65229,17245.4,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2014,1october 2014,26859.0,0.65867,17691.3,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2015,1october 2015,27280.0,0.66505,18142.5,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2016,1october 2016,27692.0,0.67143,18593.1,HARYANA,own,published
+HARYANA,2017,1october 2017,28097.0,0.67675,19014.7,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2018,1october 2018,28503.0,0.68208,19441.4,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2019,1october 2019,28908.0,0.68741,19871.6,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2020,1october 2020,29314.0,0.69274,20306.9,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2021,1october 2021,29695.0,0.69806,20729.0,HARYANA,own,published
+HARYANA,2022,1october 2022,30058.0,0.70256,21117.5,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2023,1october 2023,30421.0,0.70705,21509.2,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2024,1october 2024,30785.0,0.71155,21904.9,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2025,1october 2025,31148.0,0.71604,22303.2,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2026,1october 2026,31491.0,0.72053,22690.3,HARYANA,own,published
+HARYANA,2027,1october 2027,31821.0,0.7247,23060.7,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2028,1october 2028,32150.0,0.72887,23433.1,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2029,1october 2029,32479.0,0.73303,23808.2,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2030,1october 2030,32809.0,0.7372,24186.7,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2031,1october 2031,33123.0,0.74136,24556.2,HARYANA,own,published
+HARYANA,2032,1october 2032,33428.0,0.74551,24921.0,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2033,1october 2033,33733.0,0.74966,25288.3,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2034,1october 2034,34037.0,0.75381,25657.4,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2035,1october 2035,34342.0,0.75796,26029.8,HARYANA,own,linear interpolation of 18+ share between quinquennial anchors
+HARYANA,2036,1october 2036,34646.0,0.76211,26403.9,HARYANA,own,published
+NCT OF DELHI,2011,1october 2011,17008.0,0.66774,11356.9,NCT OF DELHI,own,published
+NCT OF DELHI,2012,1october 2012,17386.0,0.67488,11733.4,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2013,1october 2013,17764.0,0.68202,12115.3,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2014,1october 2014,18142.0,0.68915,12502.6,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2015,1october 2015,18520.0,0.69629,12895.4,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2016,1october 2016,18898.0,0.70343,13293.5,NCT OF DELHI,own,published
+NCT OF DELHI,2017,1october 2017,19277.0,0.70935,13674.1,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2018,1october 2018,19656.0,0.71527,14059.3,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2019,1october 2019,20035.0,0.72119,14449.0,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2020,1october 2020,20414.0,0.7271,14843.1,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2021,1october 2021,20801.0,0.73302,15247.6,NCT OF DELHI,own,published
+NCT OF DELHI,2022,1october 2022,21195.0,0.73687,15618.0,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2023,1october 2023,21588.0,0.74072,15990.6,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2024,1october 2024,21982.0,0.74457,16367.1,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2025,1october 2025,22376.0,0.74841,16746.5,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2026,1october 2026,22775.0,0.75226,17132.8,NCT OF DELHI,own,published
+NCT OF DELHI,2027,1october 2027,23177.0,0.75491,17496.6,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2028,1october 2028,23580.0,0.75756,17863.4,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2029,1october 2029,23982.0,0.76022,18231.5,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2030,1october 2030,24385.0,0.76287,18602.5,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2031,1october 2031,24790.0,0.76552,18977.2,NCT OF DELHI,own,published
+NCT OF DELHI,2032,1october 2032,25198.0,0.76762,19342.6,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2033,1october 2033,25606.0,0.76973,19709.7,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2034,1october 2034,26013.0,0.77184,20077.8,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2035,1october 2035,26421.0,0.77395,20448.4,NCT OF DELHI,own,linear interpolation of 18+ share between quinquennial anchors
+NCT OF DELHI,2036,1october 2036,26829.0,0.77605,20820.7,NCT OF DELHI,own,published
+RAJASTHAN,2011,1october 2011,69212.0,0.58636,40583.3,RAJASTHAN,own,published
+RAJASTHAN,2012,1october 2012,70351.0,0.59262,41691.4,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2013,1october 2013,71489.0,0.59888,42813.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2014,1october 2014,72627.0,0.60513,43949.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2015,1october 2015,73766.0,0.61139,45099.7,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2016,1october 2016,74828.0,0.61765,46217.2,RAJASTHAN,own,published
+RAJASTHAN,2017,1october 2017,75836.0,0.62406,47326.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2018,1october 2018,76844.0,0.63047,48447.7,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2019,1october 2019,77853.0,0.63688,49583.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2020,1october 2020,78861.0,0.64329,50730.5,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2021,1october 2021,79790.0,0.6497,51839.7,RAJASTHAN,own,published
+RAJASTHAN,2022,1october 2022,80662.0,0.65513,52843.8,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2023,1october 2023,81534.0,0.66055,53857.4,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2024,1october 2024,82406.0,0.66598,54880.4,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2025,1october 2025,83278.0,0.6714,55912.9,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2026,1october 2026,84057.0,0.67683,56891.9,RAJASTHAN,own,published
+RAJASTHAN,2027,1october 2027,84768.0,0.68217,57826.2,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2028,1october 2028,85479.0,0.68751,58768.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2029,1october 2029,86190.0,0.69286,59717.5,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2030,1october 2030,86901.0,0.6982,60674.6,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2031,1october 2031,87590.0,0.70355,61623.8,RAJASTHAN,own,published
+RAJASTHAN,2032,1october 2032,88263.0,0.70907,62584.7,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2033,1october 2033,88936.0,0.71459,63553.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2034,1october 2034,89609.0,0.72012,64528.8,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2035,1october 2035,90282.0,0.72564,65512.0,RAJASTHAN,own,linear interpolation of 18+ share between quinquennial anchors
+RAJASTHAN,2036,1october 2036,90955.0,0.73116,66502.6,RAJASTHAN,own,published
+UTTAR PRADESH,2011,1october 2011,201711.0,0.5703,115035.0,UTTAR PRADESH,own,published
+UTTAR PRADESH,2012,1october 2012,204966.0,0.57702,118270.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2013,1october 2013,208221.0,0.58375,121549.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2014,1october 2014,211476.0,0.59048,124871.9,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2015,1october 2015,214730.0,0.59721,128237.9,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2016,1october 2016,217816.0,0.60393,131546.2,UTTAR PRADESH,own,published
+UTTAR PRADESH,2017,1october 2017,220780.0,0.61084,134860.7,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2018,1october 2018,223744.0,0.61774,138216.1,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2019,1october 2019,226708.0,0.62465,141612.4,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2020,1october 2020,229672.0,0.63155,145049.7,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2021,1october 2021,232301.0,0.63846,148314.0,UTTAR PRADESH,own,published
+UTTAR PRADESH,2022,1october 2022,234692.0,0.64392,151122.0,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2023,1october 2023,237082.0,0.64938,153955.4,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2024,1october 2024,239472.0,0.65484,156815.0,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2025,1october 2025,241863.0,0.6603,159701.3,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2026,1october 2026,243921.0,0.66576,162392.0,UTTAR PRADESH,own,published
+UTTAR PRADESH,2027,1october 2027,245742.0,0.67134,164976.4,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2028,1october 2028,247563.0,0.67692,167581.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2029,1october 2029,249384.0,0.68251,170206.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2030,1october 2030,251205.0,0.68809,172851.6,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2031,1october 2031,252783.0,0.69367,175348.8,UTTAR PRADESH,own,published
+UTTAR PRADESH,2032,1october 2032,254188.0,0.70059,178081.9,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2033,1october 2033,255594.0,0.70751,180835.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2034,1october 2034,256999.0,0.71443,183607.2,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2035,1october 2035,258405.0,0.72135,186399.3,UTTAR PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+UTTAR PRADESH,2036,1october 2036,259810.0,0.72826,189210.2,UTTAR PRADESH,own,published
+BIHAR,2011,1october 2011,105275.0,0.53581,56407.1,BIHAR,own,published
+BIHAR,2012,1october 2012,107290.0,0.54055,57995.3,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2013,1october 2013,109306.0,0.54529,59603.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2014,1october 2014,111321.0,0.55003,61229.4,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2015,1october 2015,113336.0,0.55477,62874.9,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2016,1october 2016,115215.0,0.5595,64463.3,BIHAR,own,published
+BIHAR,2017,1october 2017,116996.0,0.56695,66331.2,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2018,1october 2018,118778.0,0.5744,68226.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2019,1october 2019,120559.0,0.58185,70147.0,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2020,1october 2020,122341.0,0.5893,72095.0,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2021,1october 2021,124154.0,0.59674,74088.1,BIHAR,own,published
+BIHAR,2022,1october 2022,125991.0,0.60294,75965.2,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2023,1october 2023,127827.0,0.60914,77864.4,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2024,1october 2024,129664.0,0.61534,79787.0,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2025,1october 2025,131500.0,0.62153,81731.8,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2026,1october 2026,133289.0,0.62773,83669.8,BIHAR,own,published
+BIHAR,2027,1october 2027,135044.0,0.63248,85412.6,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2028,1october 2028,136799.0,0.63723,87172.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2029,1october 2029,138554.0,0.64197,88948.2,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2030,1october 2030,140309.0,0.64672,90741.0,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2031,1october 2031,141920.0,0.65147,92456.6,BIHAR,own,published
+BIHAR,2032,1october 2032,143427.0,0.65542,94004.9,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2033,1october 2033,144934.0,0.65937,95565.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2034,1october 2034,146441.0,0.66332,97137.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2035,1october 2035,147948.0,0.66727,98721.1,BIHAR,own,linear interpolation of 18+ share between quinquennial anchors
+BIHAR,2036,1october 2036,149455.0,0.67122,100317.0,BIHAR,own,published
+ASSAM,2011,1october 2011,31435.0,0.61017,19180.7,ASSAM,own,published
+ASSAM,2012,1october 2012,31827.0,0.61662,19625.0,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2013,1october 2013,32220.0,0.62306,20075.0,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2014,1october 2014,32612.0,0.62951,20529.5,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2015,1october 2015,33005.0,0.63595,20989.6,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2016,1october 2016,33387.0,0.6424,21447.7,ASSAM,own,published
+ASSAM,2017,1october 2017,33762.0,0.64894,21909.5,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2018,1october 2018,34137.0,0.65548,22376.2,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2019,1october 2019,34512.0,0.66203,22847.9,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2020,1october 2020,34887.0,0.66857,23324.4,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2021,1october 2021,35239.0,0.67511,23790.3,ASSAM,own,published
+ASSAM,2022,1october 2022,35573.0,0.68111,24229.1,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2023,1october 2023,35908.0,0.68711,24672.6,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2024,1october 2024,36242.0,0.6931,25119.4,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2025,1october 2025,36577.0,0.6991,25571.0,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2026,1october 2026,36889.0,0.7051,26010.3,ASSAM,own,published
+ASSAM,2027,1october 2027,37185.0,0.70961,26386.9,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2028,1october 2028,37481.0,0.71412,26766.1,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2029,1october 2029,37777.0,0.71864,27148.0,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2030,1october 2030,38073.0,0.72315,27532.6,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2031,1october 2031,38337.0,0.72767,27896.6,ASSAM,own,published
+ASSAM,2032,1october 2032,38577.0,0.731,28199.8,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2033,1october 2033,38818.0,0.73433,28505.4,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2034,1october 2034,39058.0,0.73767,28811.8,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2035,1october 2035,39299.0,0.741,29120.6,ASSAM,own,linear interpolation of 18+ share between quinquennial anchors
+ASSAM,2036,1october 2036,39539.0,0.74433,29430.2,ASSAM,own,published
+WEST BENGAL,2011,1october 2011,91720.0,0.66914,61373.1,WEST BENGAL,own,published
+WEST BENGAL,2012,1october 2012,92480.0,0.67669,62579.9,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2013,1october 2013,93241.0,0.68424,63798.8,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2014,1october 2014,94001.0,0.69179,65028.5,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2015,1october 2015,94762.0,0.69934,66270.5,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2016,1october 2016,95434.0,0.70689,67460.9,WEST BENGAL,own,published
+WEST BENGAL,2017,1october 2017,96043.0,0.71359,68535.1,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2018,1october 2018,96653.0,0.72029,69618.0,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2019,1october 2019,97262.0,0.72699,70708.5,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2020,1october 2020,97871.0,0.73369,71807.1,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2021,1october 2021,98404.0,0.74039,72857.6,WEST BENGAL,own,published
+WEST BENGAL,2022,1october 2022,98884.0,0.74557,73725.3,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2023,1october 2023,99363.0,0.75076,74597.3,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2024,1october 2024,99843.0,0.75594,75475.0,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2025,1october 2025,100322.0,0.76112,76356.9,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2026,1october 2026,100714.0,0.7663,77177.1,WEST BENGAL,own,published
+WEST BENGAL,2027,1october 2027,101043.0,0.77023,77826.1,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2028,1october 2028,101372.0,0.77416,78477.7,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2029,1october 2029,101701.0,0.77808,79131.8,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2030,1october 2030,102030.0,0.78201,79788.6,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2031,1october 2031,102256.0,0.78594,80366.9,WEST BENGAL,own,published
+WEST BENGAL,2032,1october 2032,102409.0,0.78901,80801.5,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2033,1october 2033,102562.0,0.79208,81237.0,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2034,1october 2034,102715.0,0.79515,81673.4,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2035,1october 2035,102868.0,0.79822,82110.8,WEST BENGAL,own,linear interpolation of 18+ share between quinquennial anchors
+WEST BENGAL,2036,1october 2036,103020.0,0.80128,82548.3,WEST BENGAL,own,published
+JHARKHAND,2011,1october 2011,33316.0,0.57557,19175.8,JHARKHAND,own,published
+JHARKHAND,2012,1october 2012,33879.0,0.58231,19728.2,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2013,1october 2013,34441.0,0.58905,20287.6,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2014,1october 2014,35003.0,0.59579,20854.6,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2015,1october 2015,35566.0,0.60253,21429.7,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2016,1october 2016,36112.0,0.60927,22002.1,JHARKHAND,own,published
+JHARKHAND,2017,1october 2017,36646.0,0.61667,22598.7,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2018,1october 2018,37180.0,0.62408,23203.1,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2019,1october 2019,37715.0,0.63148,23816.2,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2020,1october 2020,38249.0,0.63888,24436.4,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2021,1october 2021,38762.0,0.64628,25051.1,JHARKHAND,own,published
+JHARKHAND,2022,1october 2022,39259.0,0.65273,25625.5,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2023,1october 2023,39756.0,0.65918,26206.2,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2024,1october 2024,40253.0,0.66563,26793.5,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2025,1october 2025,40751.0,0.67208,27387.7,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2026,1october 2026,41221.0,0.67852,27969.5,JHARKHAND,own,published
+JHARKHAND,2027,1october 2027,41671.0,0.68345,28479.9,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2028,1october 2028,42121.0,0.68837,28994.9,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2029,1october 2029,42572.0,0.69329,29514.9,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2030,1october 2030,43022.0,0.69822,30038.7,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2031,1october 2031,43436.0,0.70314,30541.6,JHARKHAND,own,published
+JHARKHAND,2032,1october 2032,43826.0,0.70691,30981.2,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2033,1october 2033,44215.0,0.71069,31422.9,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2034,1october 2034,44604.0,0.71446,31867.7,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2035,1october 2035,44993.0,0.71823,32315.3,JHARKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+JHARKHAND,2036,1october 2036,45382.0,0.722,32765.9,JHARKHAND,own,published
+ODISHA,2011,1october 2011,42109.0,0.6536,27522.2,ODISHA,own,published
+ODISHA,2012,1october 2012,42340.0,0.65966,27930.2,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2013,1october 2013,42570.0,0.66573,28340.3,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2014,1october 2014,42801.0,0.6718,28753.8,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2015,1october 2015,43032.0,0.67787,29170.2,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2016,1october 2016,43234.0,0.68394,29569.5,ODISHA,own,published
+ODISHA,2017,1october 2017,43415.0,0.68963,29940.4,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2018,1october 2018,43596.0,0.69532,30313.3,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2019,1october 2019,43777.0,0.70101,30688.3,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2020,1october 2020,43958.0,0.70671,31065.4,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2021,1october 2021,44108.0,0.7124,31422.4,ODISHA,own,published
+ODISHA,2022,1october 2022,44237.0,0.71696,31716.2,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2023,1october 2023,44366.0,0.72152,32011.1,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2024,1october 2024,44495.0,0.72609,32307.2,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2025,1october 2025,44624.0,0.73065,32604.4,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2026,1october 2026,44716.0,0.73521,32875.7,ODISHA,own,published
+ODISHA,2027,1october 2027,44782.0,0.73861,33076.6,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2028,1october 2028,44848.0,0.74202,33277.9,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2029,1october 2029,44914.0,0.74542,33479.7,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2030,1october 2030,44981.0,0.74882,33682.7,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2031,1october 2031,45010.0,0.75222,33857.5,ODISHA,own,published
+ODISHA,2032,1october 2032,45014.0,0.75483,33977.9,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2033,1october 2033,45017.0,0.75744,34097.6,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2034,1october 2034,45020.0,0.76005,34217.3,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2035,1october 2035,45024.0,0.76266,34337.8,ODISHA,own,linear interpolation of 18+ share between quinquennial anchors
+ODISHA,2036,1october 2036,45027.0,0.76526,34457.5,ODISHA,own,published
+CHHATTISGARH,2011,1october 2011,25782.0,0.61675,15901.2,CHHATTISGARH,own,published
+CHHATTISGARH,2012,1october 2012,26187.0,0.62165,16279.3,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2013,1october 2013,26592.0,0.62655,16661.3,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2014,1october 2014,26997.0,0.63145,17047.4,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2015,1october 2015,27403.0,0.63635,17438.0,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2016,1october 2016,27796.0,0.64125,17824.3,CHHATTISGARH,own,published
+CHHATTISGARH,2017,1october 2017,28180.0,0.64625,18211.5,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2018,1october 2018,28564.0,0.65126,18602.5,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2019,1october 2019,28948.0,0.65626,18997.3,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2020,1october 2020,29333.0,0.66126,19396.7,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2021,1october 2021,29693.0,0.66626,19783.3,CHHATTISGARH,own,published
+CHHATTISGARH,2022,1october 2022,30037.0,0.67063,20143.8,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2023,1october 2023,30380.0,0.675,20506.7,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2024,1october 2024,30724.0,0.67938,20873.2,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2025,1october 2025,31068.0,0.68375,21242.8,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2026,1october 2026,31387.0,0.68812,21598.1,CHHATTISGARH,own,published
+CHHATTISGARH,2027,1october 2027,31688.0,0.69261,21947.3,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2028,1october 2028,31990.0,0.69709,22299.8,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2029,1october 2029,32292.0,0.70157,22655.1,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2030,1october 2030,32593.0,0.70605,23012.4,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2031,1october 2031,32878.0,0.71054,23361.0,CHHATTISGARH,own,published
+CHHATTISGARH,2032,1october 2032,33150.0,0.71533,23713.2,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2033,1october 2033,33423.0,0.72013,24068.8,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2034,1october 2034,33695.0,0.72492,24426.3,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2035,1october 2035,33967.0,0.72972,24786.4,CHHATTISGARH,own,linear interpolation of 18+ share between quinquennial anchors
+CHHATTISGARH,2036,1october 2036,34240.0,0.73451,25149.8,CHHATTISGARH,own,published
+MADHYA PRADESH,2011,1october 2011,73348.0,0.60128,44102.5,MADHYA PRADESH,own,published
+MADHYA PRADESH,2012,1october 2012,74584.0,0.60595,45194.5,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2013,1october 2013,75819.0,0.61063,46297.4,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2014,1october 2014,77055.0,0.61531,47412.5,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2015,1october 2015,78291.0,0.61998,48539.2,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2016,1october 2016,79472.0,0.62466,49643.0,MADHYA PRADESH,own,published
+MADHYA PRADESH,2017,1october 2017,80614.0,0.62976,50767.5,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2018,1october 2018,81756.0,0.63486,51903.7,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2019,1october 2019,82898.0,0.63996,53051.5,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2020,1october 2020,84040.0,0.64506,54210.9,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2021,1october 2021,85118.0,0.65016,55340.4,MADHYA PRADESH,own,published
+MADHYA PRADESH,2022,1october 2022,86149.0,0.65439,56374.6,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2023,1october 2023,87180.0,0.65861,57417.6,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2024,1october 2024,88212.0,0.66283,58470.0,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2025,1october 2025,89243.0,0.66706,59530.3,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2026,1october 2026,90184.0,0.67128,60539.0,MADHYA PRADESH,own,published
+MADHYA PRADESH,2027,1october 2027,91061.0,0.67598,61555.1,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2028,1october 2028,91938.0,0.68067,62579.4,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2029,1october 2029,92815.0,0.68536,63611.9,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2030,1october 2030,93691.0,0.69006,64652.0,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2031,1october 2031,94494.0,0.69475,65649.6,MADHYA PRADESH,own,published
+MADHYA PRADESH,2032,1october 2032,95244.0,0.70037,66705.6,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2033,1october 2033,95993.0,0.70598,67769.4,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2034,1october 2034,96743.0,0.7116,68842.3,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2035,1october 2035,97492.0,0.71722,69922.9,MADHYA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+MADHYA PRADESH,2036,1october 2036,98242.0,0.72283,71012.6,MADHYA PRADESH,own,published
+GUJARAT,2011,1october 2011,60990.0,0.65089,39698.0,GUJARAT,own,published
+GUJARAT,2012,1october 2012,61934.0,0.65629,40646.7,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2013,1october 2013,62877.0,0.66169,41604.8,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2014,1october 2014,63821.0,0.66708,42573.9,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2015,1october 2015,64765.0,0.67248,43553.1,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2016,1october 2016,65698.0,0.67788,44535.1,GUJARAT,own,published
+GUJARAT,2017,1october 2017,66624.0,0.68246,45468.3,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2018,1october 2018,67550.0,0.68705,46410.1,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2019,1october 2019,68476.0,0.69164,47360.4,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2020,1october 2020,69402.0,0.69622,48319.2,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2021,1october 2021,70289.0,0.70081,49259.1,GUJARAT,own,published
+GUJARAT,2022,1october 2022,71149.0,0.70454,50127.0,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2023,1october 2023,72009.0,0.70826,51001.4,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2024,1october 2024,72868.0,0.71199,51881.4,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2025,1october 2025,73728.0,0.71572,52768.6,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2026,1october 2026,74535.0,0.71945,53624.0,GUJARAT,own,published
+GUJARAT,2027,1october 2027,75304.0,0.723,54444.9,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2028,1october 2028,76073.0,0.72656,55271.2,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2029,1october 2029,76842.0,0.73011,56103.0,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2030,1october 2030,77611.0,0.73366,56940.3,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2031,1october 2031,78326.0,0.73722,57743.2,GUJARAT,own,published
+GUJARAT,2032,1october 2032,79003.0,0.7411,58549.4,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2033,1october 2033,79680.0,0.74499,59360.9,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2034,1october 2034,80357.0,0.74888,60177.6,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2035,1october 2035,81034.0,0.75277,60999.6,GUJARAT,own,linear interpolation of 18+ share between quinquennial anchors
+GUJARAT,2036,1october 2036,81711.0,0.75665,61826.9,GUJARAT,own,published
+MAHARASHTRA,2011,1october 2011,113115.0,0.67519,76374.3,MAHARASHTRA,own,published
+MAHARASHTRA,2012,1october 2012,114386.0,0.68164,77970.4,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2013,1october 2013,115656.0,0.68809,79582.2,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2014,1october 2014,116927.0,0.69454,81211.0,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2015,1october 2015,118197.0,0.701,82855.6,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2016,1october 2016,119393.0,0.70745,84464.2,MAHARASHTRA,own,published
+MAHARASHTRA,2017,1october 2017,120535.0,0.71292,85931.2,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2018,1october 2018,121677.0,0.71838,87410.8,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2019,1october 2019,122819.0,0.72385,88902.8,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2020,1october 2020,123961.0,0.72932,90407.3,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2021,1october 2021,125005.0,0.73479,91852.4,MAHARASHTRA,own,published
+MAHARASHTRA,2022,1october 2022,125979.0,0.7396,93174.6,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2023,1october 2023,126954.0,0.74442,94506.9,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2024,1october 2024,127928.0,0.74923,95847.9,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2025,1october 2025,128902.0,0.75405,97198.3,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2026,1october 2026,129791.0,0.75886,98493.5,MAHARASHTRA,own,published
+MAHARASHTRA,2027,1october 2027,130620.0,0.76284,99642.8,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2028,1october 2028,131449.0,0.76683,100798.6,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2029,1october 2029,132277.0,0.77081,101960.3,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2030,1october 2030,133106.0,0.77479,103129.3,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2031,1october 2031,133837.0,0.77877,104228.6,MAHARASHTRA,own,published
+MAHARASHTRA,2032,1october 2032,134500.0,0.78195,105172.1,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2033,1october 2033,135163.0,0.78513,106119.9,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2034,1october 2034,135825.0,0.7883,107071.0,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2035,1october 2035,136488.0,0.79148,108027.2,MAHARASHTRA,own,linear interpolation of 18+ share between quinquennial anchors
+MAHARASHTRA,2036,1october 2036,137150.0,0.79465,108986.7,MAHARASHTRA,own,published
+ANDHRA PRADESH,2011,1october 2011,49786.0,0.69036,34370.3,ANDHRA PRADESH,own,published
+ANDHRA PRADESH,2012,1october 2012,50145.0,0.69669,34935.5,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2013,1october 2013,50504.0,0.70302,35505.2,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2014,1october 2014,50863.0,0.70935,36079.5,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2015,1october 2015,51222.0,0.71567,36658.3,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2016,1october 2016,51537.0,0.722,37209.9,ANDHRA PRADESH,own,published
+ANDHRA PRADESH,2017,1october 2017,51820.0,0.72734,37690.7,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2018,1october 2018,52103.0,0.73268,38174.7,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2019,1october 2019,52386.0,0.73801,38661.6,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2020,1october 2020,52669.0,0.74335,39151.6,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2021,1october 2021,52895.0,0.74869,39601.9,ANDHRA PRADESH,own,published
+ANDHRA PRADESH,2022,1october 2022,53079.0,0.75286,39961.1,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2023,1october 2023,53263.0,0.75703,40321.9,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2024,1october 2024,53448.0,0.76121,40685.0,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2025,1october 2025,53632.0,0.76538,41048.9,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2026,1october 2026,53763.0,0.76955,41373.6,ANDHRA PRADESH,own,published
+ANDHRA PRADESH,2027,1october 2027,53856.0,0.77315,41638.7,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2028,1october 2028,53950.0,0.77674,41905.2,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2029,1october 2029,54043.0,0.78033,42171.6,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2030,1october 2030,54136.0,0.78393,42438.7,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2031,1october 2031,54184.0,0.78752,42671.1,ANDHRA PRADESH,own,published
+ANDHRA PRADESH,2032,1october 2032,54199.0,0.79117,42880.4,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2033,1october 2033,54215.0,0.79481,43090.6,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2034,1october 2034,54230.0,0.79845,43300.1,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2035,1october 2035,54245.0,0.8021,43509.7,ANDHRA PRADESH,own,linear interpolation of 18+ share between quinquennial anchors
+ANDHRA PRADESH,2036,1october 2036,54261.0,0.80574,43720.3,ANDHRA PRADESH,own,published
+KARNATAKA,2011,1october 2011,61461.0,0.68017,41803.9,KARNATAKA,own,published
+KARNATAKA,2012,1october 2012,62088.0,0.68564,42570.0,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2013,1october 2013,62714.0,0.69111,43342.2,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2014,1october 2014,63341.0,0.69658,44121.9,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2015,1october 2015,63968.0,0.70205,44908.5,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2016,1october 2016,64534.0,0.70752,45658.8,KARNATAKA,own,published
+KARNATAKA,2017,1october 2017,65057.0,0.71237,46344.8,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2018,1october 2018,65580.0,0.71723,47035.8,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2019,1october 2019,66104.0,0.72208,47732.7,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2020,1october 2020,66627.0,0.72694,48433.9,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2021,1october 2021,67092.0,0.7318,49097.8,KARNATAKA,own,published
+KARNATAKA,2022,1october 2022,67515.0,0.73597,49689.2,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2023,1october 2023,67939.0,0.74015,50285.0,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2024,1october 2024,68362.0,0.74432,50883.5,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2025,1october 2025,68785.0,0.7485,51485.6,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2026,1october 2026,69159.0,0.75268,52054.3,KARNATAKA,own,published
+KARNATAKA,2027,1october 2027,69497.0,0.75652,52576.0,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2028,1october 2028,69835.0,0.76037,53100.4,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2029,1october 2029,70173.0,0.76422,53627.3,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2030,1october 2030,70511.0,0.76806,54156.9,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2031,1october 2031,70803.0,0.77191,54653.6,KARNATAKA,own,published
+KARNATAKA,2032,1october 2032,71062.0,0.77539,55100.9,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2033,1october 2033,71321.0,0.77887,55550.1,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2034,1october 2034,71581.0,0.78236,56001.8,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2035,1october 2035,71840.0,0.78584,56454.6,KARNATAKA,own,linear interpolation of 18+ share between quinquennial anchors
+KARNATAKA,2036,1october 2036,72099.0,0.78932,56909.2,KARNATAKA,own,published
+KERALA,2011,1october 2011,33543.0,0.71709,24053.2,KERALA,own,published
+KERALA,2012,1october 2012,33777.0,0.72075,24344.6,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2013,1october 2013,34012.0,0.7244,24638.4,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2014,1october 2014,34246.0,0.72806,24933.3,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2015,1october 2015,34481.0,0.73172,25230.5,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2016,1october 2016,34685.0,0.73538,25506.7,KERALA,own,published
+KERALA,2017,1october 2017,34867.0,0.73882,25760.4,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2018,1october 2018,35049.0,0.74226,26015.4,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2019,1october 2019,35231.0,0.7457,26271.6,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2020,1october 2020,35413.0,0.74913,26529.1,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2021,1october 2021,35573.0,0.75257,26771.2,KERALA,own,published
+KERALA,2022,1october 2022,35716.0,0.75529,26975.8,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2023,1october 2023,35860.0,0.758,27182.0,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2024,1october 2024,36003.0,0.76072,27388.2,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2025,1october 2025,36147.0,0.76343,27595.9,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2026,1october 2026,36263.0,0.76615,27782.9,KERALA,own,published
+KERALA,2027,1october 2027,36361.0,0.7684,27939.7,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2028,1october 2028,36459.0,0.77064,28096.9,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2029,1october 2029,36556.0,0.77289,28253.7,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2030,1october 2030,36654.0,0.77513,28411.8,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2031,1october 2031,36724.0,0.77738,28548.5,KERALA,own,published
+KERALA,2032,1october 2032,36775.0,0.77907,28650.4,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2033,1october 2033,36826.0,0.78076,28752.4,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2034,1october 2034,36877.0,0.78246,28854.6,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2035,1october 2035,36927.0,0.78415,28956.2,KERALA,own,linear interpolation of 18+ share between quinquennial anchors
+KERALA,2036,1october 2036,36978.0,0.78584,29058.8,KERALA,own,published
+TAMIL NADU,2011,1october 2011,72437.0,0.71214,51585.5,TAMIL NADU,own,published
+TAMIL NADU,2012,1october 2012,72935.0,0.71692,52288.5,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2013,1october 2013,73433.0,0.72169,52996.2,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2014,1october 2014,73930.0,0.72647,53708.0,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2015,1october 2015,74428.0,0.73125,54425.2,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2016,1october 2016,74841.0,0.73602,55084.6,TAMIL NADU,own,published
+TAMIL NADU,2017,1october 2017,75195.0,0.74036,55671.4,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2018,1october 2018,75548.0,0.7447,56260.6,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2019,1october 2019,75902.0,0.74904,56853.5,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2020,1october 2020,76255.0,0.75338,57448.8,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2021,1october 2021,76536.0,0.75772,57992.5,TAMIL NADU,own,published
+TAMIL NADU,2022,1october 2022,76765.0,0.76141,58449.4,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2023,1october 2023,76993.0,0.7651,58907.2,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2024,1october 2024,77222.0,0.76879,59367.4,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2025,1october 2025,77451.0,0.77248,59829.4,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2026,1october 2026,77609.0,0.77617,60237.9,TAMIL NADU,own,published
+TAMIL NADU,2027,1october 2027,77716.0,0.77961,60588.5,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2028,1october 2028,77823.0,0.78306,60939.8,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2029,1october 2029,77930.0,0.7865,61291.9,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2030,1october 2030,78037.0,0.78994,61644.7,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2031,1october 2031,78080.0,0.79338,61947.4,TAMIL NADU,own,published
+TAMIL NADU,2032,1october 2032,78077.0,0.79652,62189.8,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2033,1october 2033,78074.0,0.79965,62432.3,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2034,1october 2034,78071.0,0.80279,62674.7,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2035,1october 2035,78068.0,0.80593,62917.0,TAMIL NADU,own,linear interpolation of 18+ share between quinquennial anchors
+TAMIL NADU,2036,1october 2036,78065.0,0.80906,63159.4,TAMIL NADU,own,published
+CHANDIGARH,2011,1october 2011,1065.0,0.63006,671.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2012,1october 2012,1081.0,0.63626,687.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2013,1october 2013,1097.0,0.64245,704.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2014,1october 2014,1113.0,0.64865,721.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2015,1october 2015,1130.0,0.65484,740.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2016,1october 2016,1145.0,0.66104,756.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2017,1october 2017,1159.0,0.66696,773.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2018,1october 2018,1173.0,0.67288,789.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2019,1october 2019,1187.0,0.67879,805.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2020,1october 2020,1202.0,0.68471,823.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2021,1october 2021,1215.0,0.69063,839.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2022,1october 2022,1226.0,0.69558,852.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2023,1october 2023,1238.0,0.70054,867.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2024,1october 2024,1250.0,0.70549,881.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2025,1october 2025,1262.0,0.71044,896.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2026,1october 2026,1273.0,0.71539,910.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2027,1october 2027,1283.0,0.71968,923.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2028,1october 2028,1293.0,0.72397,936.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2029,1october 2029,1304.0,0.72826,949.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2030,1october 2030,1314.0,0.73255,962.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2031,1october 2031,1323.0,0.73684,974.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2032,1october 2032,1331.0,0.74097,986.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2033,1october 2033,1340.0,0.74511,998.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2034,1october 2034,1348.0,0.74924,1010.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2035,1october 2035,1356.0,0.75338,1021.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+CHANDIGARH,2036,1october 2036,1365.0,0.75751,1034.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2011,1october 2011,10164.0,0.62324,6334.6,UTTARAKHAND,own,published
+UTTARAKHAND,2012,1october 2012,10298.0,0.63239,6512.4,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2013,1october 2013,10432.0,0.64154,6692.6,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2014,1october 2014,10565.0,0.65069,6874.5,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2015,1october 2015,10699.0,0.65984,7059.6,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2016,1october 2016,10830.0,0.66899,7245.2,UTTARAKHAND,own,published
+UTTARAKHAND,2017,1october 2017,10959.0,0.67666,7415.5,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2018,1october 2018,11088.0,0.68433,7587.9,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2019,1october 2019,11217.0,0.692,7762.2,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2020,1october 2020,11346.0,0.69967,7938.5,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2021,1october 2021,11468.0,0.70734,8111.8,UTTARAKHAND,own,published
+UTTARAKHAND,2022,1october 2022,11587.0,0.71299,8261.5,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2023,1october 2023,11706.0,0.71864,8412.4,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2024,1october 2024,11824.0,0.72429,8564.1,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2025,1october 2025,11943.0,0.72995,8717.7,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2026,1october 2026,12055.0,0.7356,8867.6,UTTARAKHAND,own,published
+UTTARAKHAND,2027,1october 2027,12161.0,0.73951,8993.2,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2028,1october 2028,12267.0,0.74343,9119.7,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2029,1october 2029,12374.0,0.74735,9247.7,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2030,1october 2030,12480.0,0.75127,9375.9,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2031,1october 2031,12577.0,0.75519,9498.0,UTTARAKHAND,own,published
+UTTARAKHAND,2032,1october 2032,12667.0,0.75835,9606.1,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2033,1october 2033,12757.0,0.76152,9714.7,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2034,1october 2034,12847.0,0.76468,9823.8,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2035,1october 2035,12937.0,0.76784,9933.6,UTTARAKHAND,own,linear interpolation of 18+ share between quinquennial anchors
+UTTARAKHAND,2036,1october 2036,13027.0,0.771,10043.9,UTTARAKHAND,own,published
+SIKKIM,2011,1october 2011,614.0,0.60877,373.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2012,1october 2012,621.0,0.61912,384.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2013,1october 2013,627.0,0.62947,394.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2014,1october 2014,634.0,0.63982,405.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2015,1october 2015,641.0,0.65018,416.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2016,1october 2016,647.0,0.66053,427.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2017,1october 2017,654.0,0.66954,437.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2018,1october 2018,660.0,0.67856,447.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2019,1october 2019,667.0,0.68758,458.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2020,1october 2020,673.0,0.6966,468.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2021,1october 2021,680.0,0.70561,479.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2022,1october 2022,686.0,0.71309,489.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2023,1october 2023,692.0,0.72056,498.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2024,1october 2024,699.0,0.72804,508.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2025,1october 2025,705.0,0.73551,518.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2026,1october 2026,711.0,0.74298,528.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2027,1october 2027,716.0,0.74733,535.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2028,1october 2028,722.0,0.75167,542.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2029,1october 2029,728.0,0.75602,550.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2030,1october 2030,733.0,0.76036,557.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2031,1october 2031,738.0,0.7647,564.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2032,1october 2032,743.0,0.76613,569.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2033,1october 2033,747.0,0.76756,573.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2034,1october 2034,752.0,0.76899,578.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2035,1october 2035,756.0,0.77042,582.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+SIKKIM,2036,1october 2036,761.0,0.77185,587.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2011,1october 2011,1391.0,0.60877,846.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2012,1october 2012,1406.0,0.61912,870.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2013,1october 2013,1421.0,0.62947,894.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2014,1october 2014,1437.0,0.63982,919.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2015,1october 2015,1452.0,0.65018,944.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2016,1october 2016,1467.0,0.66053,969.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2017,1october 2017,1481.0,0.66954,991.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2018,1october 2018,1496.0,0.67856,1015.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2019,1october 2019,1511.0,0.68758,1038.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2020,1october 2020,1526.0,0.6966,1063.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2021,1october 2021,1540.0,0.70561,1086.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2022,1october 2022,1555.0,0.71309,1108.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2023,1october 2023,1569.0,0.72056,1130.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2024,1october 2024,1583.0,0.72804,1152.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2025,1october 2025,1597.0,0.73551,1174.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2026,1october 2026,1611.0,0.74298,1196.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2027,1october 2027,1624.0,0.74733,1213.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2028,1october 2028,1636.0,0.75167,1229.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2029,1october 2029,1649.0,0.75602,1246.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2030,1october 2030,1662.0,0.76036,1263.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2031,1october 2031,1674.0,0.7647,1280.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2032,1october 2032,1684.0,0.76613,1290.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2033,1october 2033,1694.0,0.76756,1300.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2034,1october 2034,1704.0,0.76899,1310.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2035,1october 2035,1714.0,0.77042,1320.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+ARUNACHAL PRADESH,2036,1october 2036,1724.0,0.77185,1330.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2011,1october 2011,1989.0,0.60877,1210.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2012,1october 2012,2011.0,0.61912,1245.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2013,1october 2013,2032.0,0.62947,1279.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2014,1october 2014,2054.0,0.63982,1314.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2015,1october 2015,2076.0,0.65018,1349.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2016,1october 2016,2097.0,0.66053,1385.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2017,1october 2017,2118.0,0.66954,1418.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2018,1october 2018,2139.0,0.67856,1451.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2019,1october 2019,2161.0,0.68758,1485.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2020,1october 2020,2182.0,0.6966,1520.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2021,1october 2021,2203.0,0.70561,1554.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2022,1october 2022,2223.0,0.71309,1585.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2023,1october 2023,2243.0,0.72056,1616.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2024,1october 2024,2264.0,0.72804,1648.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2025,1october 2025,2284.0,0.73551,1679.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2026,1october 2026,2303.0,0.74298,1711.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2027,1october 2027,2322.0,0.74733,1735.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2028,1october 2028,2340.0,0.75167,1758.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2029,1october 2029,2358.0,0.75602,1782.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2030,1october 2030,2377.0,0.76036,1807.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2031,1october 2031,2393.0,0.7647,1829.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2032,1october 2032,2407.0,0.76613,1844.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2033,1october 2033,2422.0,0.76756,1859.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2034,1october 2034,2436.0,0.76899,1873.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2035,1october 2035,2451.0,0.77042,1888.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+NAGALAND,2036,1october 2036,2465.0,0.77185,1902.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2011,1october 2011,2871.0,0.60877,1747.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2012,1october 2012,2903.0,0.61912,1797.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2013,1october 2013,2934.0,0.62947,1846.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2014,1october 2014,2965.0,0.63982,1897.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2015,1october 2015,2996.0,0.65018,1947.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2016,1october 2016,3027.0,0.66053,1999.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2017,1october 2017,3058.0,0.66954,2047.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2018,1october 2018,3088.0,0.67856,2095.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2019,1october 2019,3119.0,0.68758,2144.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2020,1october 2020,3149.0,0.6966,2193.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2021,1october 2021,3179.0,0.70561,2243.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2022,1october 2022,3209.0,0.71309,2288.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2023,1october 2023,3238.0,0.72056,2333.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2024,1october 2024,3267.0,0.72804,2378.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2025,1october 2025,3297.0,0.73551,2425.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2026,1october 2026,3324.0,0.74298,2469.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2027,1october 2027,3351.0,0.74733,2504.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2028,1october 2028,3377.0,0.75167,2538.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2029,1october 2029,3404.0,0.75602,2573.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2030,1october 2030,3430.0,0.76036,2608.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2031,1october 2031,3454.0,0.7647,2641.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2032,1october 2032,3475.0,0.76613,2662.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2033,1october 2033,3496.0,0.76756,2683.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2034,1october 2034,3517.0,0.76899,2704.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2035,1october 2035,3538.0,0.77042,2725.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MANIPUR,2036,1october 2036,3559.0,0.77185,2747.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2011,1october 2011,1103.0,0.60877,671.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2012,1october 2012,1115.0,0.61912,690.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2013,1october 2013,1127.0,0.62947,709.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2014,1october 2014,1139.0,0.63982,728.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2015,1october 2015,1151.0,0.65018,748.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2016,1october 2016,1163.0,0.66053,768.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2017,1october 2017,1175.0,0.66954,786.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2018,1october 2018,1186.0,0.67856,804.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2019,1october 2019,1198.0,0.68758,823.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2020,1october 2020,1210.0,0.6966,842.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2021,1october 2021,1221.0,0.70561,861.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2022,1october 2022,1233.0,0.71309,879.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2023,1october 2023,1244.0,0.72056,896.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2024,1october 2024,1255.0,0.72804,913.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2025,1october 2025,1267.0,0.73551,931.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2026,1october 2026,1277.0,0.74298,948.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2027,1october 2027,1287.0,0.74733,961.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2028,1october 2028,1298.0,0.75167,975.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2029,1october 2029,1308.0,0.75602,988.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2030,1october 2030,1318.0,0.76036,1002.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2031,1october 2031,1327.0,0.7647,1014.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2032,1october 2032,1335.0,0.76613,1022.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2033,1october 2033,1343.0,0.76756,1030.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2034,1october 2034,1351.0,0.76899,1038.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2035,1october 2035,1359.0,0.77042,1047.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MIZORAM,2036,1october 2036,1367.0,0.77185,1055.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2011,1october 2011,3694.0,0.60877,2248.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2012,1october 2012,3734.0,0.61912,2311.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2013,1october 2013,3774.0,0.62947,2375.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2014,1october 2014,3814.0,0.63982,2440.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2015,1october 2015,3854.0,0.65018,2505.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2016,1october 2016,3894.0,0.66053,2572.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2017,1october 2017,3933.0,0.66954,2633.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2018,1october 2018,3973.0,0.67856,2695.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2019,1october 2019,4012.0,0.68758,2758.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2020,1october 2020,4051.0,0.6966,2821.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2021,1october 2021,4090.0,0.70561,2886.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2022,1october 2022,4128.0,0.71309,2943.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2023,1october 2023,4165.0,0.72056,3001.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2024,1october 2024,4203.0,0.72804,3059.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2025,1october 2025,4241.0,0.73551,3119.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2026,1october 2026,4277.0,0.74298,3177.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2027,1october 2027,4311.0,0.74733,3221.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2028,1october 2028,4345.0,0.75167,3266.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2029,1october 2029,4379.0,0.75602,3310.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2030,1october 2030,4413.0,0.76036,3355.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2031,1october 2031,4444.0,0.7647,3398.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2032,1october 2032,4470.0,0.76613,3424.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2033,1october 2033,4497.0,0.76756,3451.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2034,1october 2034,4524.0,0.76899,3478.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2035,1october 2035,4551.0,0.77042,3506.2,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+TRIPURA,2036,1october 2036,4578.0,0.77185,3533.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2011,1october 2011,2983.0,0.60877,1816.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2012,1october 2012,3015.0,0.61912,1866.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2013,1october 2013,3048.0,0.62947,1918.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2014,1october 2014,3080.0,0.63982,1970.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2015,1october 2015,3113.0,0.65018,2024.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2016,1october 2016,3145.0,0.66053,2077.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2017,1october 2017,3176.0,0.66954,2126.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2018,1october 2018,3208.0,0.67856,2176.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2019,1october 2019,3240.0,0.68758,2227.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2020,1october 2020,3272.0,0.6966,2279.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2021,1october 2021,3303.0,0.70561,2330.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2022,1october 2022,3333.0,0.71309,2376.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2023,1october 2023,3364.0,0.72056,2424.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2024,1october 2024,3394.0,0.72804,2471.0,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2025,1october 2025,3425.0,0.73551,2519.1,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2026,1october 2026,3454.0,0.74298,2566.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2027,1october 2027,3481.0,0.74733,2601.4,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2028,1october 2028,3509.0,0.75167,2637.6,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2029,1october 2029,3536.0,0.75602,2673.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2030,1october 2030,3564.0,0.76036,2709.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2031,1october 2031,3588.0,0.7647,2743.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2032,1october 2032,3610.0,0.76613,2765.7,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2033,1october 2033,3632.0,0.76756,2787.8,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2034,1october 2034,3654.0,0.76899,2809.9,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2035,1october 2035,3675.0,0.77042,2831.3,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+MEGHALAYA,2036,1october 2036,3697.0,0.77185,2853.5,NORTH-EAST STATES (Excluding Assam),NE_combined_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2011,1october 2011,253.0,0.63006,159.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2012,1october 2012,270.0,0.63626,171.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2013,1october 2013,288.0,0.64245,185.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2014,1october 2014,305.0,0.64865,197.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2015,1october 2015,322.0,0.65484,210.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2016,1october 2016,346.0,0.66104,228.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2017,1october 2017,374.0,0.66696,249.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2018,1october 2018,402.0,0.67288,270.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2019,1october 2019,430.0,0.67879,291.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2020,1october 2020,458.0,0.68471,313.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2021,1october 2021,497.0,0.69063,343.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2022,1october 2022,544.0,0.69558,378.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2023,1october 2023,591.0,0.70054,414.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2024,1october 2024,638.0,0.70549,450.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2025,1october 2025,686.0,0.71044,487.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2026,1october 2026,756.0,0.71539,540.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2027,1october 2027,842.0,0.71968,606.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2028,1october 2028,928.0,0.72397,671.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2029,1october 2029,1015.0,0.72826,739.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2030,1october 2030,1101.0,0.73255,806.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2031,1october 2031,1234.0,0.73684,909.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2032,1october 2032,1400.0,0.74097,1037.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2033,1october 2033,1567.0,0.74511,1167.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2034,1october 2034,1733.0,0.74924,1298.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2035,1october 2035,1899.0,0.75338,1430.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DAMAN & DIU,2036,1october 2036,2066.0,0.75751,1565.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2011,1october 2011,356.0,0.63006,224.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2012,1october 2012,378.0,0.63626,240.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2013,1october 2013,400.0,0.64245,257.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2014,1october 2014,422.0,0.64865,273.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2015,1october 2015,443.0,0.65484,290.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2016,1october 2016,470.0,0.66104,310.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2017,1october 2017,502.0,0.66696,334.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2018,1october 2018,533.0,0.67288,358.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2019,1october 2019,564.0,0.67879,382.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2020,1october 2020,595.0,0.68471,407.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2021,1october 2021,635.0,0.69063,438.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2022,1october 2022,680.0,0.69558,473.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2023,1october 2023,726.0,0.70054,508.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2024,1october 2024,771.0,0.70549,543.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2025,1october 2025,817.0,0.71044,580.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2026,1october 2026,876.0,0.71539,626.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2027,1october 2027,944.0,0.71968,679.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2028,1october 2028,1012.0,0.72397,732.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2029,1october 2029,1081.0,0.72826,787.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2030,1october 2030,1149.0,0.73255,841.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2031,1october 2031,1239.0,0.73684,912.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2032,1october 2032,1344.0,0.74097,995.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2033,1october 2033,1449.0,0.74511,1079.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2034,1october 2034,1554.0,0.74924,1164.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2035,1october 2035,1659.0,0.75338,1249.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+DADRA & NAGAR HAVELI,2036,1october 2036,1764.0,0.75751,1336.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2011,1october 2011,1465.0,0.63006,923.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2012,1october 2012,1475.0,0.63626,938.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2013,1october 2013,1486.0,0.64245,954.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2014,1october 2014,1497.0,0.64865,971.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2015,1october 2015,1507.0,0.65484,986.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2016,1october 2016,1517.0,0.66104,1002.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2017,1october 2017,1527.0,0.66696,1018.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2018,1october 2018,1536.0,0.67288,1033.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2019,1october 2019,1545.0,0.67879,1048.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2020,1october 2020,1555.0,0.68471,1064.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2021,1october 2021,1563.0,0.69063,1079.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2022,1october 2022,1571.0,0.69558,1092.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2023,1october 2023,1579.0,0.70054,1106.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2024,1october 2024,1587.0,0.70549,1119.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2025,1october 2025,1595.0,0.71044,1133.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2026,1october 2026,1603.0,0.71539,1146.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2027,1october 2027,1610.0,0.71968,1158.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2028,1october 2028,1617.0,0.72397,1170.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2029,1october 2029,1624.0,0.72826,1182.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2030,1october 2030,1631.0,0.73255,1194.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2031,1october 2031,1637.0,0.73684,1206.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2032,1october 2032,1643.0,0.74097,1217.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2033,1october 2033,1649.0,0.74511,1228.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2034,1october 2034,1654.0,0.74924,1239.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2035,1october 2035,1660.0,0.75338,1250.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+GOA,2036,1october 2036,1666.0,0.75751,1262.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2011,1october 2011,65.0,0.63006,41.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2012,1october 2012,65.0,0.63626,41.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2013,1october 2013,66.0,0.64245,42.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2014,1october 2014,66.0,0.64865,42.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2015,1october 2015,66.0,0.65484,43.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2016,1october 2016,67.0,0.66104,44.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2017,1october 2017,67.0,0.66696,44.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2018,1october 2018,67.0,0.67288,45.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2019,1october 2019,68.0,0.67879,46.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2020,1october 2020,68.0,0.68471,46.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2021,1october 2021,68.0,0.69063,47.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2022,1october 2022,69.0,0.69558,48.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2023,1october 2023,69.0,0.70054,48.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2024,1october 2024,69.0,0.70549,48.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2025,1october 2025,69.0,0.71044,49.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2026,1october 2026,70.0,0.71539,50.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2027,1october 2027,70.0,0.71968,50.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2028,1october 2028,70.0,0.72397,50.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2029,1october 2029,70.0,0.72826,51.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2030,1october 2030,71.0,0.73255,52.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2031,1october 2031,71.0,0.73684,52.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2032,1october 2032,71.0,0.74097,52.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2033,1october 2033,71.0,0.74511,52.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2034,1october 2034,71.0,0.74924,53.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2035,1october 2035,71.0,0.75338,53.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+LAKSHADWEEP,2036,1october 2036,72.0,0.75751,54.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2011,1october 2011,1266.0,0.63006,797.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2012,1october 2012,1297.0,0.63626,825.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2013,1october 2013,1328.0,0.64245,853.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2014,1october 2014,1358.0,0.64865,880.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2015,1october 2015,1389.0,0.65484,909.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2016,1october 2016,1422.0,0.66104,940.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2017,1october 2017,1456.0,0.66696,971.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2018,1october 2018,1489.0,0.67288,1001.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2019,1october 2019,1523.0,0.67879,1033.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2020,1october 2020,1557.0,0.68471,1066.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2021,1october 2021,1593.0,0.69063,1100.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2022,1october 2022,1630.0,0.69558,1133.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2023,1october 2023,1667.0,0.70054,1167.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2024,1october 2024,1704.0,0.70549,1202.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2025,1october 2025,1742.0,0.71044,1237.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2026,1october 2026,1781.0,0.71539,1274.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2027,1october 2027,1822.0,0.71968,1311.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2028,1october 2028,1862.0,0.72397,1348.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2029,1october 2029,1903.0,0.72826,1385.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2030,1october 2030,1944.0,0.73255,1424.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2031,1october 2031,1987.0,0.73684,1464.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2032,1october 2032,2031.0,0.74097,1504.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2033,1october 2033,2076.0,0.74511,1546.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2034,1october 2034,2120.0,0.74924,1588.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2035,1october 2035,2165.0,0.75338,1631.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+PUDUCHERRY,2036,1october 2036,2210.0,0.75751,1674.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2011,1october 2011,382.0,0.63006,240.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2012,1october 2012,384.0,0.63626,244.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2013,1october 2013,386.0,0.64245,248.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2014,1october 2014,389.0,0.64865,252.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2015,1october 2015,391.0,0.65484,256.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2016,1october 2016,393.0,0.66104,259.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2017,1october 2017,395.0,0.66696,263.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2018,1october 2018,396.0,0.67288,266.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2019,1october 2019,398.0,0.67879,270.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2020,1october 2020,400.0,0.68471,273.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2021,1october 2021,401.0,0.69063,276.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2022,1october 2022,402.0,0.69558,279.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2023,1october 2023,403.0,0.70054,282.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2024,1october 2024,405.0,0.70549,285.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2025,1october 2025,406.0,0.71044,288.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2026,1october 2026,407.0,0.71539,291.2,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2027,1october 2027,407.0,0.71968,292.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2028,1october 2028,408.0,0.72397,295.4,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2029,1october 2029,409.0,0.72826,297.9,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2030,1october 2030,410.0,0.73255,300.3,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2031,1october 2031,411.0,0.73684,302.8,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2032,1october 2032,411.0,0.74097,304.5,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2033,1october 2033,412.0,0.74511,307.0,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2034,1october 2034,412.0,0.74924,308.7,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2035,1october 2035,413.0,0.75338,311.1,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+ANDAMAN & NICOBAR ISLANDS,2036,1october 2036,414.0,0.75751,313.6,INDIA,india_proxy,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2011,1october 2011,35149.0,0.66972,23540.1,TELANGANA,own,published
+TELANGANA,2012,1october 2012,35441.0,0.67696,23992.0,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2013,1october 2013,35733.0,0.68419,24448.1,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2014,1october 2014,36024.0,0.69142,24907.7,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2015,1october 2015,36316.0,0.69865,25372.3,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2016,1october 2016,36588.0,0.70589,25826.9,TELANGANA,own,published
+TELANGANA,2017,1october 2017,36841.0,0.71192,26227.7,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2018,1october 2018,37093.0,0.71795,26630.8,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2019,1october 2019,37346.0,0.72398,27037.6,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2020,1october 2020,37599.0,0.73001,27447.5,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2021,1october 2021,37816.0,0.73604,27834.0,TELANGANA,own,published
+TELANGANA,2022,1october 2022,37999.0,0.74077,28148.4,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2023,1october 2023,38181.0,0.74549,28463.7,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2024,1october 2024,38363.0,0.75022,28780.8,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2025,1october 2025,38545.0,0.75495,29099.6,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2026,1october 2026,38693.0,0.75968,29394.3,TELANGANA,own,published
+TELANGANA,2027,1october 2027,38807.0,0.76363,29634.4,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2028,1october 2028,38921.0,0.76759,29875.3,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2029,1october 2029,39035.0,0.77154,30117.2,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2030,1october 2030,39150.0,0.7755,30360.8,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2031,1october 2031,39233.0,0.77945,30580.3,TELANGANA,own,published
+TELANGANA,2032,1october 2032,39285.0,0.78335,30773.8,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2033,1october 2033,39337.0,0.78724,30967.7,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2034,1october 2034,39389.0,0.79113,31162.0,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2035,1october 2035,39441.0,0.79503,31356.7,TELANGANA,own,linear interpolation of 18+ share between quinquennial anchors
+TELANGANA,2036,1october 2036,39493.0,0.79892,31551.8,TELANGANA,own,published
+LADAKH,2011,1october 2011,276.0,0.59803,165.1,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2012,1october 2012,278.0,0.60803,169.0,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2013,1october 2013,281.0,0.61804,173.7,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2014,1october 2014,284.0,0.62805,178.4,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2015,1october 2015,286.0,0.63805,182.5,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2016,1october 2016,288.0,0.64806,186.6,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2017,1october 2017,290.0,0.65878,191.0,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2018,1october 2018,292.0,0.6695,195.5,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2019,1october 2019,294.0,0.68023,200.0,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2020,1october 2020,296.0,0.69095,204.5,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2021,1october 2021,298.0,0.70167,209.1,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2022,1october 2022,300.0,0.7121,213.6,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2023,1october 2023,301.0,0.72253,217.5,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2024,1october 2024,303.0,0.73296,222.1,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2025,1october 2025,305.0,0.74339,226.7,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2026,1october 2026,306.0,0.75381,230.7,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2027,1october 2027,307.0,0.7603,233.4,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2028,1october 2028,309.0,0.76678,236.9,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2029,1october 2029,310.0,0.77326,239.7,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2030,1october 2030,311.0,0.77974,242.5,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2031,1october 2031,312.0,0.78623,245.3,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2032,1october 2032,313.0,0.78697,246.3,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2033,1october 2033,314.0,0.78771,247.3,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2034,1october 2034,315.0,0.78844,248.4,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2035,1october 2035,315.0,0.78918,248.6,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors
+LADAKH,2036,1october 2036,316.0,0.78992,249.6,JAMMU & KASHMIR (UT),jammu_kashmir_proxy,linear interpolation of 18+ share between quinquennial anchors

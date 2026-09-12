@@ -1,0 +1,142 @@
+\chapter{Decision Log}
+\label{app:decisions}
+
+Every non-obvious choice taken during data preparation and estimation was recorded when it was
+taken, with its rationale and consequences, in an append-only log, reproduced here in full. Its
+purpose is auditability: each choice can be verified as made for a stated reason and --- for the
+decisions constraining interpretation --- as made \emph{before} the results it constrains were
+seen.
+
+{\footnotesize
+\begin{longtable}{@{}p{0.7cm}p{3.1cm}p{10.5cm}@{}}
+\caption{Decision log, D1--D17}
+\label{tab:decisionlog}\\
+\toprule
+\textbf{\#} & \textbf{Decision} & \textbf{Rationale and consequence} \\
+\midrule
+\endfirsthead
+\multicolumn{3}{@{}l}{\small\itshape Table \ref{tab:decisionlog} continued from previous page}\\
+\toprule
+\textbf{\#} & \textbf{Decision} & \textbf{Rationale and consequence} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r@{}}{\small\itshape continued on next page}\\
+\endfoot
+\bottomrule
+\endlastfoot
+
+D1 & Drop Lakshadweep and Dadra \& Nagar Haveli and Daman \& Diu &
+No per-capita NSDP published for either in any year, so neither can carry the income control. 35 units become 33; both are very small. \\
+\addlinespace
+
+D2 & Merge J\&K with Ladakh, and DNH with Daman and Diu, in every year &
+Boundaries changed mid-sample and fixed effects require each unit to mean the same thing throughout. Sources record the change in different years, so summing all components in all years is the only rule that works for every source at once. \\
+\addlinespace
+
+D3 & Drop PMJDY; infrastructure is branches and ATMs only &
+Removes the only digital component, so the measure is \emph{physical banking infrastructure}. Later found load-bearing rather than cosmetic: PMJDY accounts are an account count, and retaining them would have put an account count on both sides of the regression. \\
+\addlinespace
+
+D4 & Keep Gujarat; leave its FY2023--24 income cell missing &
+Not sourceable --- Gujarat is absent from every Handbook income table that year. Superseded by D8, which moves the cell outside the window. \\
+\addlinespace
+
+D5 & Year alignment: banking $Y$ $\equiv$ income $(Y{-}1)$--$Y$ $\equiv$ population 1 March $Y$ &
+All stocks at 31 March; the easiest place to introduce a silent one-year offset. Implemented as a canonical column in D9. \\
+\addlinespace
+
+D6 & Disclose that adult population is interpolated &
+Age structure is published only every five years; 243 of 266 state-years use an estimated 18+ share applied to published annual totals. \\
+\addlinespace
+
+D7 & Keep Delhi, Haryana and Chandigarh despite defective deposit-account values &
+The savings-account column jumps discontinuously (Delhi 39m to 106m in 2023; Haryana 53m to 102m in 2024; Chandigarh spikes in 2023 and reverts). Extraction is correct --- the break is in RBI's source. Retain in the main specification, then re-run without them as a robustness check. \\
+\addlinespace
+
+D8 & Switch loan accounts to the RRB-inclusive file; panel becomes FY2018--FY2023 &
+Fixes a bank-universe mismatch so every variable counts the same banks. The files could not be merged arithmetically --- they also differ on \emph{where} a loan is counted, and differencing gave impossible negative values for Maharashtra. Cost: FY2024. Benefit: removes the Gujarat gap, leaving 198 balanced rows. \\
+\addlinespace
+
+D9 & Add one canonical year column, \texttt{fy\_end}, to all eight files &
+\texttt{fy\_end} is the calendar year of the 31 March a row refers to; merge, filter and take the year fixed effect on it. Only the income file needed converting; native labels retained so the original coding stays auditable. Not named plain \texttt{year}, because a bare \texttt{2018} is exactly the ambiguity that causes the bug. \\
+\addlinespace
+
+D10 & No composite index; branches and ATMs enter as two separate regressors. \textbf{Final} &
+Raw correlation 0.904 is almost entirely cross-sectional; after demeaning it falls to 0.305, VIF 1.10. Removes two arbitrary choices and puts coefficients in real units. \textbf{Fixes the pre-committed decision rule:}
+full support only if $\beta_{\text{access}} > \beta_{\text{usage}} > 0$ for branches \emph{and}
+ATMs; one only is partial support, naming which; not to be revised after the coefficients are
+seen. \\
+\addlinespace
+
+D11 & Proceed to estimation despite the diagnostic gate failing &
+Within-state shares of 7.0 and 8.7 per cent fall below the 10 per cent FAIL threshold fixed in
+advance. Proceeding was directed explicitly. \textbf{Consequence fixed now so it cannot be revised
+later:} a null does not license the conclusion ``infrastructure does not raise access'', and every
+null must be reported with the 7.0 and 8.7 per cent figures attached. A significant result, by
+contrast, would be strong. The known skew in \Usage{} is \emph{not} repaired, so the specification
+tested is the one originally written. \\
+\addlinespace
+
+D12 & Extended panel FY2012--FY2023, branches only. Revises D10 &
+The six-year panel could not test the hypothesis and was unstable to two observations; extending the window is the only remedy in these data. The binding constraint is per-capita income, published from 2011--12. \textbf{ATMs are dropped} (the release begins in 2018), so the branches-versus-ATMs comparison is no longer possible; no composite index is reintroduced. Deposit accounts are spliced at 2018, verified exact at the overlap (1,911,503,615 from both sources). \textbf{The six-year results are not discarded} --- this is an additional specification, not a replacement. \\
+\addlinespace
+
+D13 & Merge Andhra Pradesh and Telangana in all years. Extends D2; twelve-year panel only &
+Telangana shows zero branches, deposits and credit for 2012--2014, having been carved out of Andhra Pradesh in June 2014. Branches confirm it: AP falls 9,900 to 6,290 in 2015 as Telangana appears with 4,721, the combined series running continuously 9,900 to 11,011. Panel becomes $32 \times 12 = 384$; the six-year results are unaffected. Had this been missed, three state-years would have entered with zero infrastructure and zero deposits --- an outlier positioned precisely to manufacture a spurious positive coefficient. \\
+\addlinespace
+
+D14 & New direction: add PhonePe Pulse digital-payment data &
+The physical-infrastructure results came back null or negative. Working interpretation: branches and ATMs are the wrong infrastructure for this period, since digital payments boomed over exactly this window while the physical footprint was flat to declining. Nothing estimated is discarded; the contrast between the tracks is the point. \textbf{Caveat:} PhonePe is one firm, roughly 45--50 per cent of UPI volume, so a proxy for digital-payment penetration. How it enters is an open decision, to be logged before anything is estimated. \\
+
+D15 & Build the merged digital panel: 33 states $\times$ FY2019--FY2023, 165 rows &
+FY2018 is dropped, since the first complete financial year of digital
+data is FY2019. Denominators follow the existing rule: registered users (a stock) per adult;
+transactions and value (flows) per capita. \Access{}, \Usage{} and \AUG{} are \emph{not} recomputed
+on the 165 rows --- they keep the scaling pooled over the original 198, so the dependent variables
+are identical across tracks and the results stay comparable. Every banking column is asserted
+identical to the six-year panel. \textbf{Left open deliberately:} whether the digital series enters
+as a regressor, a second outcome, or an interaction --- recorded so the choice is made on reasoning
+rather than on whichever specification returns stars. \\
+\addlinespace
+
+D16 & Resolves D15: UPI enters as a \textbf{third regressor}, measured as registered users per
+adult, in levels &
+Three candidate measures existed. Transactions and value per capita were rejected because they are
+themselves \emph{usage} of the digital channel, so using them to predict the \Usage{} equation
+would be close to circular --- a flow explaining a flow of the same kind. Registered users is an
+adoption stock, the role branches and ATMs play on the physical side. Levels rather than logs keeps
+all three infrastructure regressors in the same kind of unit. Model, diagnostics and clustering are
+otherwise identical to the earlier specification. \textbf{Note:} because the sample is one year
+shorter, the branches and ATMs coefficients here are not directly comparable to those from the
+six-year panel --- same regressors, different sample. \\
+\addlinespace
+
+D17 & Decompose \Access{} and \Usage{} into their four indicators and re-run, to test whether the
+UPI result is an accounting relationship &
+PhonePe registration requires a KYC-linked bank account, so UPI adoption and deposit-account counts
+--- half of \Access{} --- are definitionally entangled: the same problem dropping PMJDY was meant
+to remove. Credit accounts are not entangled the same way, a loan account being neither required
+for nor created by PhonePe registration. \textbf{Rule fixed before running:} if UPI $\to$ credit
+accounts is large and significant, the \Access{} result is not merely definitional; if credit is
+null while deposits are large, the \Access{} coefficient \emph{is} the accounting relationship and
+\Access{} must thereafter be reported credit-only; if both are large, only the credit result gets a
+substantive reading, with no averaging of the two conclusions.
+\textbf{Outcome:} the rule returned ``credit-only survives''. The entangled channel is null, the
+clean channel carries the whole effect and is unmoved by the data-defect check. \Access{} is
+reported credit-only from there --- not because the rule forced it, but because the defect check
+showed the composite was averaging a real credit effect with an artefact. \\
+
+\end{longtable}
+}
+
+\noindent
+Every decision above was recorded when it was taken, before the result it constrains was known.
+Three are load-bearing for how the findings must be read: \textbf{D10} fixes the criterion for
+Hypothesis~1 and names branches and ATMs, which is why the digital result cannot be reported as a
+test that was passed; \textbf{D11} fixes in advance that a null on physical infrastructure is
+uninformative rather than evidence of no effect; and \textbf{D17} fixes how the component
+decomposition is to be read, before it was run.
+
+\stub{Append decisions taken for Hypotheses 2 and 3 with the next available D-numbers, so a single
+log covers the whole report.}

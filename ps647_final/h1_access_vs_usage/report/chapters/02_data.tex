@@ -1,0 +1,267 @@
+\chapter{Data and Panel Construction}
+\label{ch:data}
+
+This chapter documents the panel the hypothesis chapters draw on. It comes first because the
+construction is shared, and because several choices made here --- the year-alignment rule above all
+--- silently corrupt results if got wrong and are invisible in the output if got right. Every
+choice was logged when it was taken, with its rationale; the log is Appendix~\ref{app:decisions},
+and decisions are cited below by identifier (D1, D2, \ldots).
+
+\section{Unit of analysis and coverage}
+\label{sec:data-unit}
+
+The unit of observation is the \textbf{state--financial year}, and every variable is a
+\textbf{stock as at 31 March}, not a flow. A financial year is identified by the calendar year of
+the 31 March on which it closes: \texttt{fy\_end}~$=2018$ denotes the position as at 31 March 2018,
+the close of financial year 2017--18.
+
+\begin{table}[H]
+\centering
+\caption{Panel coverage}
+\label{tab:panels}
+\small
+\begin{tabular}{lccccl}
+\toprule
+Panel & Window & Years & States & $N$ & Infrastructure measured \\
+\midrule
+Track 1 & \panelA{} & 6 & 33 & 198 & Branches and ATMs \\
+Track 2 & \panelB{} & 12 & 32 & 384 & Branches only \\
+Track 3 & FY2019--FY2023 & 5 & 33 & 165 & Branches, ATMs and UPI \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+All three panels are \textbf{balanced and complete}: every state appears in every year, with no
+missing cells and no non-positive values in any series. The state counts differ for one documented
+reason given in Section~\ref{sec:data-harmonisation}. ATMs cannot be extended before 2018, because
+RBI's state-wise release begins there, which is why Track~2 carries branches alone; Track~3 starts
+at FY2019 because that is the first complete financial year of digital payment data. Track~3's
+banking columns are asserted \textbf{identical} to Track~1's, so the earlier results remain
+reproducible from an untouched file and the tracks stay directly comparable.
+
+\section{Sources}
+\label{sec:data-sources}
+
+Nine series are used. Eight are official publications of the RBI or the Government of India, with
+one academic redistribution filling a single year; the ninth is the digital payment series
+introduced for Track~3.
+
+\begin{table}[H]
+\centering
+\caption{Source of each series}
+\label{tab:sources}
+\scriptsize
+\begin{tabularx}{\textwidth}{@{}p{2.7cm}p{3.3cm}Xp{1.7cm}@{}}
+\toprule
+\textbf{Series} & \textbf{Publication} & \textbf{Table / report} & \textbf{Role} \\
+\midrule
+Bank branches & RBI \emph{Handbook of Statistics on Indian States}, 2024--25 &
+Table 152, bank offices of scheduled commercial banks, end-March & Independent \\
+\addlinespace
+ATMs & RBI \emph{State-wise and Region-wise Deployment of ATMs} &
+Standalone quarterly release; end-March files 2018--2024 & Independent \\
+\addlinespace
+Deposit accounts & RBI Basic Statistical Returns (BSR-2), via DBIE/CIMS &
+Report 853, Annual BSR-2 Table 2.3; 31 March 2018 from India Data Portal & \Access{} \\
+\addlinespace
+Credit accounts & RBI Basic Statistical Returns (BSR-1), via India Data Portal &
+Derived state--year credit accounts 2010--2023, including RRBs & \Access{} \\
+\addlinespace
+Deposits outstanding & RBI \emph{Handbook} & Table 155, deposits of SCBs (\rs crore) & \Usage{} \\
+\addlinespace
+Credit outstanding & RBI \emph{Handbook} & Table 156, credit of SCBs (\rs crore) & \Usage{} \\
+\addlinespace
+Per-capita NSDP & RBI \emph{Handbook} & Table 19, per-capita NSDP, current prices & Control \\
+\addlinespace
+Adult population & Technical Group on Population Projections (2020) &
+Annual totals with quinquennial age structure; 1 March series & Denominator \\
+\addlinespace
+Digital payments & PhonePe Pulse open data release &
+Registered users, transaction count and value, by state and quarter & Independent \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent
+Retrieval was non-trivial in each case. The Handbook tables \citep{rbi_handbook} are HTML only,
+each split across two blocks covering earlier and later years, and were parsed and stitched
+programmatically. The ATM release \citep{rbi_atm} is navigable only through an ASP.NET postback
+widget rather than plain URLs, so per-release permalinks were harvested by scripting those
+postbacks. The BSR returns \citep{rbi_bsr} are no longer published as static files at all --- the
+legacy links redirect to a single-page application --- and were retrieved programmatically from the
+DBIE/CIMS API; the 31 March 2018 deposit-account figures, which the current report does not reach
+back to, come from an academic redistribution of the same returns \citep{idp}. Adult population
+derives from the official projections report \citep{popproj2020}.
+
+\section{The year-alignment rule}
+\label{sec:data-years}
+
+Three year conventions are in play, and they disagree on labels even when they agree on dates. This
+is the easiest place in the project to introduce a silent one-year offset --- an error that
+produces no missing value, no warning, and no implausible number, and simply biases every estimate.
+The Handbook banking tables and the ATM release label a stock as at 31 March 2018 as
+\texttt{2018}; the Handbook NSDP tables call the same financial year \texttt{2017-18}; the
+population projections date their stock \texttt{1 March 2018}.
+
+\begin{keybox}{Alignment rule (D5, D9)}
+Banking year $Y$ $\;\equiv\;$ NSDP financial year $(Y-1)$--$Y$ $\;\equiv\;$ population at
+1 March $Y$.
+
+\medskip
+All three are recorded in one canonical column, \texttt{fy\_end}, added to all eight input files.
+Merging and filtering use \texttt{fy\_end} only, and it supplies the year fixed effect.
+\end{keybox}
+
+\noindent
+Of the eight files only the income file required conversion; native labels were retained alongside
+\texttt{fy\_end} so the original coding stays auditable. The 1 March population series is used
+rather than 1 July or 1 October: every numerator is a stock at 31 March, so the denominator must be
+a stock at approximately the same instant --- one month away rather than six. The rule was verified
+against published figures rather than assumed, as Section~\ref{sec:data-validation} records.
+
+\section{State harmonisation}
+\label{sec:data-harmonisation}
+
+Fixed effects require each unit to denote the same thing in every year. India's boundaries changed
+inside both windows and, more awkwardly, different sources record the same change in different
+years. Three adjustments follow.
+
+\textbf{Units dropped (D1).} Lakshadweep and the combined Dadra \& Nagar Haveli and Daman \& Diu
+are dropped: no per-capita NSDP is published for either in any year, so neither can carry the
+income control. Both are very small; the panel goes from 35 units to 33.
+
+\textbf{Units merged (D2).} Jammu \& Kashmir with Ladakh, and Dadra \& Nagar Haveli with Daman and
+Diu, \emph{in every year}. Merging only from the year of the formal change fails because the
+sources disagree about when that was: in the Handbook, Daman \& Diu goes blank from 2020 exactly as
+Dadra \& Nagar Haveli jumps from 59 to 110 branches, whereas the ATM files keep three separate
+columns until 2021. Summing all components in all years is the only rule producing a continuous
+series in both sources simultaneously.
+
+\textbf{Andhra Pradesh and Telangana, twelve-year panel only (D13).} Telangana was carved out of
+Andhra Pradesh in June 2014, so in the twelve-year panel it shows \emph{zero} branches, deposits and
+credit for 2012--2014, its activity being recorded inside Andhra Pradesh. Branches confirm the
+mechanism exactly: Andhra Pradesh falls from 9,900 in 2014 to 6,290 in 2015 as Telangana appears
+with 4,721, and the combined series runs continuously from 9,900 to 11,011. The two are therefore
+summed in every year, which is why Track~2 has 32 units. The failure mode is instructive: had the
+merge been missed, three state-years would have entered recording zero infrastructure alongside
+zero deposits --- outliers positioned precisely to manufacture a spurious \emph{positive}
+association between infrastructure and inclusion, the sign the hypothesis predicts. It was caught
+by a completeness check flagging zeros, not by inspecting results.
+
+\begin{keybox}{General rule}
+Merges are performed on \textbf{raw levels} --- branches, ATMs, deposits, credit, account counts,
+population --- \textbf{before} any ratio is computed. Ratios are never averaged across merged units.
+\end{keybox}
+
+\noindent
+After upper-casing and standardising ``AND'' to ``\&'', 34 of 37 units match exactly across
+sources; the exceptions are Delhi, Jammu \& Kashmir, and Daman \& Diu, each named differently in
+the population or ATM files. Matching uses \textbf{word boundaries} rather than substrings: a naive
+substring test folds \texttt{ANDAMAN} into the Daman group, an error that occurred once during
+preparation and is now guarded by an explicit assertion.
+
+\section{Validation}
+\label{sec:data-validation}
+
+The panel was checked against independently published aggregates rather than accepted on trust.
+All-India ATM totals recomputed from the state columns match RBI's published national figures
+exactly in every year 2018--2024 (222,066 in 2018 through 257,654 in 2024; the 2024 decline is
+genuine decommissioning, not a parsing error). State-by-year deposit amounts differ from Handbook
+Table 155 by a median of 0.0001 per cent, and credit amounts from Table 156 by 0.001 per cent.
+Population totals reproduce from the sum of age bands, and the published 18+ figure reproduces from
+a residual identity, for all 23 states that print it. On year alignment, Maharashtra at
+\texttt{fy\_end}~$=2018$ returns 12,545 branches, 25,651 ATMs and per-capita income of
+\rs 172,663 --- all matching RBI's published values exactly, confirming no offset was introduced.
+Completeness is asserted in code: 198 and 384 rows, balanced, no nulls, no zeros.
+
+\section{The digital payment series}
+\label{sec:data-digital}
+
+Track~3 requires a measure of digital financial infrastructure at state level. India has no
+official state-wise UPI release covering the full window, so the series used is PhonePe Pulse
+\citep{phonepepulse}, the open data release of one of the two largest UPI applications: registered
+users, transaction counts and transaction value, by state and calendar quarter.
+
+Conversion to the panel's year convention follows the same rule as everything else. Transactions
+and value are \textbf{flows}, summed over the four quarters making up each financial year;
+registered users is a \textbf{stock}, taken at the quarter ending 31 March and verified monotone
+across all quarter transitions. Denominators follow the same access/usage distinction as the
+banking series: registered users \textbf{per adult}, transactions and value \textbf{per capita}.
+Coverage is complete --- 36 raw states across 34 quarters with no gaps and no missing amounts ---
+and every one of the 33 panel states is present in every year.
+
+Four independent validations were run rather than taking the release on trust. The transaction-type
+split (peer-to-peer, retail, utility) reproduces the aggregate total to \textbf{0.000000 per cent}
+across all 1,224 state-quarters, meaning two independently maintained trees within the release
+agree exactly. Registered users reach \textbf{45.5 crore} at 31 March 2023, against PhonePe's own
+publicly stated figure of over 45 crore. Transactions total \textbf{44.3 billion} in FY2023 against
+roughly 84 billion for all of UPI that year \citep{npci2025}, consistent with the firm's
+approximately 50 per cent market share. And the implied mean ticket size of \rs 1,593 confirms
+amounts are denominated in rupees rather than paise.
+
+Three caveats follow the series into the analysis and are revisited in
+Section~\ref{sec:h1-limitations}. \textbf{PhonePe is one firm, not the market}, so this measures
+PhonePe penetration as a proxy for digital payment penetration, and because market share varies by
+state, cross-state levels are noisier than within-state growth --- which is fortunate, since
+within-state growth is what the estimator uses. \textbf{Registered users are accounts, not people},
+so one person with two numbers counts twice. And transactions are attributed to the \textbf{user's
+registered state}, a third attribution rule alongside the branch-location and place-of-sanction
+rules already in the panel.
+
+\section{Known limitations of the data}
+\label{sec:data-defects}
+
+Three defects are carried openly rather than silently repaired, and each is revisited where it
+bears on results.
+
+\paragraph{A break in RBI's own deposit-account series (D7).} The savings-account column of BSR-2
+is discontinuous for three states: Delhi runs 35.5, 38.7, \textbf{106.1}, 130.9, 159.4 million
+accounts, breaking from 2023 and persisting; Haryana runs 47.7, 52.6, \textbf{102.1}, breaking from
+2024; Chandigarh runs 2.98, \textbf{5.03}, 3.25, spiking in 2023 and reverting. This is an error in
+RBI's published source, not in extraction --- the component columns reproduce the published total
+exactly wherever both are printed --- and the likely cause is a bank reclassifying savings accounts
+to a head-office location. The symptom is visible downstream: deposit accounts per adult reaches
+7.99 for Delhi in 2023 and 7.69 for Chandigarh in 2023, against roughly 1 to 3.5 elsewhere. Two of
+the four affected cells fall inside \panelA{}. The decision, taken \emph{before} estimation, was to
+retain them in the main specification and re-run without them as a robustness check;
+Section~\ref{sec:h1-robustness} reports what happened, and it is the most consequential result in
+the report. Goa sits at 5.45--5.73 across \emph{all} six years and Chandigarh at 5.1--5.4 outside
+2023 --- high but flat, so genuine levels rather than defects.
+
+\paragraph{Adult population is interpolated, not published (D6).} The projections publish annual
+totals for 2011--2036 but age structure only at five-year anchors, so there is no published annual
+adult count. The 18+ series is \emph{derived}: the adult share is linearly interpolated between
+anchors and applied to the published annual total. Totals are official; adult counts are ours. Of
+the 266 state-years in the underlying file, 243 rest on an interpolated share. The consequence goes
+beyond ordinary measurement error, as Section~\ref{sec:h1-gate} develops: being near-linear, the
+series is unusually smooth, and as the denominator of every per-adult ratio it contributes almost no
+independent variation --- it deflates a trend without adding movement to it. A further caveat
+attaches to a few units: the source excludes Goa from its age-structure exercise and reports the
+seven smaller north-eastern states only in combination, so proxy shares were assigned and flagged.
+
+\paragraph{Universe and basis of the credit-account series (D8).} The two halves of \Access{}
+initially rested on different bank universes: deposit accounts from BSR-2 \emph{include} regional
+rural banks, while the quarterly BSR-1 credit series \emph{excludes} them and records loans by place
+of sanction rather than utilisation. Excluding RRBs removes a median of roughly 18 per cent of
+credit accounts nationally, but unevenly --- 65 per cent in Mizoram, 39 in Tripura, 33 in Uttar
+Pradesh --- and the share drifts within states over time, so state fixed effects do not absorb it.
+Critically, it bites hardest in exactly the rural, lower-income states the hypothesis is about. The
+series was therefore switched to an RRB-inclusive, place-of-utilisation file covering 2010--2023.
+The two could not be reconciled arithmetically --- differencing them produced impossible negative
+values for Maharashtra, because they differ on \emph{where} a loan is counted as well as on
+\emph{which} banks --- so this is a replacement, not an adjustment. The cost is FY2024, which fixes
+\panelA{} at six years; the incidental benefit is that the last missing cell, Gujarat's FY2023--24
+income, falls outside the window, leaving the panel perfectly balanced. One asymmetry remains:
+deposit accounts are recorded by branch location and credit accounts by place of utilisation, and
+neither corresponds to depositor or borrower residence.
+
+\section{What the hypothesis chapters draw from this panel}
+\label{sec:data-usage}
+
+Chapter~\ref{ch:h1} uses all nine series: the eight banking and demographic series across all
+three tracks, and the digital payment series for Track~3.
+
+\stub{If Hypotheses 2 and 3 use series beyond the eight above, add them to
+Table~\ref{tab:sources} and document any extra harmonisation here, so this chapter remains the
+single place the panel is described.}
