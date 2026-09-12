@@ -47,7 +47,7 @@ repo into `../raw/phonepe_derived/`. Merge it with `../h1_access_vs_usage/script
 
 ## Digital-literacy moderators (H5)
 
-`09_diglit.csv` — 33 states × 16 columns, built by `../h5_conversion_capacity/scripts/build_moderators.py`. Holds the H5
+`09_diglit.csv` — 33 states × 16 columns, built by `../h5_literacy_and_income/scripts/build_moderators.py`. Holds the H5
 conversion-capacity moderators and the placebo controls:
 
 | Column | What it is | Source |
@@ -60,8 +60,8 @@ conversion-capacity moderators and the placebo controls:
 | `urban_share_nfhs` | urban share **derived** from the NFHS-5 urban/rural split, not the Census figure | derived |
 
 Raw sources in `../raw/diglit/`. The NFHS-5 mirror is verified against 8 published figures on
-every build — the script aborts if any fails. Merge with `../h5_conversion_capacity/scripts/build_h5_panel.py`, which
-produces `../output/panel_h5.csv`. Details: `../h5_conversion_capacity/DECISIONS.md`.
+every build — the script aborts if any fails. Merge with `../h5_literacy_and_income/scripts/build_h5_panel.py`, which
+produces `../h5_literacy_and_income/output/panel_h5.csv`. Details: `../h5_literacy_and_income/DECISIONS.md`.
 
 Plain-English explanation of each file: `../DATA_GUIDE.md`
 Decisions and why: `../h1_access_vs_usage/DECISIONS.md` · Full technical detail: `../data_fetching.md`

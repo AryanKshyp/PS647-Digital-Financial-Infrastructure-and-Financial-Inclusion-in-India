@@ -1,4 +1,4 @@
-# Decision Log — H5 (Conversion Capacity)
+# Decision Log — H5 (digital literacy and income)
 
 Continues the numbering of `../h1_access_vs_usage/DECISIONS.md` (D1–D17), which is NOT revised by
 anything here. Plan: `EXECUTION_PLAN.md`. Findings: `FINDINGS.md`.

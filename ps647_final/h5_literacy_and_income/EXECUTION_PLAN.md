@@ -1,6 +1,6 @@
 # H5 — Execution Plan
 
-**Conversion Capacity: Digital Literacy and Income as Complements to Digital Financial Infrastructure**
+**Digital Literacy and Income: Digital Literacy and Income as Complements to Digital Financial Infrastructure**
 
 PS 647 · This is the *buildable* version of `H5_analysis_plan.md`, rewritten against what the H1
 track actually produced (`ps647_final/`). It follows H1's logging discipline: decisions get D-numbers,
@@ -43,11 +43,11 @@ H1's equation. The plan's claim "one model, two hypotheses, no overlap" is liter
 ## 2. Hypothesis, restated for this panel
 
 **H5.** The effect of digital financial infrastructure on financial inclusion is conditional on the
-population's **conversion capacity**.
+population's **complementary endowments**.
 
 - **H5a (skills).** The UPI → inclusion effect is stronger where digital literacy is higher.
 - **H5b (resources).** The UPI → inclusion effect is stronger where household resources are higher.
-- **Corollary (the sharp test).** Conversion capacity should condition **usage**, not **access**.
+- **Corollary (the sharp test).** Complementary endowments should condition **usage**, not **access**.
 
 ### The reframing that has to be stated out loud
 
@@ -228,7 +228,7 @@ it and move on.
 
 All two-way FE (state + year), `linearmodels.PanelOLS`, SEs clustered by state, N = 165 — identical
 to `../h1_access_vs_usage/scripts/estimate_digital.py`. **All continuous variables mean-centred before interacting**, so
-β₁ reads as the UPI effect at average conversion capacity, not at an out-of-support zero.
+β₁ reads as the UPI effect at average complementary endowments, not at an out-of-support zero.
 
 `diglit_s` and `income_s` are time-invariant and absorbed by state FE. Their interactions with UPI
 are still identified, from within-state variation in UPI. Say this in a footnote — someone will ask.
@@ -342,8 +342,8 @@ regardless of its own p-value. Fixed in advance because it is the first thing an
 
 | Result | Reading |
 |---|---|
-| β₅ > 0, p < 0.05 | **H5's corollary holds.** Conversion capacity conditions the intensive margin specifically — the strongest available claim |
-| β₅ ≈ 0 while β₃ > 0 | Conversion capacity is a **generic** moderator, not a second-level one. The theoretical framing is not supported even though H5a is |
+| β₅ > 0, p < 0.05 | **H5's corollary holds.** Complementary endowments conditions the intensive margin specifically — the strongest available claim |
+| β₅ ≈ 0 while β₃ > 0 | Complementary endowments is a **generic** moderator, not a second-level one. The theoretical framing is not supported even though H5a is |
 | β₅ < 0 | Capacity matters more for *getting* an account than for *using* it. Contradicts the framework; report it |
 
 ### Power, acknowledged in advance
@@ -469,7 +469,7 @@ Cole–Sampson–Zia. Policy shifts to transaction-cost and device subsidy rathe
 convergence finding, and given H1's result a striking one: the channel that worked, worked
 everywhere. Report it as a null with the CIs attached, not as a failure.
 
-**If R1 fires:** report that conversion capacity cannot be separated from general development at
+**If R1 fires:** report that complementary endowments cannot be separated from general development at
 state level with 33 observations, and that Track B (783 districts) is the design that could. That is
 a methodological finding of the same kind as H1's F4, and this project has already shown it knows how
 to report one honestly.
@@ -481,7 +481,7 @@ to report one honestly.
 | | Interacts DFI with… | Key coefficient | Table |
 |---|---|---|---|
 | **H1** | *type of outcome* — access vs usage | β₂ in §6.3 | already estimated: `table9`, `table11` |
-| **H5** | *conversion capacity* — skills + resources | β₅ in §6.3 | `table17` |
+| **H5** | *complementary endowments* — skills + resources | β₅ in §6.3 | `table17` |
 
 Both come out of **the same stacked equation**. Present them as adjacent columns of one table, with
 H1 as column (1) and H5 as column (2). The report then has a single empirical model rather than two

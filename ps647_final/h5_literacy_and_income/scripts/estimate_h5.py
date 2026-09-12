@@ -8,7 +8,7 @@ H5 Step 4 -- baseline and sequential entry (execution plan sections 6.1-6.2).
 Two-way FE (state + year), SEs clustered by state, N=165 -- identical estimator to F12.
 UPI is mean-centred; moderators are z-scored across the 33 states. So:
 
-    b1 = the UPI effect for a state of AVERAGE conversion capacity
+    b1 = the UPI effect for a state of AVERAGE complementary endowments
     b3 = how much that effect changes per 1 SD of digital literacy
     b4 = how much that effect changes per 1 SD of state income
 

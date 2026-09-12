@@ -267,7 +267,7 @@ def merge_ladakh(nfhs: pd.DataFrame) -> pd.DataFrame:
 
 def main() -> int:
     print("\n" + "=" * 96)
-    print("  H5 STEP 1 -- building conversion-capacity moderators")
+    print("  H5 STEP 1 -- building the moderators")
     print("=" * 96 + "\n")
 
     nfhs = load_nfhs()

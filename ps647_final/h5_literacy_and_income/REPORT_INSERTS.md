@@ -1,11 +1,15 @@
-# Report inserts for Hypothesis 2 (Chapter 4)
+> **Superseded.** The chapter has since been written directly into the document; see
+> `../../Digital_Financial_Infrastructure_Report_with_Chapter5.docx`. This file is kept as
+> the record of what was inserted and where.
+
+# Report inserts for Hypothesis 3 (Chapter 5)
 
 Text to paste into `Digital_Financial_Infrastructure_Report.docx`. The report's §2.8 says the data
 chapter must remain "the single place the panel is described", so the three new series belong in
 Chapter 2, not Chapter 4.
 
-Numbering note: this hypothesis is **H5** in the group's hypothesis list and **Hypothesis 2,
-Chapter 4** in the report. Pick one for the final document; the decision and findings logs use the
+Numbering note: this hypothesis is **H5** in the group's hypothesis list and **Hypothesis 3,
+Chapter 5** in the report. Pick one for the final document; the decision and findings logs use the
 H5 label and the D/F numbering continues H1's.
 
 ---
@@ -23,7 +27,7 @@ H5 label and the D/F numbering continues H1's.
 
 Also extend §2.8 ("What the hypothesis chapters draw from this panel"):
 
-> Chapter 4 uses the nine series above plus six state-level cross-sections carrying no time
+> Chapter 5 uses the nine series above plus six state-level cross-sections carrying no time
 > dimension: digital literacy and general education from NFHS-5, their 2015-16 counterparts from
 > NFHS-4, ICT skills from the NSS 75th round, household consumption from HCES 2022-23, and Census
 > 2011 literacy. None enters as a time-varying regressor; each is one number per state, interacted
@@ -69,15 +73,15 @@ Also extend §2.8 ("What the hypothesis chapters draw from this panel"):
 
 ---
 
-## 3. Chapter 4 skeleton, filled
+## 3. Chapter 5 skeleton, filled
 
 | Report section | Source in this folder |
 |---|---|
-| 4.1 Hypothesis and pre-commitment | `EXECUTION_PLAN.md` §2 and §7; decision rule logged as the H5 gate table, D18–D28 |
-| 4.2 Variables and specification | `final_findings.md` "What was built" + the equation in Result 2 |
-| 4.3 Descriptives and diagnostics | `final_findings.md` "Descriptives and diagnostics"; `output/table21`, `table14` |
-| 4.4 Results and robustness | `final_findings.md` Results 1–5; `output/table15`–`table23` |
-| 4.5 Verdict, implications and limitations | `final_findings.md` "What this means" and "What this cannot claim"; `LIMITATIONS.md` |
+| 5.1 Hypothesis and pre-commitment | `EXECUTION_PLAN.md` §2 and §7; decision rule logged as the H5 gate table, D18–D28 |
+| 5.2 Variables and specification | `final_findings.md` "What was built" + the equation in Result 2 |
+| 5.3 Descriptives and diagnostics | `final_findings.md` "Descriptives and diagnostics"; `output/table21`, `table14` |
+| 5.4 Results and robustness | `final_findings.md` Results 1–5; `output/table15`–`table23` |
+| 5.5 Verdict, implications and limitations | `final_findings.md` "What this means" and "What this cannot claim"; `LIMITATIONS.md` |
 
 **For Appendix A (Decision Log):** D18–D28 in `DECISIONS.md`, continuing H1's numbering. The two
 that a reader will look for are **D25** (MPCE is the more credible resources measure, fixed before

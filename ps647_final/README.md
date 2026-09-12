@@ -19,7 +19,7 @@ ps647_final/
 │   ├── EXECUTION_PLAN.md   FINDINGS.md (F0–F14)   DECISIONS.md (D1–D17)
 │   ├── LIMITATIONS.md      final_findings.md  ← START HERE for H1
 │
-└── h5_conversion_capacity/    ← H5
+└── h5_literacy_and_income/    ← H5
     ├── scripts/  output/
     ├── EXECUTION_PLAN.md   FINDINGS.md (F15–F25)  DECISIONS.md (D18–D28)
     ├── LIMITATIONS.md      final_findings.md  ← START HERE for H5
@@ -42,12 +42,12 @@ branches only); 33 states × FY2019–23 (N=165, + UPI).
 
 → `h1_access_vs_usage/final_findings.md`
 
-## H5 — Conversion Capacity · `h5_conversion_capacity/`
+## H5 — Digital Literacy and Income as Complements · `h5_literacy_and_income/`
 
 **Does that infrastructure convert into inclusion at the same rate everywhere?** Moderators:
 digital literacy (skills) and income (resources).
 
-Runs on H1's `output/panel_digital.csv` unchanged — same 165 rows, same estimator, same clustering.
+Runs on H1's `h1_access_vs_usage/output/panel_digital.csv` unchanged — same 165 rows, same estimator, same clustering.
 Its baseline column reproduces H1's headline coefficients to five decimals as a build assertion.
 
 - **No, and the difference is qualitative.** Where digital literacy is low, UPI adoption shows up
@@ -58,14 +58,14 @@ Its baseline column reproduces H1's headline coefficients to five decimals as a 
 - Five placebo moderators — three from the *same survey, same households, same year* as the
   treatment — all return nothing.
 
-→ `h5_conversion_capacity/final_findings.md`
+→ `h5_literacy_and_income/final_findings.md`
 
 ---
 
 ## How the two fit together
 
 They are **one equation**, not two studies. In
-`h5_conversion_capacity/output/table17_h5_stacked.csv`:
+`h5_literacy_and_income/output/table17_h5_stacked.csv`:
 
 | | coefficient | asks |
 |---|---|---|
@@ -94,7 +94,7 @@ python scripts/estimate_digital.py && python scripts/estimate_components.py
 python scripts/leave_one_out.py
 
 # H5 — needs H1's output/panel_digital.csv to exist first
-cd ../h5_conversion_capacity
+cd ../h5_literacy_and_income
 python scripts/build_moderators.py && python scripts/build_h5_panel.py
 python scripts/h5_descriptives.py       # descriptives, before any estimate
 python scripts/h5_gates.py              # the go/no-go

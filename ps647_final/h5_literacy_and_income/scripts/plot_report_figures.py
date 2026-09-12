@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Report-ready figures for the conversion-capacity chapter.
+Report-ready figures for the digital-literacy-and-income chapter.
 
 Six figures, numbered for the report's Chapter 5, in the same visual idiom as Chapter 3:
 wide, multi-panel where a comparison is being made, thresholds and zero lines drawn explicitly,

@@ -1,4 +1,4 @@
-# Findings Log — H5 (Conversion Capacity)
+# Findings Log — H5 (digital literacy and income)
 
 Append-only, F-numbered. Continues the numbering of `../h1_access_vs_usage/FINDINGS.md` (F0–F14).
 Decisions: `DECISIONS.md`. Plan: `EXECUTION_PLAN.md`. Tables: `output/`.
@@ -195,7 +195,7 @@ credit-accounts-vs-deposits-₹ pair, +0.749; the credit-₹ pair is null. The v
 but the sharper statement is in F22.)*
 
 **The corollary — the sharp test — is where H5 actually holds, and it holds for skills, not for
-resources.** β₅ = +0.452 (p=.0008), β₆ = +0.013 (p=.936). Conversion capacity conditions *which
+resources.** β₅ = +0.452 (p=.0008), β₆ = +0.013 (p=.936). Complementary endowments conditions *which
 margin* infrastructure moves, and it is the **digital-skill** endowment that does the conditioning,
 not the income endowment. Income shifts both margins together; digital literacy trades one against
 the other.

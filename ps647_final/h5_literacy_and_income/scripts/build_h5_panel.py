@@ -17,7 +17,7 @@ CONSTRUCTION RULES, fixed here before any estimation
    is the build assertion, not a result.
 
 3. MODERATORS ARE Z-SCORED across the 33 states (mean 0, SD 1). Two reasons:
-   - centring is required for beta_1 to read as "the UPI effect at average conversion capacity"
+   - centring is required for beta_1 to read as "the UPI effect at average complementary endowments"
      rather than at an out-of-support zero;
    - scaling makes beta_3 read as "change in the UPI effect per 1 SD of digital literacy",
      which is comparable across moderators measured in different units (percent internet use vs

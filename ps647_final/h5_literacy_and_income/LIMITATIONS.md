@@ -1,4 +1,4 @@
-# Limitations — H5 (Conversion Capacity)
+# Limitations — H5 (digital literacy and income)
 
 H5 runs on the H1 panel and inherits **every** limitation in
 `../h1_access_vs_usage/LIMITATIONS.md` without exception. This file lists only what H5 adds.

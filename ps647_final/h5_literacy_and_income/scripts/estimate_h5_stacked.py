@@ -2,7 +2,7 @@
 """
 H5 Step 6 -- THE SHARP TEST (execution plan section 6.3). This is the headline specification.
 
-H5's corollary: conversion capacity is a SECOND-LEVEL divide phenomenon, so it should condition
+H5's corollary: complementary endowments is a SECOND-LEVEL divide phenomenon, so it should condition
 USAGE, not ACCESS. A moderator that is really just a development proxy would condition both
 equally. The test stacks the outcomes and asks whether the moderation DIFFERS between them.
 

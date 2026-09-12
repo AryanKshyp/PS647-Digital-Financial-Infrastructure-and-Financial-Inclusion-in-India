@@ -118,7 +118,7 @@ Digital payment history feeding credit underwriting — cash-flow-based lending,
 
 ---
 
-## Companion: H5 — Conversion Capacity
+## Companion: H5 — Digital Literacy and Income
 
 This document covers **H1** (does infrastructure raise access more than usage?). The second
 hypothesis, **H5**, runs on the same `output/panel_digital.csv` and asks who H1's average is made of:
@@ -128,7 +128,7 @@ does digital financial infrastructure convert into inclusion at the same rate ev
 adoption shows up as accounts opened; where it is high, as money moving. Income does not do this —
 it raises both margins alike.
 
-**→ `../h5_conversion_capacity/final_findings.md`** · plan `../h5_conversion_capacity/EXECUTION_PLAN.md` · logs `../h5_conversion_capacity/FINDINGS.md`,
-`../h5_conversion_capacity/DECISIONS.md` · tables and figures `../h5_conversion_capacity/output/`
+**→ `../h5_literacy_and_income/final_findings.md`** · plan `../h5_literacy_and_income/EXECUTION_PLAN.md` · logs `../h5_literacy_and_income/FINDINGS.md`,
+`../h5_literacy_and_income/DECISIONS.md` · tables and figures `../h5_literacy_and_income/output/`
 
-The two hypotheses share one equation: H1 is β₂ and H5 is β₅ in `../h5_conversion_capacity/output/table17_h5_stacked.csv`.
+The two hypotheses share one equation: H1 is β₂ and H5 is β₅ in `../h5_literacy_and_income/output/table17_h5_stacked.csv`.

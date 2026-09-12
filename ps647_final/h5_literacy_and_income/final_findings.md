@@ -1,4 +1,4 @@
-# H5 — Conversion Capacity
+# H5 — Digital Literacy and Income as Complements
 
 **Does digital financial infrastructure convert into financial inclusion at the same rate
 everywhere?** · PS 647 · State panel, FY2019–FY2023
@@ -38,7 +38,7 @@ H1 found that UPI adoption raises credit accounts per adult by +0.439 and rupees
 with the gap significant — infrastructure expanding access faster than use. H5 asks who that
 average is made of.
 
-The digital-divide literature says the answer should be *conversion capacity*: the endowments
+The digital-divide literature says the answer should be *complementary endowments*: the endowments
 needed to turn availability into use. Two candidates, and they are each other's main confounder —
 digitally literate states are richer states. Estimated separately, either can wear the other's
 costume. Both therefore enter together, and the horse race is the identification strategy.
@@ -323,7 +323,7 @@ accounts get *used*. That is a more defensible claim than "train people first".
 higher" — is **not supported**: the effect is not stronger, it is differently composed. H5b — "the
 effect is stronger among higher-income groups" — is **not robustly supported**: it holds on NSDP
 per capita, disappears on MPCE, and fails the sharp test under both. The unified H5 corollary —
-that conversion capacity conditions usage rather than access — **holds, and holds for skills
+that complementary endowments conditions usage rather than access — **holds, and holds for skills
 alone**.
 
 ---
